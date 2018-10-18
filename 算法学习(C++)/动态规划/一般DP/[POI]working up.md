@@ -12,7 +12,10 @@ top: false
 ### 题解
 > **读完题,你是否有想到`方格取数`
 > 做法非常简单也非常暴力,开四个二维数组分别记录从四个角出发的最优解,然后$n^2$枚举合法的点,更新$ans$
-> 因为只相遇一次,
+> 因为只相遇一次,所以两人相遇时只有两种直线走法,不会转弯**
+
+### Coding:
+```cpp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxODczNzQsODMxMTI3NjM4XX0=
+eyJoaXN0b3J5IjpbNDgxNzk0MTM4LDgzMTEyNzYzOF19
 -->
