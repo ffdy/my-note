@@ -39,6 +39,7 @@ int main()
 	f3[i][j]=max(f3[i-1][j],f3[i][j+1])+mp[i][j];
 	for(int i=n;i;i--)for(int j=1;j<=m;j++)
 	f4[i][j]=max(f4[i+1][j],f4[i][j-1])+mp[i][j];
+	//暴力美学
 	ll ans=0;
 	for(int i=2;i<n;i++)for(int j=2;j<m;j++)
 	{
@@ -50,5 +51,5 @@ int main()
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc4NTE1MSw4MzExMjc2MzhdfQ==
+eyJoaXN0b3J5IjpbLTIxMTI4NDkzMjAsODMxMTI3NjM4XX0=
 -->
