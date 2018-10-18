@@ -11,7 +11,7 @@ top: false
 
 ### 题解
 > **读完题,你是否有想到`方格取数`
-> 做法非常简单也非常暴力,开四个二维数组,飞被记录
+> 做法非常简单也非常暴力,开四个二维数组分别记录从四个角出发的最优解,然后$n^2$枚举所有点
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODAzNTI4NDMsODMxMTI3NjM4XX0=
+eyJoaXN0b3J5IjpbLTIwNjg2NTYxMjIsODMxMTI3NjM4XX0=
 -->
