@@ -13,9 +13,42 @@ top: false
 > **读完题,你是否有想到`方格取数`
 > 做法非常简单也非常暴力,开四个二维数组分别记录从四个角出发的最优解,然后$n^2$枚举合法的点,更新$ans$
 > 因为只相遇一次,所以两人相遇时只有两种直线走法,不会转弯**
-
+- 注意下标,容易迷糊
+- 记得开`long long`
 ### Coding:
 ```cpp
+#include<cstdio>
+#include<cstring>
+#include<algorithm>
+#define ll long long
+using namespace std;
+const int maxn=1010;
+ll mp[maxn][maxn],f1[maxn][maxn];
+ll f2[maxn][maxn],f3[maxn][maxn];
+ll f4[maxn][maxn];
+int n,m;
+int main()
+{
+	scanf("%d%d",&n,&m);
+	for(int i=1;i<=n;i++)for(int j=1;j<=m;j++)scanf("%lld",&mp[i][j]);
+	for(int i=1;i<=n;i++)for(int j=1;j<=m;j++)
+	f1[i][j]=max(f1[i-1][j],f1[i][j-1])+mp[i][j];
+	for(int i=n;i;i--)for(int j=m;j;j--)
+	f2[i][j]=max(f2[i+1][j],f2[i][j+1])+mp[i][j];
+	for(int i=1;i<=n;i++)for(int j=m;j;j--)
+	f3[i][j]=max(f3[i-1][j],f3[i][j+1])+mp[i][j];
+	for(int i=n;i;i--)for(int j=1;j<=m;j++)
+	f4[i][j]=max(f4[i+1][j],f4[i][j-1])+mp[i][j];
+	ll ans=0;
+	for(int i=2;i<n;i++)for(int j=2;j<m;j++)
+	{
+		ans=max(ans,f1[i][j-1]+f2[i][j+1]+f3[i-1][j]+f4[i+1][j]);
+		ans=max(ans,f1[i-1][j]+f2[i+1][j]+f3[i][j+1]+f4[i][j-1]);
+	}
+	printf("%lld\n",ans);
+	return 0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxNzk0MTM4LDgzMTEyNzYzOF19
+eyJoaXN0b3J5IjpbLTIwNDc4NTE1MSw4MzExMjc2MzhdfQ==
 -->
