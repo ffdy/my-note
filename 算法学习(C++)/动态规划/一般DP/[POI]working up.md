@@ -7,7 +7,7 @@ top: false
 ---
 # [POI]working up
 ### 题意
-> 有两个人,一个从左上角出发,去右下角;另一个从右上角出发,去左下角
+> 有两个人和一个$n \times m$的矩阵,一个从左上角出发,去右下角;另一个从右上角出发,去左下角.juzheng
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3ODgzOTc0LDgzMTEyNzYzOF19
+eyJoaXN0b3J5IjpbODI5MjA2ODAsODMxMTI3NjM4XX0=
 -->
