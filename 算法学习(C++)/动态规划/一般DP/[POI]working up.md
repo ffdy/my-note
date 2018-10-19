@@ -2,8 +2,6 @@
 title: [POI]working up
 tags: DP
 categories: 算法学习
-top: false
-
 ---
 # [POI]working up
 ### 题意
@@ -51,5 +49,6 @@ int main()
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTI4NDkzMjAsODMxMTI3NjM4XX0=
+eyJoaXN0b3J5IjpbMjAxNTEzOTAxMiwtMjExMjg0OTMyMCw4Mz
+ExMjc2MzhdfQ==
 -->
