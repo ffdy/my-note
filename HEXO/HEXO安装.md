@@ -19,7 +19,7 @@ mathjax: true
 	> 4. copy ssh秘钥 添加到`github`or`coding`
 	> 5. 回到终端:
 		github:`ssh git@github.com`
-		coding:`ssh git@coding.net`
+		coding:`ssh git@git.coding.net`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTM1ODIzM119
+eyJoaXN0b3J5IjpbLTE5MTgyODUxODEsLTc3MTM1ODIzM119
 -->
