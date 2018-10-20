@@ -15,6 +15,7 @@ mathjax: true
 - 生成ssh秘钥
 	> 1. `ssh-keygen`+三下`Enter`~~(就是回车)~~
 	> 2. Linux环境下`cd ~/.ssh`
+	> 3. 查看ssh秘钥`cat ~/.ssh/id_rsa.pub`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzAzMTc3OV19
+eyJoaXN0b3J5IjpbMTExNjUwMzgwXX0=
 -->
