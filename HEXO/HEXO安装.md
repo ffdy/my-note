@@ -17,7 +17,9 @@ mathjax: true
 	> 2. Linux环境下`cd ~/.ssh`
 	> 3. 查看ssh秘钥`cat ~/.ssh/id_rsa.pub`
 	> 4. copy ssh秘钥 添加到`github`or`coding`
-	> 5. 回到终端
+	> 5. 回到终端:
+		github:`ssh git@github.com`
+		coding:`ssh git@
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDMxNjQ1XX0=
+eyJoaXN0b3J5IjpbMTE1MDAxMzQ3OF19
 -->
