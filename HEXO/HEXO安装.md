@@ -16,6 +16,8 @@ mathjax: true
 	> 1. `ssh-keygen`+三下`Enter`~~(就是回车)~~
 	> 2. Linux环境下`cd ~/.ssh`
 	> 3. 查看ssh秘钥`cat ~/.ssh/id_rsa.pub`
+	> 4. copy ssh秘钥 添加到`github`or`coding`
+	> 5. 回到终端
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjUwMzgwXX0=
+eyJoaXN0b3J5IjpbMjAzNDMxNjQ1XX0=
 -->
