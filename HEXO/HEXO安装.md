@@ -20,6 +20,8 @@ mathjax: true
 	> 5. 回到终端:
 		github:`ssh git@github.com`
 		coding:`ssh git@git.coding.net`
+`tar zxvf /source/kernel.tgz -C /source/ linux-2.6.29`linux解压
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTgyODUxODEsLTc3MTM1ODIzM119
+eyJoaXN0b3J5IjpbLTMzNDI1MjM2NCwtMTkxODI4NTE4MSwtNz
+cxMzU4MjMzXX0=
 -->
