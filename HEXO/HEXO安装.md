@@ -1,14 +1,12 @@
 ---
-title:
-tags:
+title: 入坑HEXO教程
+tags: 
+- HEXO
 categories:
-mathjax: true
+- 前端
 ---
-
-
-
-<!--more-->
-- 安装git
+你是否已经厌倦了CSND,博客园样式的千篇一律<br>
+你是否经常文思泉涌,感慨万千,却又苦于无处表达,无人分享
 - 配置账号
 	> 1. 用户名: `git config --global user.name "ffdy"`
 	> 2. Email: `git config --global user.email 1836017424@qq.com`
@@ -22,6 +20,6 @@ mathjax: true
 		coding:`ssh git@git.coding.net`
 `tar zxvf /source/kernel.tgz -C /source/ linux-2.6.29`linux解压
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDI1MjM2NCwtMTkxODI4NTE4MSwtNz
-cxMzU4MjMzXX0=
+eyJoaXN0b3J5IjpbLTE0NTIwNzk0MzUsLTMzNDI1MjM2NCwtMT
+kxODI4NTE4MSwtNzcxMzU4MjMzXX0=
 -->
