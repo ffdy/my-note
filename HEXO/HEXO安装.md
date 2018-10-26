@@ -9,12 +9,19 @@ categories:
 你是否常常看着别人的Blog,一边惊叹,一边暗自悔恨为何自己没有<br>
 当你打开CSDN,博客园时,你是否已经厌倦了他们样式的千篇一律<br>
 如果你有过,hexo或许可以帮你解决烦劳<br>
-你可能没有学过HTML,GIT,
 [HEXO官网](https://hexo.io/)
 
-# 一. 准备工作
 
+你可能没有学过Html,Git,Node.js,但这并不重要,重要的是你要有耐心,和想要拥有一个真正属于自己的Blog的心
+
+# 一. 准备工作
+确认你的电脑安装了如下程序
+> - git
+> - node.js
+
+如果有,请继续往下看,如果没有,也请继续往下看
+### Git安装
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTk2NjIzMSwtMzM0MjUyMzY0LC0xOT
-E4Mjg1MTgxLC03NzEzNTgyMzNdfQ==
+eyJoaXN0b3J5IjpbLTE2MTU3NzA4NTcsLTMzNDI1MjM2NCwtMT
+kxODI4NTE4MSwtNzcxMzU4MjMzXX0=
 -->
