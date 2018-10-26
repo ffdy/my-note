@@ -10,8 +10,11 @@ categories:
 当你打开CSDN,博客园时,你是否已经厌倦了他们样式的千篇一律<br>
 如果你有过,hexo或许可以帮你解决烦劳
 
-# 
+[HEXO官网](https://hexo.io/)
+
+# 一. 云端部署
+关于Windows本地部署我不再多言,网上的教程多如牛毛推荐
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDY5NzAyMywtMzM0MjUyMzY0LC0xOT
+eyJoaXN0b3J5IjpbMTQxNDQxMjY0MSwtMzM0MjUyMzY0LC0xOT
 E4Mjg1MTgxLC03NzEzNTgyMzNdfQ==
 -->
