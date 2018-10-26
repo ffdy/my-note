@@ -9,12 +9,12 @@ categories:
 你是否常常看着别人的Blog,一边惊叹,一边暗自悔恨为何自己没有<br>
 当你打开CSDN,博客园时,你是否已经厌倦了他们样式的千篇一律<br>
 如果你有过,hexo或许可以帮你解决烦劳<br>
-danni
+你可能没有学过HTML,GIT,
 [HEXO官网](https://hexo.io/)
 
 # 一. 准备工作
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjEwNTI2NDcsLTMzNDI1MjM2NCwtMT
-kxODI4NTE4MSwtNzcxMzU4MjMzXX0=
+eyJoaXN0b3J5IjpbLTI0MTk2NjIzMSwtMzM0MjUyMzY0LC0xOT
+E4Mjg1MTgxLC03NzEzNTgyMzNdfQ==
 -->
