@@ -54,12 +54,12 @@ title: Material主题
 - Español（es）
 - Français（fr）
 - 日本語（ja）
-- Malay (ms)
-- Portuguese (Brazil) (pt-BR)
-- 简体中文 (zh-CN)
-- 繁體中文 (zh-TW)
+- Malay（ms）
+- Portuguese（Brazil）（pt-BR）
+- 简体中文（zh-CN）
+- 繁體中文（zh-TW）
 
-分别对应language文件下的文件
+分别对应 language 文件下的文件
 
 ![icI0uq.png](https://s1.ax1x.com/2018/10/28/icI0uq.png)
 
@@ -244,6 +244,6 @@ Material 主题提供了 19 张简约图，如果你的文章没有定义缩略�
 你会发现这 n 张图的名字变成了`Material (x).png`，x 是 1~n，并且括号前多了一个空格
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0NDMyNzAyLDg0OTYyOTQ4NCwtMzM0Mj
-UyMzY0LC0xOTE4Mjg1MTgxLC03NzEzNTgyMzNdfQ==
+eyJoaXN0b3J5IjpbMTM4NTQ3MjMxMiw4NDk2Mjk0ODQsLTMzND
+I1MjM2NCwtMTkxODI4NTE4MSwtNzcxMzU4MjMzXX0=
 -->
