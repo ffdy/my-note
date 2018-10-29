@@ -8,16 +8,16 @@ title: Material主题
 [![](https://img.shields.io/badge/Author-ffy-800080.svg?longCache=true&style=flat-square)](https://github.com/ffdy)
 
 :::tip
-注意，这里介绍的Material主题是1.5.2的版本，新手不建议使用最新的版本，因为好像有很多Bug（作者最近失联了）
+注意，这里介绍的 Material 主题是 1.5.2 的版本，新手不建议使用最新的版本，因为好像有很多 Bug（作者最近失联了）
 :::
 
-[Material主题地址](https://github.com/viosey/hexo-theme-material)
+[Material 主题地址](https://github.com/viosey/hexo-theme-material)
 
-## Material主题演示
+## Material 主题演示
 
 ![演示](https://camo.githubusercontent.com/1e9260f301fe915fb3e4826831fde943229523cb/68747470733a2f2f692e6c6f6c692e6e65742f323031372f30392f30372f353962313336376637366664622e706e67)
 
-## 下载Material主题
+## 下载 Material 主题
 
 1. 进入 Github，下载 [Material](https://github.com/viosey/hexo-theme-material/releases) 主题 1.5.2 的版本。
 
@@ -27,13 +27,13 @@ title: Material主题
 
 ![i6XOpT.png](https://s1.ax1x.com/2018/10/27/i6XOpT.png)
 
-## 启用Material主题
+## 启用 Material 主题
 
 :::tip
 这里有两个 `_config.yml` 文件，一个位于博客根目录，另一个位于主题文件夹下，下面分别叫他们`根 _config.yml `文件和`主题 _config.yml `文件。
 :::
 
-进入Material文件夹，将`_config.template.yml` 重命名为 `_config.yml`
+进入 Material 文件夹，将`_config.template.yml` 重命名为 `_config.yml`
 （这个 `_config.yml` 文件是 `主题_config.yml` 文件）
 
 :::tip
@@ -43,17 +43,17 @@ title: Material主题
 ![i6x8mQ.png](https://s1.ax1x.com/2018/10/27/i6x8mQ.png)
 
 回到主题根目录，用文本编辑器打开`根_config.yml`文件<br>
-找到`language`属性(我用的简体中文)
+找到`language`属性（我用的简体中文）
 
 ![icIGE8.png](https://s1.ax1x.com/2018/10/28/icIGE8.png)
 
 有以下几项可选：
-- العَرَبِيََّّة (ar)
-- Deutsch (de)
-- English (en)
-- Español (es)
-- Français (fr)
-- 日本語 (ja)
+- العَرَبِيََّّة （ar）
+- Deutsch（de）
+- English（en）
+- Español（es）
+- Français（fr）
+- 日本語（ja）
 - Malay (ms)
 - Portuguese (Brazil) (pt-BR)
 - 简体中文 (zh-CN)
@@ -212,16 +212,16 @@ thumbnail:
     purecolor: #这里填入颜色代码,如果文章无缩略图,缩略图区域显示该颜色
     random_amount: 19 #缩略图的数量,如果你要自定义,请改为你的图片数
 ```
-Material 主题提供了19张简约图，如果你的文章没有定义缩略图，主题就会从随机图库中随机取一张图<br>如果随机图库中没有图片，那么该区域会显示你设置的颜色<br>如果你也没有设置颜色，则会显示你的主题色
+Material 主题提供了 19 张简约图，如果你的文章没有定义缩略图，主题就会从随机图库中随机取一张图<br>如果随机图库中没有图片，那么该区域会显示你设置的颜色<br>如果你也没有设置颜色，则会显示你的主题色
 
 主题默认支持`.png`格式的缩略图，并且只支持`.png`的缩略图，命名格式还必须是`Material-XX.png`<br>
 好吧，这看起来好像很坑，至少对于我来说是不能忍受的，但它好在是开源的，可以自己动手修改
 
-进入`themes/Material/layout/_partial`文件夹,找到`Paradox-post_entry-thumbnail.ejs`和`Paradox-post-thumbnail.ejs`两个文件,用文本编辑器打开
+进入`themes/Material/layout/_partial`文件夹,找到`Paradox-post_entry-thumbnail.ejs`和`Paradox-post-thumbnail.ejs`两个文件，用文本编辑器打开
 
 ![igRfOK.png](https://s1.ax1x.com/2018/10/29/igRfOK.png)
 
-如果你想用其他格式的图片,你可以`Ctrl+f`搜索`.png`,把如图位置的字段改为你想使用的格式:
+如果你想用其他格式的图片,你可以`Ctrl+f`搜索`.png`， 把如图位置的字段改为你想使用的格式：
 
 `Paradox-post_entry-thumbnail.ejs`文件
 
@@ -231,19 +231,19 @@ Material 主题提供了19张简约图，如果你的文章没有定义缩略图
 
 ![igWVmT.png](https://s1.ax1x.com/2018/10/29/igWVmT.png)
 
-这种方法只能同时使用同种格式的图片,如果你想用不同格式的图,请自行尝试`if-else`语法,也有很多软件可以批量改格式,比如`格式工厂`
+这种方法只能同时使用同种格式的图片，如果你想用不同格式的图，请自行尝试`if-else`语法，也有很多软件可以批量改格式，比如`格式工厂`
 
-那么现在又有一个问题,我现在有192张图,每一张图都要命名成`Material-xx.png`的格式,如果一张一张的重命名,岂不是要累趴下,有没有什么好的方法呢
+那么现在又有一个问题，我现在有 192 张图,每一张图都要命名成`Material-xx.png`的格式，如果一张一张的重命名，岂不是要累趴下，有没有什么好的方法呢
 
-答案是肯定的,你可以用相关软件,或者写一个批处理
+答案是肯定的，你可以用相关软件，或者写一个批处理
 
-这里介绍一个简单的方法--Windows自带的文件重命名策略:
-> 选中你想用的n张图
-> 选择一个重命名,假设你输入了 Material ,回车
+这里介绍一个简单的方法--Windows自带的文件重命名策略：
+> 选中你想用的 n 张图
+> 选择一个重命名，假设你输入了 Material，回车
 
-你会发现这n张图的名字变成了`Material (x).png`,x是1~n,并且括号前多了一个空格
+你会发现这 n 张图的名字变成了`Material (x).png`，x 是 1~n，并且括号前多了一个空格
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5NjI5NDg0LC0zMzQyNTIzNjQsLTE5MT
-gyODUxODEsLTc3MTM1ODIzM119
+eyJoaXN0b3J5IjpbODk0NDMyNzAyLDg0OTYyOTQ4NCwtMzM0Mj
+UyMzY0LC0xOTE4Mjg1MTgxLC03NzEzNTgyMzNdfQ==
 -->
