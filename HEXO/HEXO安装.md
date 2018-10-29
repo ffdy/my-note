@@ -126,7 +126,7 @@ $ hexo s
 
 你可以开瓶可乐加一包薯片庆祝一下了
 
-不过,这条路还没有走到头!!!<br>骚年,放下你的可乐和薯片~~(如果你还没吃完)~~,和我一起往下看
+不过,这条路还没有走到头!!!<br>骚年,放下你的可乐和薯片 ~~(如果你还没吃完)~~,和我一起往下看
 
 ## Material主题配置
 
@@ -258,6 +258,6 @@ Material 主题提供了19张简约图,如果你的文章没有定义缩略图,�
 
 你会发现这n张图的名字变成了`Material (x).png`,x是1~n,并且括号前多了一个空格
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDg1NTg3MSwtMzM0MjUyMzY0LC0xOT
+eyJoaXN0b3J5IjpbLTU3MzQzMTY5MSwtMzM0MjUyMzY0LC0xOT
 E4Mjg1MTgxLC03NzEzNTgyMzNdfQ==
 -->
