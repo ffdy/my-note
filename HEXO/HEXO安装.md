@@ -43,7 +43,7 @@ title: Material主题
 
   
 
-1. 你现在有一台电脑~~(废话)~~<br>如果没有,请出门右转,找一家数码商店
+1. 你现在有一台电脑 ~~(废话)~~<br>如果没有,请出门右转,找一家数码商店
 
   
 
@@ -90,7 +90,7 @@ title: Material主题
 
   
 
-建议你将`_config.template.yml`文件备份,防止一些不可描述的的问题~~(比如你的好基友和你玩游戏,不小心按下了啥)~~额,请务必相信世界是美好的<br>这大概也是作者的意图之一
+建议你将`_config.template.yml`文件备份,防止一些不可描述的的问题 ~~(比如你的好基友和你玩游戏,不小心按下了啥)~~ 额,请务必相信世界是美好的<br>这大概也是作者的意图之一
 
   
 
@@ -220,7 +220,7 @@ $ hexo s
 
   
 
-有没有一点小激动?<br>我反正很激动,我仿佛已经看到了你脸上的笑容~~(话说你搭博客,我激动啥呀)~~
+有没有一点小激动?<br>我反正很激动,我仿佛已经看到了你脸上的笑容 ~~(话说你搭博客,我激动啥呀)~~
 
   
 
@@ -514,6 +514,6 @@ Material 主题提供了19张简约图,如果你的文章没有定义缩略图,�
 
 你会发现这 n 张图的名字变成了`Material (x).png`,x 是 1~n,并且括号前多了一个空格
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzMyMjA2MTMsLTMzNDI1MjM2NCwtMT
-kxODI4NTE4MSwtNzcxMzU4MjMzXX0=
+eyJoaXN0b3J5IjpbNDExNDg1OTMsLTMzNDI1MjM2NCwtMTkxOD
+I4NTE4MSwtNzcxMzU4MjMzXX0=
 -->
