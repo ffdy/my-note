@@ -118,7 +118,9 @@ $ hexo s
 
 附录有原版`主题_config.yml`代码，防止出现问题。
 回到主题文件夹，打开`主题_config.yml`文件<br>
-看起来是不是又臭又长？不过别担心，下面会详细的讲解他们应该怎样配置<br>**请多一点耐心和细心**
+看起来是不是又臭又长？不过别担心，下面会详细的讲解他们应该怎样配置
+
+**请多一点耐心和细心**
 
 ### 一、基本设置
 
@@ -244,6 +246,7 @@ Material 主题提供了 19 张简约图，如果你的文章没有定义缩略�
 你会发现这 n 张图的名字变成了`Material (x).png`，x 是 1~n，并且括号前多了一个空格
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTc3NjM4NCw4NDk2Mjk0ODQsLTMzND
-I1MjM2NCwtMTkxODI4NTE4MSwtNzcxMzU4MjMzXX0=
+eyJoaXN0b3J5IjpbLTU2NzgxMzE3MCwyMTM5Nzc2Mzg0LDg0OT
+YyOTQ4NCwtMzM0MjUyMzY0LC0xOTE4Mjg1MTgxLC03NzEzNTgy
+MzNdfQ==
 -->
