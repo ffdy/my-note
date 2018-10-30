@@ -114,7 +114,7 @@ $ hexo s
 点片文章试试，如果没问题，那么恭喜你！
 :tada: :tada: :tada: :tada:
 
-## Material主题配置
+## Material 主题配置
 
 附录有原版`主题_config.yml`代码，防止出现问题。
 回到主题文件夹，打开`主题_config.yml`文件<br>
@@ -192,7 +192,7 @@ uiux:
     nprogress_color: "#29d" #顶部加载进度条颜色
     nprogress_buffer: "800" #精度条的缓冲时间
 ```
-#### 3、页面的Js效果
+#### 3、页面的 Js 效果
 ```brash
 # JS Effect Switches
 js_effect:
@@ -215,13 +215,13 @@ thumbnail:
 Material 主题提供了 19 张简约图，如果你的文章没有定义缩略图，主题就会从随机图库中随机取一张图<br>如果随机图库中没有图片，那么该区域会显示你设置的颜色<br>如果你也没有设置颜色，则会显示你的主题色
 
 主题默认支持`.png`格式的缩略图，并且只支持`.png`的缩略图，命名格式还必须是`Material-XX.png`<br>
-好吧，这看起来好像很坑，至少对于我来说是不能忍受的，但它好在是开源的，可以自己动手修改
+好吧，这看起来好像很坑，但它好在是开源的，可以自己动手修改
 
-进入`themes/Material/layout/_partial`文件夹,找到`Paradox-post_entry-thumbnail.ejs`和`Paradox-post-thumbnail.ejs`两个文件，用文本编辑器打开
+进入`themes/Material/layout/_partial`文件夹，找到`Paradox-post_entry-thumbnail.ejs`和`Paradox-post-thumbnail.ejs`两个文件，用文本编辑器打开
 
 ![igRfOK.png](https://s1.ax1x.com/2018/10/29/igRfOK.png)
 
-如果你想用其他格式的图片,你可以`Ctrl+f`搜索`.png`， 把如图位置的字段改为你想使用的格式：
+如果你想用其他格式的图片，你可以`Ctrl+f`搜索`.png`， 把如图位置的字段改为你想使用的格式：
 
 `Paradox-post_entry-thumbnail.ejs`文件
 
@@ -237,13 +237,13 @@ Material 主题提供了 19 张简约图，如果你的文章没有定义缩略�
 
 答案是肯定的，你可以用相关软件，或者写一个批处理
 
-这里介绍一个简单的方法--Windows自带的文件重命名策略：
+这里介绍一个简单的方法-- Windows 自带的文件重命名策略：
 > 选中你想用的 n 张图
 > 选择一个重命名，假设你输入了 Material，回车
 
 你会发现这 n 张图的名字变成了`Material (x).png`，x 是 1~n，并且括号前多了一个空格
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTQ3MjMxMiw4NDk2Mjk0ODQsLTMzND
+eyJoaXN0b3J5IjpbMjEzOTc3NjM4NCw4NDk2Mjk0ODQsLTMzND
 I1MjM2NCwtMTkxODI4NTE4MSwtNzcxMzU4MjMzXX0=
 -->
