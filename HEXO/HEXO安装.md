@@ -30,11 +30,11 @@ title: Material主题
 ## 启用 Material 主题
 
 :::tip
-这里有两个 `_config.yml` 文件，一个位于博客根目录，另一个位于主题文件夹下，下面分别叫他们 `根 _config.yml `文件和`主题 _config.yml `文件。
+这里有两个 `_config.yml` 文件，一个位于博客根目录，另一个位于主题文件夹下，下面分别叫他们 `根 _config.yml` 文件和 `主题 _config.yml` 文件。
 :::
 
-进入 Material 文件夹，将`_config.template.yml` 重命名为 `_config.yml`
-（这个 `_config.yml` 文件是 `主题_config.yml` 文件）
+进入 Material 文件夹，将 `_config.template.yml` 重命名为 `_config.yml`
+（这个 `_config.yml` 文件是 `主题 _config.yml` 文件）
 
 :::tip
 建议你将 `_config.template.yml` 文件备份，防止一些不可描述的的问题。
@@ -246,7 +246,7 @@ Material 主题提供了 19 张简约图，如果你的文章没有定义缩略�
 你会发现这 n 张图的名字变成了`Material (x).png`，x 是 1~n，并且括号前多了一个空格
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2MzM4NDE0LC01Njc4MTMxNzAsMjEzOT
-c3NjM4NCw4NDk2Mjk0ODQsLTMzNDI1MjM2NCwtMTkxODI4NTE4
-MSwtNzcxMzU4MjMzXX0=
+eyJoaXN0b3J5IjpbLTM0NTc4NzYzNiwtNTY3ODEzMTcwLDIxMz
+k3NzYzODQsODQ5NjI5NDg0LC0zMzQyNTIzNjQsLTE5MTgyODUx
+ODEsLTc3MTM1ODIzM119
 -->
