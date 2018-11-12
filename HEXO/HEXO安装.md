@@ -304,7 +304,7 @@ img:
 ----
 
 #### 7、字体
-```bash
+```yaml
 # Custom Fonts
 #    family: the font-family which will be used in the theme
 #    use: uri of fonts host.
@@ -319,7 +319,7 @@ fonts:
 ```
 ----
 #### 8、文章卡片阴影
-```bash
+```yaml
 # Card Elevation Level
 card_elevation: 2 #请自行改变数值
 ```
@@ -327,7 +327,7 @@ card_elevation: 2 #请自行改变数值
 
 ### 三、自定义设置
 #### 1、站点成立时间
-```bash
+```yaml
 # Copyright
 # Specify the date when the site was setup.
 #    For example, if you set it as 2015, then footer will show '© 2015 - 2018'
@@ -335,7 +335,7 @@ copyright_since: 2015
 ```
 如果设为 2015，他会显示 `© 2015 - 2018`，如果不设，只会显示当前 `2018` 年
 
-```bash
+```yaml
 # Footer Text
 # You can specify the text you want to show in footer, HTML tag is supported.
 #   For example, you can setup ICP license number as:
@@ -348,7 +348,7 @@ footer_text: <a href="http://www.miitbeian.gov.cn" rel="nofollow">某ICP备xxxxx
 
 ----
 #### 2、二维码
-```bash
+```yaml
 # Qrcode for redirect at other device
 #    use: choose which method to generate the qrcode for each posts.
 #        Available value: plugin | online
@@ -648,7 +648,7 @@ Name: #名字
 ```
 添加多张图片，只需要根据上面的格式重复填写即可。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODY4NDQ2OSwtMzQ1Nzg3NjM2LC01Nj
-c4MTMxNzAsMjEzOTc3NjM4NCw4NDk2Mjk0ODQsLTMzNDI1MjM2
-NCwtMTkxODI4NTE4MSwtNzcxMzU4MjMzXX0=
+eyJoaXN0b3J5IjpbMTYxNDU3ODA2LC0zNDU3ODc2MzYsLTU2Nz
+gxMzE3MCwyMTM5Nzc2Mzg0LDg0OTYyOTQ4NCwtMzM0MjUyMzY0
+LC0xOTE4Mjg1MTgxLC03NzEzNTgyMzNdfQ==
 -->
