@@ -27,14 +27,6 @@ State: writing.
 
 3. 将这个文件夹放到你的博客根目录下的 themes 文件夹下。
 
-在博客根目录打开终端，输入以下命令：
-
-```bash
-$ cd themes
-$ git clone https://github.com/viosey/hexo-theme-material.git material
-cd material
-```
-
 ![i6XOpT.png](@img/2/2-5/2.png)
 
 ## 启用 Material 主题
@@ -656,7 +648,7 @@ Name: #名字
 ```
 添加多张图片，只需要根据上面的格式重复填写即可。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzMyODIyMDcsLTM0NTc4NzYzNiwtNT
-Y3ODEzMTcwLDIxMzk3NzYzODQsODQ5NjI5NDg0LC0zMzQyNTIz
-NjQsLTE5MTgyODUxODEsLTc3MTM1ODIzM119
+eyJoaXN0b3J5IjpbMTM4ODY4NDQ2OSwtMzQ1Nzg3NjM2LC01Nj
+c4MTMxNzAsMjEzOTc3NjM4NCw4NDk2Mjk0ODQsLTMzNDI1MjM2
+NCwtMTkxODI4NTE4MSwtNzcxMzU4MjMzXX0=
 -->
