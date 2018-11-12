@@ -30,8 +30,8 @@ State: writing.
 在博客根目录打开终端，输入以下命令：
 
 ```bash
-cd themes
-git clone https://github.com/viosey/hexo-theme-material.git material
+$ cd themes
+$ git clone https://github.com/viosey/hexo-theme-material.git material
 cd material
 ```
 
@@ -289,7 +289,7 @@ Material 主题提供了 19 张简约图，如果你的文章没有定义缩略�
 ----
 
 #### 6、各种图片位置
-```bash
+```yaml
 # Images Settings
 img:
     logo: "/img/logo.png" #标志
@@ -656,7 +656,7 @@ Name: #名字
 ```
 添加多张图片，只需要根据上面的格式重复填写即可。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjUzMDc3MiwtMzQ1Nzg3NjM2LC01Nj
-c4MTMxNzAsMjEzOTc3NjM4NCw4NDk2Mjk0ODQsLTMzNDI1MjM2
-NCwtMTkxODI4NTE4MSwtNzcxMzU4MjMzXX0=
+eyJoaXN0b3J5IjpbLTE4MzMyODIyMDcsLTM0NTc4NzYzNiwtNT
+Y3ODEzMTcwLDIxMzk3NzYzODQsODQ5NjI5NDg0LC0zMzQyNTIz
+NjQsLTE5MTgyODUxODEsLTc3MTM1ODIzM119
 -->
