@@ -374,7 +374,7 @@ $ npm install hexo-helper-qrcode --save
 
 Material 主题提供了两种代码高亮：prettify | hanabi <br>
 启用前你需要吧`根 _config.yml` 文件中的代码高亮关闭，否则会产生冲突
-```bash
+```yaml
 highlight:
   enable: false #这里改为false
   line_number: false
@@ -382,7 +382,7 @@ highlight:
   tab_replace:
 ```
 `主题 _config.yml` 文件如下：
-```bash
+```yaml
 # Code highlight
 # You can only enable one of them to avoid issues.
 # Also you need to disable highlight option in hexo's _config.yml.
@@ -418,7 +418,7 @@ hanabi 默认效果（ C++ 为例）：
 #### 4、版权声明
 你可以在每篇文章的结尾添加你的版权说明，支持 Html 标签。License 以粗体显示，默认为空。 比如，你可这样设定 CC License。
 
-```bash
+```yaml
 # Post License
 # You can specify the text you want to show in the end of your posts and pages, HTML tag is supported.
 #   For example, you can setup a CC license as:
@@ -435,7 +435,7 @@ license: 'This blog is under a <a href="/creativecommons.html" target="_blank">C
 ### 四、菜单设置
 #### 1、行号，SNS 
 行号
-```bash
+```yaml
 # TOC Button
 
 toc:
@@ -446,7 +446,7 @@ toc:
 SNS
 
 填上你的个人链接，如果不想显示，留空或前面加 `#` 号
-```bash
+```yaml
 # SNS Menu
 sns:
     email: youremail@email.com #这个将显示在侧边栏头像下面
@@ -469,7 +469,7 @@ sns:
 ----
 #### 2、分享菜单
 如果为 `false` 将不显示在分享菜单
-```bash
+```yaml
 # SNS Share Switch
 sns_share:
     twitter: true
@@ -486,7 +486,7 @@ sns_share:
 ----
 
 #### 3、侧边栏设置
-```bash
+```yaml
 # Sidebar Customize
 sidebar:
     dropdown:
@@ -525,7 +525,7 @@ sidebar:
 ### 五、独立界面
 #### 1、友情链接
 侧边栏添加`友链`：
-```bash
+```yaml
     pages: #其他独立页面
         #####
         友链:
@@ -648,7 +648,7 @@ Name: #名字
 ```
 添加多张图片，只需要根据上面的格式重复填写即可。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDU3ODA2LC0zNDU3ODc2MzYsLTU2Nz
+eyJoaXN0b3J5IjpbMTg2NTA5MDU4LC0zNDU3ODc2MzYsLTU2Nz
 gxMzE3MCwyMTM5Nzc2Mzg0LDg0OTYyOTQ4NCwtMzM0MjUyMzY0
 LC0xOTE4Mjg1MTgxLC03NzEzNTgyMzNdfQ==
 -->
