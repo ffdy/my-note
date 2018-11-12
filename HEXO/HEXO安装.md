@@ -551,14 +551,14 @@ layout: links
 ---
 ```
 同样在根目录下 `source` 文件下创建 `_data` 文件夹（不可使用其他名字），在 `_data` 下创建 `links.yml` 文件，打开修改，格式为：
-```bash
+```yaml
 Name: # Name 替换为名字
     link: http://example.com #链接
     avatar: http://example.com/avatar.png #头像
     descr: "这是一个描述" #描述
 ```
 例子：
-```bash
+```yaml
 Condor2048:
     link: https://skylayer.pro/
     avatar: http://qlogo3.store.qq.com/qzone/1262500438/1262500438/50?1538278027
@@ -572,7 +572,7 @@ Condor2048:
 
 #### 2、标签云
 侧边栏添加`标签云`：
-```bash
+```yaml
     pages: #其他独立页面
         友链:
             link: "/links"
@@ -606,7 +606,7 @@ layout: tags
 
 #### 3、图库
 侧边栏添加`图库`：
-```bash
+```yaml
     pages: #其他独立页面
         友链:
             link: "/links"
@@ -640,7 +640,7 @@ layout: gallery
 ---
 ```
 同样在根目录下 `source/_data` 文件下创建 `gallery.yml` 文件，打开修改，格式为：
-```bash
+```yaml
 Name: #名字
     full_link: http://example.com/full-image.png #链接
     thumb_link: http://example.com/thumb-image.png #链接
@@ -648,7 +648,7 @@ Name: #名字
 ```
 添加多张图片，只需要根据上面的格式重复填写即可。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTA5MDU4LC0zNDU3ODc2MzYsLTU2Nz
-gxMzE3MCwyMTM5Nzc2Mzg0LDg0OTYyOTQ4NCwtMzM0MjUyMzY0
-LC0xOTE4Mjg1MTgxLC03NzEzNTgyMzNdfQ==
+eyJoaXN0b3J5IjpbMTc0MzkyNDMwOSwtMzQ1Nzg3NjM2LC01Nj
+c4MTMxNzAsMjEzOTc3NjM4NCw4NDk2Mjk0ODQsLTMzNDI1MjM2
+NCwtMTkxODI4NTE4MSwtNzcxMzU4MjMzXX0=
 -->
