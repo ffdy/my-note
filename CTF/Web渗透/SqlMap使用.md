@@ -41,6 +41,9 @@
 - `python sqlmap.py -u http://127.0.0.1/test.php?id=1 -v 3 –dbms “MySQL” –technique U -p id –batch –tamper “space2morehash.py”`
 
 在sqlmap 的 tamper目录下有很多space2morehash.py 编码脚本自行加载
+
+### 相关链接
+- https://www.freebuf.com/sectool/164608.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjU2NzgwNV19
+eyJoaXN0b3J5IjpbLTUyMzM1NjI2Nl19
 -->
