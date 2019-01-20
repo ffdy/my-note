@@ -5,8 +5,11 @@
 
 shift+f12，发现出现程序中的字符：
 ![kPpFLd.md.png](https://s2.ax1x.com/2019/01/20/kPpFLd.md.png)
-查看对应的汇编源码，发现初始化了大量的变量，并且地址连续
+查看对应的汇编源码，发现初始化了大量的变量，并且地址连续：
+![kPCQVs.png](https://s2.ax1x.com/2019/01/20/kPCQVs.png)
+将其转化为字符串，得到Flag：
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzg0NzIzNDUsMTEyNTc2NTU4OCw1NT
-IzMTY2MjVdfQ==
+eyJoaXN0b3J5IjpbMzAzODIwNDMzLDExMjU3NjU1ODgsNTUyMz
+E2NjI1XX0=
 -->
