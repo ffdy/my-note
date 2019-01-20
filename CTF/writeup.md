@@ -3,7 +3,8 @@
 
 用 IDA 打开程序，大致浏览，并没有发现什么
 
-shift+f12，发现
+shift+f12，发现出现程序中的字符：
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzcxMjg4OSw1NTIzMTY2MjVdfQ==
+eyJoaXN0b3J5IjpbNzU2MzkyODMzLDU1MjMxNjYyNV19
 -->
