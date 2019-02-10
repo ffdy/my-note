@@ -5,7 +5,11 @@
 回看题目，提交格式为 `flag{}` ，心想，哎呀**，入门题还要搞点坑让人跳，CTF 套路深，我还是溜了吧。
 然后试了各种方法，啥都没发现。然后看了一篇题解，说是要把 `MCTF` 替换成 `flag`。
 ········
-啥也别说了，
+啥也别说了，CTF 套路深，我要回 OI。
+提交 flag：`flag{_N3t_Rev_1s_E4ay_}`
+
+## Easy_Re
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxNzc5NTUyXX0=
+eyJoaXN0b3J5IjpbMTY1NDMyOTEzMl19
 -->
