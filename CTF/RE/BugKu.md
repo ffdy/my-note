@@ -39,7 +39,43 @@ int __cdecl main(int argc, const char **argv, const char **envp)
   return 0;
 }
 ```
-就是输入一个字符串
+就是输入一个字符串 v9 与 v5 比较
+拖进 OD，在输入时加一个断点，观察寄存器的值得到 flag：`DUTCTF{We1c0met0DUTCTF}`
+```
+EAX 00000001
+ECX 00A9115D re1.00A9115D
+EDX 02C36BC0
+EBX 00000000
+ESP 006FFE54 ASCII "DUTCTF{We1c0met0DUTCTF}"
+EBP 006FFE98 ASCII "帼o"
+ESI 00A914A5 re1.<ModuleEntryPoint>
+EDI 00A914A5 re1.<ModuleEntryPoint>
+EIP 00A91062 re1.00A91062
+C 0  ES 002B 32bit 0(FFFFFFFF)
+P 0  CS 0023 32bit 0(FFFFFFFF)
+A 0  SS 002B 32bit 0(FFFFFFFF)
+Z 0  DS 002B 32bit 0(FFFFFFFF)
+S 0  FS 0053 32bit 5D1000(FFF)
+T 0  GS 002B 32bit 0(FFFFFFFF)
+D 0
+O 0  LastErr ERROR_SUCCESS (00000000)
+EFL 00000202 (NO,NB,NE,A,NS,PO,GE,G)
+ST0 empty 0.0
+ST1 empty 0.0
+ST2 empty 0.0
+ST3 empty 0.0
+ST4 empty 0.0
+ST5 empty 0.0
+ST6 empty 0.0
+ST7 empty 0.0
+               3 2 1 0      E S P U O Z D I
+FST 0000  Cond 0 0 0 0  Err 0 0 0 0 0 0 0 0  (GT)
+FCW 027F  Prec NEAR,53  Mask    1 1 1 1 1 1
+```
+## 游戏过关
+可以凭实力 1-8 通关游戏得 flag
+也可通过 IDA 反编译分析代码得
+flag：`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTAzNjQwMjJdfQ==
+eyJoaXN0b3J5IjpbMTU5OTg5NjU0OV19
 -->
