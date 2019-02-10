@@ -9,7 +9,7 @@
 提交 flag：`flag{_N3t_Rev_1s_E4ay_}`
 
 ## Easy_Re
-
+拖进 IDA，F5fan'bian
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDMyOTEzMl19
+eyJoaXN0b3J5IjpbMTE4ODU5NjMwNF19
 -->
