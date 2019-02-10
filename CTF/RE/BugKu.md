@@ -1,5 +1,5 @@
 ## 入门逆向
-tuo'j
+拖进 IDA 发现初始化了一推变量，直接全部 R 得到 flag 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0MzI2MDExXX0=
+eyJoaXN0b3J5IjpbMTg0MDY3OTY0NV19
 -->
