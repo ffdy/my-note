@@ -190,7 +190,9 @@ eval("var_dump($$args);");
 
 ## 管理员系统
 进入发现是一个登陆界面
-随便提交,回显`IP禁止访问，请联系本地管理员登陆，IP已被记录.`
+因为是管理员系统,推测用户名为 admin 
+随便输入密码提交,回显`IP禁止访问，请联系本地管理员登陆，IP已被记录.`
+本地管理员,联想到伪造 IP 地址(不要问我为什么,CTF 的脑洞ji)
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -199,6 +201,6 @@ eval("var_dump($$args);");
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODE2OTUxOSwtMTIxOTA1NTAzOSwtMT
-c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTE4NTIyMDI4NTAsLTEyMTkwNTUwMzksLT
+E3NDUwOTI2MjgsLTQyODcyNTgwNF19
 -->
