@@ -228,6 +228,7 @@ user=admin&pass=asdf
 
 ## web4 
 进入提示看看源码
+看到一段 JS 代码
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -236,6 +237,6 @@ user=admin&pass=asdf
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzYzNzEyNiwtMTIxOTA1NTAzOSwtMT
-c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbNDg0NTM5NzgxLC0xMjE5MDU1MDM5LC0xNz
+Q1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
 -->
