@@ -2,7 +2,7 @@
 查看源码,得 flag:`KEY{Web-2-bugKssNNikls9100}`
 
 ## 计算器 
- 
+要求提交 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -10,6 +10,6 @@
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTE4NTA3LC0xNzQ1MDkyNjI4LC00Mj
-g3MjU4MDRdfQ==
+eyJoaXN0b3J5IjpbLTE1Njg2NTQ3NTIsLTE3NDUwOTI2MjgsLT
+QyODcyNTgwNF19
 -->
