@@ -254,7 +254,13 @@ function checkSubmit(){
 }
 document.getElementById("levelQuest").onsubmit=checkSubmit;
 ```
-提交 `67d709b2b54aa2aa648cf6e87a7114f1`
+分析后提交 `67d709b2b54aa2aa648cf6e87a7114f1`
+得到 flag:
+`KEY{J22JK-HS11}`
+
+## flag在index里
+题面只有一个链接`click me? no`
+点击后会
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -263,6 +269,6 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODE1NjI1NCw0ODQ1Mzk3ODEsLTEyMT
-kwNTUwMzksLTE3NDUwOTI2MjgsLTQyODcyNTgwNF19
+eyJoaXN0b3J5IjpbMTY1NTc4MTUzLDQ4NDUzOTc4MSwtMTIxOT
+A1NTAzOSwtMTc0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
