@@ -160,8 +160,11 @@ eval("var_dump($$args);");
 提示中 `flag In  the variable !` 想到 var_dump() 函数的 `$GLOBALS` 变量 `$$a` 会将 `$a` 的值替换为 `GLOBALS`,也就是说 `$$a` 会解析成 `$GLOBALS` 
 
 综上,构造 payload:`?args=GLOBALS`
-提交得到 flag:`flag{92853051ab894a64f7865cf3c2128b34}`
+提交得到 flag:
+`flag{92853051ab894a64f7865cf3c2128b34}`
 
+## web5
+查看h
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -170,6 +173,6 @@ eval("var_dump($$args);");
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjg1NzE3OSwtMTIxOTA1NTAzOSwtMT
-c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTE3NDQ0Mzg3MDIsLTEyMTkwNTUwMzksLT
+E3NDUwOTI2MjgsLTQyODcyNTgwNF19
 -->
