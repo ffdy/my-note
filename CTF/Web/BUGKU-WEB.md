@@ -284,6 +284,18 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 提交 flag:
 `flag{edulcni_elif_lacol_si_siht}`
 
+现在具体说说file=php://filter/read=convert.base64-encode/resource=index.php的含义
+
+首先这是一个file关键字的get参数传递，php://是一种协议名称，php://filter/是一种访问本地文件的协议，/read=convert.base64-encode/表示读取的方式是base64编码后，resource=index.php表示目标文件为index.php。
+
+通过传递这个参数可以得到index.php的源码，下面说说为什么，看到源码中的include函数，这个表示从外部引入php文件并执行，如果执行不成功，就返回文件的源码。
+
+而include的内容是由用户控制的，所以通过我们传递的file参数，是include()函数引入了index.php的base64编码格式，因为是base64编码格式，所以执行不成功，返回源码，所以我们得到了源码的base64格式，解码即可。
+
+如果不进行base64编码传入，就会直接执行，而flag的信息在注释中，是得不到的。
+
+我们再看一下源码中 存在对 ../ tp data input 的过滤，其实这都是php://协议中的其他方法
+
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -291,7 +303,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDg2Mzk3MywxNDAzMjM3MTgxLDE2NT
+eyJoaXN0b3J5IjpbLTY0NTc3OTYwNiwxNDAzMjM3MTgxLDE2NT
 U3ODE1Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMzksLTE3NDUwOTI2
 MjgsLTQyODcyNTgwNF19
 -->
