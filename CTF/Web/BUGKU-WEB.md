@@ -33,7 +33,9 @@ echo 'flag{**********}';
 ## 域名解析
 修改 windows 下的 `c:\windows\system32\drivers\etc\hosts`
 添加
-```
+`120.24.86.145 flag.bugku.com`
+访问 flag.bugku.com 得到 flag:
+`
 
 
 ## 求 Getshell
@@ -43,6 +45,6 @@ echo 'flag{**********}';
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1ODg5NDg0OCwtMTIxOTA1NTAzOSwtMT
+eyJoaXN0b3J5IjpbMTU3MTQwODAxMSwtMTIxOTA1NTAzOSwtMT
 c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
