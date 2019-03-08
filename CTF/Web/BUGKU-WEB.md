@@ -281,6 +281,8 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
     ?> 
 </html>  
 ```
+提交 flag:
+`flag{edulcni_elif_lacol_si_siht}`
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -289,7 +291,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDg1NTU0MDgsMTQwMzIzNzE4MSwxNj
-U1NzgxNTMsNDg0NTM5NzgxLC0xMjE5MDU1MDM5LC0xNzQ1MDky
-NjI4LC00Mjg3MjU4MDRdfQ==
+eyJoaXN0b3J5IjpbMTQ1MDg2Mzk3MywxNDAzMjM3MTgxLDE2NT
+U3ODE1Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMzksLTE3NDUwOTI2
+MjgsLTQyODcyNTgwNF19
 -->
