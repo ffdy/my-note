@@ -268,17 +268,18 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 <html>      
 	<title>Bugku-ctf</title>        
 	<?php   
-	error_reporting(0);   
-	if(!$_GET[file]){
-	echo '<a href="./index.php?file=show.php">click me? no</a>';}   
-	$file=$_GET['file'];   
-	if(strstr($file,"../")||stristr($file, "tp")||stristr($file,"input")||stristr($file,"data")){
-	    echo "Oh no!";    
-	    exit();
-    }   
-    include($file);   			
-    //flag:flag{edulcni_elif_lacol_si_siht}  ?> 
-     </html>  
+		error_reporting(0);   
+		if(!$_GET[file]){
+		echo '<a href="./index.php?file=show.php">click me? no</a>';}   
+		$file=$_GET['file'];   
+		if(strstr($file,"../")||stristr($file, "tp")||stristr($file,"input")||stristr($file,"data")){
+		    echo "Oh no!";    
+		    exit();
+	    }   
+	    include($file);   			
+	    //flag:flag{edulcni_elif_lacol_si_siht}  
+    ?> 
+</html>  
 ```
 
 ## 求 Getshell
@@ -288,7 +289,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDk0MTk2NiwxNDAzMjM3MTgxLDE2NT
-U3ODE1Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMzksLTE3NDUwOTI2
-MjgsLTQyODcyNTgwNF19
+eyJoaXN0b3J5IjpbLTE1MDg1NTU0MDgsMTQwMzIzNzE4MSwxNj
+U1NzgxNTMsNDg0NTM5NzgxLC0xMjE5MDU1MDM5LC0xNzQ1MDky
+NjI4LC00Mjg3MjU4MDRdfQ==
 -->
