@@ -52,7 +52,8 @@ Connection: close
 ```
 提交的 flag
 
-## 
+## 你必须让他停下
+进入链接,发现页面一直闪,果断 Burp 抓包
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -61,6 +62,6 @@ Connection: close
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjQ2OTI3NiwtMTIxOTA1NTAzOSwtMT
+eyJoaXN0b3J5IjpbMTI5MzAwNzAzMywtMTIxOTA1NTAzOSwtMT
 c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
