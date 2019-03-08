@@ -171,7 +171,13 @@ eval("var_dump($$args);");
 上网搜一波,发现其为 jother 编码
 可以直接在控制台里运行,得到 flag:
 `ctf{whatfk}`
-但还没完,必须大写
+但还没完,必须大写才能提交
+
+## 头等舱
+页面里啥也没有
+果断 Burp 抓包
+在 Response 里发现 flag:
+`flag{Bugku_k8_23s_istra}`
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -180,6 +186,6 @@ eval("var_dump($$args);");
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzI4ODU2NywtMTIxOTA1NTAzOSwtMT
+eyJoaXN0b3J5IjpbLTY2NTY1NDMwMywtMTIxOTA1NTAzOSwtMT
 c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
