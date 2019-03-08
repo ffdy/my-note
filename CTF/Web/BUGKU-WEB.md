@@ -21,7 +21,8 @@ echo 'flag{**********}';
 得到 flag:`flag{bugku-789-ps-ssdf}`
 
 ## web3
-
+点开后一直弹出窗口
+果断
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -30,6 +31,6 @@ echo 'flag{**********}';
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA4MjM1NzQsLTE3NDUwOTI2MjgsLT
+eyJoaXN0b3J5IjpbLTIxMzMyOTc4OTcsLTE3NDUwOTI2MjgsLT
 QyODcyNTgwNF19
 -->
