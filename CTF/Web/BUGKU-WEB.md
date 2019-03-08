@@ -185,7 +185,11 @@ eval("var_dump($$args);");
 没有验证,考虑用 Burp 爆破
 使用 Burp 自带的 Passwords 作为字典爆破
 之后发现 hack 的响应长度不同于其他
-在tijiao
+在提交框里提交 hack,得到 flag:
+`flag{hack_bug_ku035}`
+
+## 管理员系统
+进入发现是一个登陆界面
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -194,6 +198,6 @@ eval("var_dump($$args);");
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzkwMzUwOCwtMTIxOTA1NTAzOSwtMT
-c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTE5NjA2NzI4MTksLTEyMTkwNTUwMzksLT
+E3NDUwOTI2MjgsLTQyODcyNTgwNF19
 -->
