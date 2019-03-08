@@ -13,7 +13,8 @@ https://www.freebuf.com/column/148886.html
 https://www.freebuf.com/column/183226.html
 https://www.jianshu.com/p/0a8339fcc269
 https://chybeta.github.io/2007/06/22/%E6%B5%85%E8%B0%88php%E4%BC%AA%E5%8D%8F%E8%AE%AE%E5%8F%8A%E5%9C%A8CTF%E6%AF%94%E8%B5%9B%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/
+https://blog.csdn.net/qq_33904831/article/details/78814567
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODA2OTI5NSwtODgyODkzNjY3LC02NT
-g5MTkxMjcsMTIzNjg1MjY0NV19
+eyJoaXN0b3J5IjpbLTIxMDI3MjE3MDEsLTg4Mjg5MzY2NywtNj
+U4OTE5MTI3LDEyMzY4NTI2NDVdfQ==
 -->
