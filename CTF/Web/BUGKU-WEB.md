@@ -30,6 +30,10 @@ echo 'flag{**********}';
 粘贴到 Google 上,回车
 得到 flag:`KEY{J2sa42ahJK-HS11III}`
 
+## 域名解析
+修改 windows 下的`
+
+c:\windows\system32\drivers\etc\hosts`
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -38,6 +42,6 @@ echo 'flag{**********}';
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTkwNTUwMzksLTE3NDUwOTI2MjgsLT
-QyODcyNTgwNF19
+eyJoaXN0b3J5IjpbMTkwODA0MjU4OSwtMTIxOTA1NTAzOSwtMT
+c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
