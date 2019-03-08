@@ -220,6 +220,14 @@ user=admin&pass=asdf
 ```php
 <!-- dGVzdDEyMw== -->
 ```
+看起来是 Base64 加密
+解密得到 test123 猜测其为密码
+提交,得到 flag:
+`The flag is: 85ff2ee4171396724bae20c0bd851f6b`
+按格式提交答案
+
+## web4 
+进入
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -228,6 +236,6 @@ user=admin&pass=asdf
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQzNDkzNDIsLTEyMTkwNTUwMzksLT
-E3NDUwOTI2MjgsLTQyODcyNTgwNF19
+eyJoaXN0b3J5IjpbMTg3OTczNzI0OSwtMTIxOTA1NTAzOSwtMT
+c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
