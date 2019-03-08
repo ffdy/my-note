@@ -24,7 +24,10 @@ echo 'flag{**********}';
 点开后一直弹出窗口
 果断 Burp 抓包
 在 Response 最后发现
-`
+```php
+<!--&#75;&#69;&#89;&#123;&#74;&#50;&#115;&#97;&#52;&#50;&#97;&#104;&#74;&#75;&#45;&#72;&#83;&#49;&#49;&#73;&#73;&#73;&#125;-->
+```
+粘贴到 Google Docs
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -33,6 +36,6 @@ echo 'flag{**********}';
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODgzODEzNCwtMTc0NTA5MjYyOCwtND
+eyJoaXN0b3J5IjpbMTA0MTkzMzQyOSwtMTc0NTA5MjYyOCwtND
 I4NzI1ODA0XX0=
 -->
