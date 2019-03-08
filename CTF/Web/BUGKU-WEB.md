@@ -4,7 +4,7 @@
 ## 计算器 
 要求提交算式得结果,用 JS 验证
 查看源码,发现可能是 `code.js`
- 
+ ran
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -12,6 +12,6 @@
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjI0ODk1MjksLTE3NDUwOTI2MjgsLT
-QyODcyNTgwNF19
+eyJoaXN0b3J5IjpbLTU2MzEzNzg0NiwtMTc0NTA5MjYyOCwtND
+I4NzI1ODA0XX0=
 -->
