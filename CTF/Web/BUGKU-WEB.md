@@ -35,7 +35,10 @@ echo 'flag{**********}';
 添加
 `120.24.86.145 flag.bugku.com`
 访问 flag.bugku.com 得到 flag:
-`
+`KEY{DSAHDSJ82HDS2211}`
+
+或者 Burp 抓包,修改 Host
+```
 
 
 ## 求 Getshell
@@ -45,6 +48,6 @@ echo 'flag{**********}';
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTQwODAxMSwtMTIxOTA1NTAzOSwtMT
-c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTE1MzI5MjM4NjEsLTEyMTkwNTUwMzksLT
+E3NDUwOTI2MjgsLTQyODcyNTgwNF19
 -->
