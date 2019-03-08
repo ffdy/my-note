@@ -243,7 +243,18 @@ eval(unescape(p1) + unescape('%35%34%61%61%32' + p2));
 去掉 eval 函数在 Console 里运行
 出现原文
 ```js
-
+function checkSubmit(){
+	var a=document.getElementById("password");
+	if("undefined"!=typeof a){
+		if("67d709b2b54aa2aa648cf6e87a7114f1"==a.value)return!0;
+		alert("Error");
+		a.focus();
+		return!1
+	}
+}
+document.getElementById("levelQuest").onsubmit=checkSubmit;
+```
+提交 `67d709b2b54aa2aa648cf6e87a7114f1`
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -252,6 +263,6 @@ eval(unescape(p1) + unescape('%35%34%61%61%32' + p2));
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3NjYzODU4LDQ4NDUzOTc4MSwtMTIxOT
-A1NTAzOSwtMTc0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTQ2ODE1NjI1NCw0ODQ1Mzk3ODEsLTEyMT
+kwNTUwMzksLTE3NDUwOTI2MjgsLTQyODcyNTgwNF19
 -->
