@@ -133,6 +133,12 @@ show_source(__FILE__);
 常见 eval() 漏洞
 直接构造 payload:`?hello=file('flag.php')`
 得到 flag:`flag{bug-ctf-gg-99}`
+```php
+file_get_contents('flag.php')
+show_source('flag.php')
+# 均可
+```
+
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -141,6 +147,6 @@ show_source(__FILE__);
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3MDg5NTMzLC0xMjE5MDU1MDM5LC0xNz
-Q1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
+eyJoaXN0b3J5IjpbLTk3NTIyNjQ1NywtMTIxOTA1NTAzOSwtMT
+c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
