@@ -180,7 +180,12 @@ eval("var_dump($$args);");
 `flag{Bugku_k8_23s_istra}`
 
 ## 网站被黑
-源码,抓包无果,Dirsearch saomian
+源码,抓包无果,Dirsearch 扫描站点,发现 shell.php 
+进入,发现一个提交框
+没有验证,考虑用 Burp 爆破
+使用 Burp 自带的 Passwords 作为字典爆破
+之后发现 hack 的响应长度不同于其他
+在tijiao
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -189,6 +194,6 @@ eval("var_dump($$args);");
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDQ5MDI3MywtMTIxOTA1NTAzOSwtMT
+eyJoaXN0b3J5IjpbLTQ5MzkwMzUwOCwtMTIxOTA1NTAzOSwtMT
 c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
