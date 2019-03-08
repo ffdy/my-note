@@ -54,6 +54,72 @@ Connection: close
 
 ## 你必须让他停下
 进入链接,发现页面一直闪,果断 Burp 抓包
+在 Response 里
+```php
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 08 Mar 2019 05:20:52 GMT
+Content-Type: text/html
+Connection: close
+Content-Length: 614
+
+ï»¿<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Dummy game</title>
+</head>
+
+<script language="JavaScript">
+function myrefresh(){
+window.location.reload();
+}
+setTimeout('myrefresh()',500); 
+</script>
+<body>
+<center><strong>I want to play Dummy game with othersÂ£Â¡But I can't stop!</strong></center>
+<center>Stop at panda ! u will get flag</center>
+<center><div><img src="11.jpg" /></div></center><br>
+<a style="display:none">flag is here~</a></body>
+# 这里有猫腻
+</html>
+```
+多提交几次
+```php
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 08 Mar 2019 05:18:07 GMT
+Content-Type: text/html
+Connection: close
+Content-Length: 630
+
+ï»¿<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Dummy game</title>
+</head>
+
+<script language="JavaScript">
+function myrefresh(){
+window.location.reload();
+}
+setTimeout('myrefresh()',500); 
+</script>
+<body>
+<center><strong>I want to play Dummy game with othersÂ£Â¡But I can't stop!</strong></center>
+<center>Stop at panda ! u will get flag</center>
+<center><div><img src="10.jpg"/></div></center><br>
+<a style="display:none">flag{dummy_game_1s_s0_popular}</a></body>
+</html>
+```
+得到 flag: 
+`flag{dummy_game_1s_s0_popular}`
+
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -62,6 +128,6 @@ Connection: close
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzAwNzAzMywtMTIxOTA1NTAzOSwtMT
-c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbMTgyNTExOTk5LC0xMjE5MDU1MDM5LC0xNz
+Q1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
 -->
