@@ -164,7 +164,7 @@ eval("var_dump($$args);");
 `flag{92853051ab894a64f7865cf3c2128b34}`
 
 ## web5
-查看h
+查看源码,发现yi
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -173,6 +173,6 @@ eval("var_dump($$args);");
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ0Mzg3MDIsLTEyMTkwNTUwMzksLT
-E3NDUwOTI2MjgsLTQyODcyNTgwNF19
+eyJoaXN0b3J5IjpbOTEwNTE0NjQwLC0xMjE5MDU1MDM5LC0xNz
+Q1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
 -->
