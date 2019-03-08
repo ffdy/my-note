@@ -6,7 +6,18 @@
 查看源码,发现可能是 `code.js`
  然后进入查看,发现 flag:`flag{CTF-bugku-0032}`
 
-## 
+## 矛盾
+```php
+$num=$_GET['num'];  
+if(!is_numeric($num))  
+{  
+echo $num;  
+if($num==1)  
+echo 'flag{**********}';  
+}
+```
+简单的 %00 绕过
+直接构造 payload:`?a=
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -15,6 +26,6 @@
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDgyNDc1ODIsLTE3NDUwOTI2MjgsLT
+eyJoaXN0b3J5IjpbLTEwMzc2ODUxMTMsLTE3NDUwOTI2MjgsLT
 QyODcyNTgwNF19
 -->
