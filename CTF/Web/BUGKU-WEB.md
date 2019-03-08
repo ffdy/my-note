@@ -138,6 +138,23 @@ file_get_contents('flag.php')
 show_source('flag.php')
 # 均可
 ```
+## 变量1
+```php
+flag In the variable ! 
+<?php  
+error_reporting(0);  
+include "flag1.php";  
+highlight_file(__file__);  
+if(isset($_GET['args'])){  
+$args = $_GET['args'];  
+if(!preg_match("/^\w+$/",$args)){  
+die("args error!");  
+}  
+eval("var_dump($$args);");  
+}  
+?>
+```
+进入看见代码
 
 
 ## 求 Getshell
@@ -147,6 +164,6 @@ show_source('flag.php')
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTIyNjQ1NywtMTIxOTA1NTAzOSwtMT
-c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTE0MDQ3MjE0NTAsLTEyMTkwNTUwMzksLT
+E3NDUwOTI2MjgsLTQyODcyNTgwNF19
 -->
