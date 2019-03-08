@@ -155,6 +155,7 @@ eval("var_dump($$args);");
 ?>
 ```
 进入看见代码
+同样是 eval 
 
 
 ## 求 Getshell
@@ -164,6 +165,6 @@ eval("var_dump($$args);");
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQ3MjE0NTAsLTEyMTkwNTUwMzksLT
-E3NDUwOTI2MjgsLTQyODcyNTgwNF19
+eyJoaXN0b3J5IjpbOTE0MjMxNDUyLC0xMjE5MDU1MDM5LC0xNz
+Q1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
 -->
