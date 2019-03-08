@@ -121,7 +121,17 @@ setTimeout('myrefresh()',500);
 `flag{dummy_game_1s_s0_popular}`
 
 ## 本地包含
-进入看见代码,为代码
+进入看见代码,为代码审计
+```php
+`<?php  
+include "flag.php";  
+$a = @$_REQUEST['hello'];  
+eval( "var_dump($a);");  
+show_source(__FILE__);  
+?>`
+```
+常见 eval() 漏洞
+直接构造 payload"
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -130,6 +140,6 @@ setTimeout('myrefresh()',500);
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzgyMjE2OSwtMTIxOTA1NTAzOSwtMT
-c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTIwNjkxMzIzNTcsLTEyMTkwNTUwMzksLT
+E3NDUwOTI2MjgsLTQyODcyNTgwNF19
 -->
