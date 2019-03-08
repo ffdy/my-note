@@ -17,7 +17,10 @@ echo 'flag{**********}';
 }
 ```
 简单的 %00 绕过
-直接构造 payload:`?a=
+直接构造 payload:`?num=1%00`
+得到 flag:`flag{bugku-789-ps-ssdf}`
+
+## 
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -26,6 +29,6 @@ echo 'flag{**********}';
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc2ODUxMTMsLTE3NDUwOTI2MjgsLT
-QyODcyNTgwNF19
+eyJoaXN0b3J5IjpbMjA4MDA3MjA1OSwtMTc0NTA5MjYyOCwtND
+I4NzI1ODA0XX0=
 -->
