@@ -155,7 +155,8 @@ eval("var_dump($$args);");
 ?>
 ```
 进入看见代码
-同样是 eval 
+同样是 eval() 函数,但是它进行了正则式匹配,不能像上一题一样绕过
+并且它用变量zuan
 
 
 ## 求 Getshell
@@ -165,6 +166,6 @@ eval("var_dump($$args);");
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0MjMxNDUyLC0xMjE5MDU1MDM5LC0xNz
-Q1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
+eyJoaXN0b3J5IjpbLTE3NDcyNjQ3NzYsLTEyMTkwNTUwMzksLT
+E3NDUwOTI2MjgsLTQyODcyNTgwNF19
 -->
