@@ -260,7 +260,8 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 
 ## flag在index里
 题面只有一个链接`click me? no`
-点击后会
+点击后会在 URL 后面加 file=show.php 
+想到 php://filer
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -269,6 +270,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTc4MTUzLDQ4NDUzOTc4MSwtMTIxOT
-A1NTAzOSwtMTc0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTE4MTQyMjI1NDMsMTY1NTc4MTUzLDQ4ND
+UzOTc4MSwtMTIxOTA1NTAzOSwtMTc0NTA5MjYyOCwtNDI4NzI1
+ODA0XX0=
 -->
