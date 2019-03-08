@@ -261,7 +261,9 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 ## flag在index里
 题面只有一个链接`click me? no`
 点击后会在 URL 后面加 file=show.php 
-想到 php://filter
+想到 php://filter 
+构造 payload:`?file=php://filter/read=convert.base64-encode/resource=index.php`
+得到 Base64 加密的in
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -270,7 +272,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzIzNzE4MSwxNjU1NzgxNTMsNDg0NT
-M5NzgxLC0xMjE5MDU1MDM5LC0xNzQ1MDkyNjI4LC00Mjg3MjU4
-MDRdfQ==
+eyJoaXN0b3J5IjpbOTMxMTQ0MDYzLDE0MDMyMzcxODEsMTY1NT
+c4MTUzLDQ4NDUzOTc4MSwtMTIxOTA1NTAzOSwtMTc0NTA5MjYy
+OCwtNDI4NzI1ODA0XX0=
 -->
