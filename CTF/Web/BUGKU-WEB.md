@@ -156,8 +156,11 @@ eval("var_dump($$args);");
 ```
 进入看见代码
 同样是 eval() 函数,但是它进行了正则式匹配,不能像上一题一样绕过
-并且它用变量转存了提交的 $_GET 变量值进行验证,所以也不好利用  preg_match() 函数不能处理数组的漏洞
-提示中 `flag In  the variable !` 想到 var_dump() 函数的 `$GLOBALS` 变量 `$$a` 会将 `$a` 的值替换为 GLOBALS,也就是说 `$$a` 会解析成 `$GLOBALS` 
+并且它用变量转存了提交的 `$_GET` 变量值进行验证,所以也不好利用  preg_match() 函数不能处理数组的漏洞
+提示中 `flag In  the variable !` 想到 var_dump() 函数的 `$GLOBALS` 变量 `$$a` 会将 `$a` 的值替换为 `GLOBALS`,也就是说 `$$a` 会解析成 `$GLOBALS` 
+
+综上,构造 payload:`?args=GLOBALS`
+提交得到 flag:`flag{92853051ab894a64f7865cf3c2128b34}`
 
 
 ## 求 Getshell
@@ -167,6 +170,6 @@ eval("var_dump($$args);");
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDA5ODg2LC0xMjE5MDU1MDM5LC0xNz
-Q1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
+eyJoaXN0b3J5IjpbLTUzMjg1NzE3OSwtMTIxOTA1NTAzOSwtMT
+c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
