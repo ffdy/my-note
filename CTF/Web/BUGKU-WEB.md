@@ -27,7 +27,9 @@ echo 'flag{**********}';
 ```php
 <!--&#75;&#69;&#89;&#123;&#74;&#50;&#115;&#97;&#52;&#50;&#97;&#104;&#74;&#75;&#45;&#72;&#83;&#49;&#49;&#73;&#73;&#73;&#125;-->
 ```
-粘贴到 Google Docs
+粘贴到 Google 上,回车
+得到 flag:`KEY{J2sa42ahJK-HS11III}`
+
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -36,6 +38,6 @@ echo 'flag{**********}';
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTkzMzQyOSwtMTc0NTA5MjYyOCwtND
-I4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTEyMTkwNTUwMzksLTE3NDUwOTI2MjgsLT
+QyODcyNTgwNF19
 -->
