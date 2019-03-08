@@ -120,6 +120,8 @@ setTimeout('myrefresh()',500);
 得到 flag: 
 `flag{dummy_game_1s_s0_popular}`
 
+## 本地包含
+进入看见代码,为代码
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -128,6 +130,6 @@ setTimeout('myrefresh()',500);
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTExOTk5LC0xMjE5MDU1MDM5LC0xNz
-Q1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
+eyJoaXN0b3J5IjpbMTYxMzgyMjE2OSwtMTIxOTA1NTAzOSwtMT
+c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
