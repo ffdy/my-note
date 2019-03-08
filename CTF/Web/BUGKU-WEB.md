@@ -39,7 +39,20 @@ echo 'flag{**********}';
 
 或者 Burp 抓包,修改 Host
 ```
+GET / HTTP/1.1
+Host: flag.baidu.com ##修改 Host
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+```
+提交的 flag
 
+## 
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -48,6 +61,6 @@ echo 'flag{**********}';
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzI5MjM4NjEsLTEyMTkwNTUwMzksLT
-E3NDUwOTI2MjgsLTQyODcyNTgwNF19
+eyJoaXN0b3J5IjpbLTg0MjQ2OTI3NiwtMTIxOTA1NTAzOSwtMT
+c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
