@@ -179,6 +179,9 @@ eval("var_dump($$args);");
 在 Response 里发现 flag:
 `flag{Bugku_k8_23s_istra}`
 
+## 网站被黑
+源码,抓包无果,Dirsearch saomian
+
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -186,6 +189,6 @@ eval("var_dump($$args);");
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTY1NDMwMywtMTIxOTA1NTAzOSwtMT
+eyJoaXN0b3J5IjpbMTc0NDQ5MDI3MywtMTIxOTA1NTAzOSwtMT
 c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
