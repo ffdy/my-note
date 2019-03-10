@@ -6,10 +6,12 @@
 	echo base64_decode($s); #bsae64解密
 	echo md5($s); #md5加密
 	echo sha1($s); #sha1加密
+	echo escape($s) #url加密
+	echo escape($s) #url解密
 ?>
 ```
 ```php
-<?php #urlwangqua加密
+<?php #url完全加密
 	$a=$_GET['a'];
 	function fullescape($in){
 		$out = '';
@@ -30,5 +32,5 @@
 ?>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDk2NzQzM119
+eyJoaXN0b3J5IjpbMTc1MTUxNjc2Ml19
 -->
