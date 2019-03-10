@@ -311,7 +311,7 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 读取 flag
 > print_r(glob('*.php')) 读取 .php 文件
 > print_r(glob('*.txt')) 读取 .txt 文件
-> 
+> print_r(scandir('./')) 扫描当前目录,并输出
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -320,7 +320,7 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5MjY3OTQxLC02NDU3Nzk2MDYsMTQwMz
-IzNzE4MSwxNjU1NzgxNTMsNDg0NTM5NzgxLC0xMjE5MDU1MDM5
-LC0xNzQ1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
+eyJoaXN0b3J5IjpbLTc3OTYzNDc4NCwtNjQ1Nzc5NjA2LDE0MD
+MyMzcxODEsMTY1NTc4MTUzLDQ4NDUzOTc4MSwtMTIxOTA1NTAz
+OSwtMTc0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
