@@ -305,8 +305,9 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 	$poc_2($_GET['s']) 
 ?>
 ```
-explode 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
-`
+explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
+`$pos_2` 用 `.` 将 `$pos_1` 数组连接成 `assert` 
+可以执行任意代码
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -315,7 +316,7 @@ explode 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDMxMjk5MiwtNjQ1Nzc5NjA2LDE0MD
+eyJoaXN0b3J5IjpbMTAzMTAxMDM0MCwtNjQ1Nzc5NjA2LDE0MD
 MyMzcxODEsMTY1NTc4MTUzLDQ4NDUzOTc4MSwtMTIxOTA1NTAz
 OSwtMTc0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
