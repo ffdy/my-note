@@ -4,7 +4,7 @@ import base64
 s=b'asdf' #必须是bytes类型
 s=base64.b64encode(s) #base64加密
 s=base64.b64decode(s) #base64解密
-s=base64. 
+s=base64.b32encode(s) #base32加密
 s=base64.b32decode(s) #base32解密
 ```
 ```py
@@ -19,5 +19,5 @@ sha1.update(s) #sha1加密
 sha1.hexdigest() #回显sha1值
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTIwNjcwNl19
+eyJoaXN0b3J5IjpbLTE0NDgxODEyNTRdfQ==
 -->
