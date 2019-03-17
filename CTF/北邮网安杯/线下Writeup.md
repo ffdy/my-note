@@ -173,6 +173,9 @@ v32 为前两部分形成的字符串
 当 v32=='}' 时 s1[l]='#' 对应 s1[43]
 其余情况 s1=v32[v27[l]-'A'] 
 直至 v27[l] 为空,s1 形成
+
+分析到这里,就可以了写脚本反解密了
+```cpp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjA4NDEzMl19
+eyJoaXN0b3J5IjpbLTQ1NTI1NDUxMl19
 -->
