@@ -199,11 +199,11 @@ int main(){
 建立映射关系,由于一,二部分将 v32 中重复部分去除了,所以映射关系是一对一的,不存在冲突
 
 一开始弄反了 v22 的顺序,因该是由 'A'-'Z' 的顺序
-
+![AeoAgA.png](https://s2.ax1x.com/2019/03/17/AeoAgA.png)
 运行脚本得到 :`BUPTACHECKINVERYSIMPLESOEASYCANNOTBESIMPLERA`
-
+![AeoEjI.png](https://s2.ax1x.com/2019/03/17/AeoEjI.png)
 将位置 4 和最后一位换成相应的 {} 
 得到 flag:`BUPT{CHECKINVERYSIMPLESOEASYCANNOTBESIMPLER}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0NDM0NTI0LDczNjQ0ODIzMV19
+eyJoaXN0b3J5IjpbLTYwODQ4NjU0NCw3MzY0NDgyMzFdfQ==
 -->
