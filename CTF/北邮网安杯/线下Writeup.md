@@ -198,7 +198,9 @@ int main(){
 ```
 建立映射关系,由于一,二部分将 v32 中重复部分去除了,所以映射关系是一对一的,不存在冲突
 
-一开始弄反了 v22 的sh
+一开始弄反了 v22 的顺序,因该是由 'A'-'Z' 的顺序
+
+运行脚本
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NzI4MDA2Ml19
+eyJoaXN0b3J5IjpbLTEzNzg2NjAwNjRdfQ==
 -->
