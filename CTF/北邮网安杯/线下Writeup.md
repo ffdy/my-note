@@ -165,6 +165,7 @@ for ( l = 0; v27[l]; ++l )
   if ( !strcmp(s1, "UQJO*PEIPAKFRIMXNKDJCINGIBNXPBFFGOUINKDJCIM#") )
     puts("Check in Successfully!");
 ```
+最后的 if 语句判断当 s1 与 `UQJO*PEIPAKFRIMXNKDJCINGIBNXPBFFGOUINKDJCIM#` 相等时才输出
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Mzc3MDUyXX0=
+eyJoaXN0b3J5IjpbLTIwOTM2MjE3NzFdfQ==
 -->
