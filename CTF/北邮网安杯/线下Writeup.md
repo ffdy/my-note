@@ -200,7 +200,7 @@ int main(){
 
 一开始弄反了 v22 的顺序,因该是由 'A'-'Z' 的顺序
 
-运行脚本
+运行脚本得到 :`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg2NjAwNjRdfQ==
+eyJoaXN0b3J5IjpbNzM2NDQ4MjMxXX0=
 -->
