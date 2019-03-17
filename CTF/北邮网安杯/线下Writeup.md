@@ -134,6 +134,16 @@ for ( i = 0; *(&v11 + i); ++i )
 在 *(v22+0) 到 *(v22+25) 之间查找将 *(v11+i) ,如果能找到,把它加在 v32 的后面,并把当前的 *(v22+j) 标记为 0 ,
 #### 第二个部分
 ```cpp
+for ( k = 0; k <= 25; ++k )
+  {
+    if ( *((_BYTE *)&v22 + k) )
+    {
+      v4 = v6++;
+      v32[v4] = *((_BYTE *)&v22 + k);
+    }
+  }
+```
+将第一部分没有标记的字符依次加在 v32 的后面
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDM5NDcxNV19
+eyJoaXN0b3J5IjpbODQyODQ0Mjc5XX0=
 -->
