@@ -168,7 +168,8 @@ for ( l = 0; v27[l]; ++l )
 最后的 if 语句判断当 s1 与 `UQJO*PEIPAKFRIMXNKDJCINGIBNXPBFFGOUINKDJCIM#` 相等时才输出正确
 向上看 s1 的形成,涉及到 v27,v32 两个字符串
 v27 为输入的字符串
-v32 为qiang
+v32 为前两部分形成的字符串
+当 v27=='{' shi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzI4OTM0OV19
+eyJoaXN0b3J5IjpbMTU5MTE4NTgyNF19
 -->
