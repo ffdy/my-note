@@ -170,7 +170,8 @@ for ( l = 0; v27[l]; ++l )
 v27 为输入的字符串
 v32 为前两部分形成的字符串
 当 v27=='{' 时 s1[l]='*' 对应 s1[4]
-当 v32=='}' 时 s1[l]='#' 对应 s1[]
+当 v32=='}' 时 s1[l]='#' 对应 s1[43]
+其余情况 s1=v32[v27-'A'] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzU1MDUxNjBdfQ==
+eyJoaXN0b3J5IjpbMTUzOTc5NjUyMV19
 -->
