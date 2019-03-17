@@ -198,6 +198,7 @@ int main(){
 }
 //32 BUPTISHEKYHGFEDCBAPONMLKJIXWVUTSRQZY
 ```
+建立映射关系,由于一,二部分将 v32 中重复部分去除了,所以映射
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDkzMzE2OF19
+eyJoaXN0b3J5IjpbMTE3MTc2MzAxOF19
 -->
