@@ -167,11 +167,11 @@ for ( l = 0; v27[l]; ++l )
 ```
 最后的 if 语句判断当 s1 与 `UQJO*PEIPAKFRIMXNKDJCINGIBNXPBFFGOUINKDJCIM#` 相等时才输出正确
 向上看 s1 的形成,涉及到 v27,v32 两个字符串
-v27 为输入的字符串
+v27 为输入的字符串,也就是我们要提交的 flag
 v32 为前两部分形成的字符串
 当 v27=='{' 时 s1[l]='*' 对应 s1[4]
 当 v32=='}' 时 s1[l]='#' 对应 s1[43]
-其余情况 s1=v32[v27-'A'] 
+其余情况 s1=v32[v27[l]-'A'] 直至 v27[l] 为空
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTc5NjUyMV19
+eyJoaXN0b3J5IjpbLTE2NzY3NzUwXX0=
 -->
