@@ -204,6 +204,8 @@ int main(){
 ![AeoEjI.png](https://s2.ax1x.com/2019/03/17/AeoEjI.png)
 将位置 4 和最后一位换成相应的 {} 
 得到 flag:`BUPT{CHECKINVERYSIMPLESOEASYCANNOTBESIMPLER}`
+
+在 Kali 下测试,成功!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODQ4NjU0NCw3MzY0NDgyMzFdfQ==
+eyJoaXN0b3J5IjpbMzkyNjI0MDcwLDczNjQ0ODIzMV19
 -->
