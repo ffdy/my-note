@@ -169,7 +169,7 @@ for ( l = 0; v27[l]; ++l )
 向上看 s1 的形成,涉及到 v27,v32 两个字符串
 v27 为输入的字符串
 v32 为前两部分形成的字符串
-当 v27=='{' shi
+当 v27=='{' 时 s1[l]='*' 对应 s1[4]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTE4NTgyNF19
+eyJoaXN0b3J5IjpbLTg2NzkwNDY5NF19
 -->
