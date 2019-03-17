@@ -131,7 +131,7 @@ for ( i = 0; *(&v11 + i); ++i )
     }
   }
 ```
-在 *(v22+0) 到 *(v22+25) 之间查找,如果能找到,把它加在 v32 的后面,并把当前
+在 *(v22+0) 到 *(v22+25) 之间查找将 *(v11+i) ,如果能找到,把它加在 v32 的后面,并把当前的 *(v22+j) 标记为 0 ,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDk4ODgwN119
+eyJoaXN0b3J5IjpbLTE3MjA0NTQyMjddfQ==
 -->
