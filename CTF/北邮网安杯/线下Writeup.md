@@ -115,8 +115,8 @@ int __cdecl main(int argc, const char **argv, const char **envp)
   return 0;
 }
 ```
-分析代码
-第一个部分
+### 分析代码
+#### 第一个部分
 ```cpp
 for ( i = 0; *(&v11 + i); ++i )
   {
@@ -132,6 +132,8 @@ for ( i = 0; *(&v11 + i); ++i )
   }
 ```
 在 *(v22+0) 到 *(v22+25) 之间查找将 *(v11+i) ,如果能找到,把它加在 v32 的后面,并把当前的 *(v22+j) 标记为 0 ,
+#### 第二个部分
+```cpp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjA0NTQyMjddfQ==
+eyJoaXN0b3J5IjpbLTQyMDM5NDcxNV19
 -->
