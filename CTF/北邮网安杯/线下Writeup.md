@@ -144,7 +144,8 @@ for ( k = 0; k <= 25; ++k )
   }
 ```
 将第一部分没有标记的字符依次加在 v32 的后面
-得到 v32 :`
+得到 v32 :`BUPTISHEKYACDFGJLMNOQRVWXZ`
+#### 第三个部分
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4MzI1NDk1XX0=
+eyJoaXN0b3J5IjpbLTk2OTkyNDQ1NV19
 -->
