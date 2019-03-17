@@ -8,7 +8,9 @@
 
 换成 IDA64 载入,找到主函数 main, 进入查看
 发现奇怪的相关字符串
+![AehXct.png](https://s2.ax1x.com/2019/03/17/AehXct.png)
+继续查看,发现输入正确的输出字符串
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0MDkyMTMzXX0=
+eyJoaXN0b3J5IjpbLTEwNjAyMzQyMzldfQ==
 -->
