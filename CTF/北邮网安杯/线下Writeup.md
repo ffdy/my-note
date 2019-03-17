@@ -200,6 +200,7 @@ int main(){
 
 一开始弄反了 v22 的顺序,因该是由 'A'-'Z' 的顺序
 ![AeoAgA.png](https://s2.ax1x.com/2019/03/17/AeoAgA.png)
+
 运行脚本得到 :`BUPTACHECKINVERYSIMPLESOEASYCANNOTBESIMPLERA`
 ![AeoEjI.png](https://s2.ax1x.com/2019/03/17/AeoEjI.png)
 将位置 4 和最后一位换成相应的 {} 
@@ -208,8 +209,8 @@ int main(){
 在 Kali 下测试,成功!
 ![AeTRLq.png](https://s2.ax1x.com/2019/03/17/AeTRLq.png)
 
-from 张芸峰（所
+from 张芸峰 (scaryffy)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkyMzQ3MiwzOTI2MjQwNzAsNzM2ND
-Q4MjMxXX0=
+eyJoaXN0b3J5IjpbLTg0NzI2MDEzMCwtMTk5OTIzNDcyLDM5Mj
+YyNDA3MCw3MzY0NDgyMzFdfQ==
 -->
