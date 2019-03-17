@@ -131,7 +131,7 @@ for ( i = 0; *(&v11 + i); ++i )
     }
   }
 ```
-将 v11 及之后字符与 v22-
+将 v11 及之后字符在 *(v22+0) 到 *(v22+25) 之间查找,如果能找到
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODA2MDU0MzBdfQ==
+eyJoaXN0b3J5IjpbLTE5NTUwNTEwNDNdfQ==
 -->
