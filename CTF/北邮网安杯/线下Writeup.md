@@ -115,6 +115,22 @@ int __cdecl main(int argc, const char **argv, const char **envp)
   return 0;
 }
 ```
+分析代码
+第一个部分
+```cpp
+for ( i = 0; *(&v11 + i); ++i )
+  {
+    for ( j = 0; j <= 25; ++j )
+    {
+      if ( *((_BYTE *)&v22 + j) == *(&v11 + i) )
+      {
+        *((_BYTE *)&v22 + j) = 0;
+        v3 = v6++;
+        v32[v3] = *(&v11 + i);
+      }
+    }
+  }
+  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTIwOTYwOF19
+eyJoaXN0b3J5IjpbOTQyMzQ5NTk1XX0=
 -->
