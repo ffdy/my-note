@@ -146,6 +146,25 @@ for ( k = 0; k <= 25; ++k )
 将第一部分没有标记的字符依次加在 v32 的后面
 得到 v32 :`BUPTISHEKYACDFGJLMNOQRVWXZ`
 #### 第三个部分
+```cpp
+for ( l = 0; v27[l]; ++l )
+  {
+    if ( v27[l] == 123 )//123='{'
+    {
+      s1[l] = 42;//42='*'
+    }
+    else if ( v27[l] == 125 )//125='}'
+    {
+      s1[l] = 35;//35='#'
+    }
+    else
+    {
+      s1[l] = v32[v27[l] - 65];
+    }
+  }
+  if ( !strcmp(s1, "UQJO*PEIPAKFRIMXNKDJCINGIBNXPBFFGOUINKDJCIM#") )
+    puts("Check in Successfully!");
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTkyNDQ1NV19
+eyJoaXN0b3J5IjpbLTk5Mzc3MDUyXX0=
 -->
