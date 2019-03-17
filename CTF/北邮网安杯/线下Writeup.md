@@ -198,7 +198,7 @@ int main(){
 ```
 建立映射关系,由于一,二部分将 v32 中重复部分去除了,所以映射关系是一对一的,不存在冲突
 
-由于
+一开始弄反了 v22 的sh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzMzk3NDQ2XX0=
+eyJoaXN0b3J5IjpbLTY2NzI4MDA2Ml19
 -->
