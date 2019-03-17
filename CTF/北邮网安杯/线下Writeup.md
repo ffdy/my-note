@@ -5,7 +5,7 @@
 ![AeheFH.png](https://s2.ax1x.com/2019/03/17/AeheFH.png)
 用 IDA 载入,提示为 64 位文件
 ![Aehapn.png](https://s2.ax1x.com/2019/03/17/Aehapn.png)
-换成 IDA64 载入
+换成 IDA64 载入,找到主函数 main 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDA4NDAzOF19
+eyJoaXN0b3J5IjpbLTE4NTQzMjEzOTNdfQ==
 -->
