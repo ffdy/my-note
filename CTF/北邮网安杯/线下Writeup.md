@@ -7,7 +7,8 @@
 ![Aehapn.png](https://s2.ax1x.com/2019/03/17/Aehapn.png)
 
 换成 IDA64 载入,找到主函数 main, 进入查看
+发现奇怪的相关字符串
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDY2MDA5M119
+eyJoaXN0b3J5IjpbODI0MDkyMTMzXX0=
 -->
