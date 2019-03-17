@@ -200,7 +200,9 @@ int main(){
 
 一开始弄反了 v22 的顺序,因该是由 'A'-'Z' 的顺序
 
-运行脚本得到 :`
+运行脚本得到 :`BUPTACHECKINVERYSIMPLESOEASYCANNOTBESIMPLERA`
+
+将位置 4 和最后一位换成相应的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2NDQ4MjMxXX0=
+eyJoaXN0b3J5IjpbLTE5NDc5MDA1NzUsNzM2NDQ4MjMxXX0=
 -->
