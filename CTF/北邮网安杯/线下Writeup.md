@@ -206,6 +206,10 @@ int main(){
 得到 flag:`BUPT{CHECKINVERYSIMPLESOEASYCANNOTBESIMPLER}`
 
 在 Kali 下测试,成功!
+![AeTRLq.png](https://s2.ax1x.com/2019/03/17/AeTRLq.png)
+
+from 张芸峰（所
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNjI0MDcwLDczNjQ0ODIzMV19
+eyJoaXN0b3J5IjpbLTE5OTkyMzQ3MiwzOTI2MjQwNzAsNzM2ND
+Q4MjMxXX0=
 -->
