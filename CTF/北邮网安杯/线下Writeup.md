@@ -193,12 +193,12 @@ int main(){
 	for(int i=0;i<strlen(s1);i++){
 		printf("%c",ww[s1[i]]+'A');
 	}
-	printf("%d\n",strlen(s1));
 	return 0;
 }
-//32 BUPTISHEKYHGFEDCBAPONMLKJIXWVUTSRQZY
 ```
-建立映射关系,由于一,二部分将 v32 中重复部分去除了,所以映射
+建立映射关系,由于一,二部分将 v32 中重复部分去除了,所以映射关系是一对一的,不存在冲突
+
+由于
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTc2MzAxOF19
+eyJoaXN0b3J5IjpbNzgzMzk3NDQ2XX0=
 -->
