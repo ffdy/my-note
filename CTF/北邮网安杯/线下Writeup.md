@@ -171,7 +171,8 @@ v27 为输入的字符串,也就是我们要提交的 flag
 v32 为前两部分形成的字符串
 当 v27=='{' 时 s1[l]='*' 对应 s1[4]
 当 v32=='}' 时 s1[l]='#' 对应 s1[43]
-其余情况 s1=v32[v27[l]-'A'] 直至 v27[l] 为空
+其余情况 s1=v32[v27[l]-'A'] 
+直至 v27[l] 为空,s1 形成
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzY3NzUwXX0=
+eyJoaXN0b3J5IjpbMTE1MjA4NDEzMl19
 -->
