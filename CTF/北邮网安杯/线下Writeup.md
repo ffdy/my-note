@@ -166,7 +166,9 @@ for ( l = 0; v27[l]; ++l )
     puts("Check in Successfully!");
 ```
 最后的 if 语句判断当 s1 与 `UQJO*PEIPAKFRIMXNKDJCINGIBNXPBFFGOUINKDJCIM#` 相等时才输出正确
-向上看 s1 的形成
+向上看 s1 的形成,涉及到 v27,v32 两个字符串
+v27 为输入的字符串
+v32 为qiang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzUyNzAwNTRdfQ==
+eyJoaXN0b3J5IjpbMTA1NzI4OTM0OV19
 -->
