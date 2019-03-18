@@ -19,8 +19,8 @@ show_source(__FILE__);
 `file('flag.php')`
 `show_source('flag.php')`
 
-## 爆破-3
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQ2MTAzODMsNjE3MjMzMTMwLDE5OD
-IxMDI5MjYsLTE3ODY5NjQzMjgsNDU5Mzk2MTU1XX0=
+eyJoaXN0b3J5IjpbLTQyODg4OTM2MSw2MTcyMzMxMzAsMTk4Mj
+EwMjkyNiwtMTc4Njk2NDMyOCw0NTkzOTYxNTVdfQ==
 -->
