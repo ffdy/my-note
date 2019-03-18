@@ -75,7 +75,7 @@ FCW 027F  Prec NEAR,53  Mask    1 1 1 1 1 1
 ## 游戏过关
 可以凭实力 1-8 通关游戏得 flag
 也可通过 IDA 反编译分析代码得
-flag：`
+flag
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5OTg5NjU0OV19
+eyJoaXN0b3J5IjpbLTEwMTkwODc2MzcsMTU5OTg5NjU0OV19
 -->
