@@ -1,5 +1,13 @@
 # 北邮网安杯 Writeup
-**from 张芸峰 (scaryffy)**
+有幸参加了北京邮电大学的北邮网安杯线下决赛
+虽然自己很菜，得分很低，但是这次比赛让我学到了很多，也对网络空间安全和 CTF 有了更加深入的了解
+最重要的是在这个过程中我认识到了一些兴趣、爱好相同很有趣的人，原来即使是同龄人中，还是有这么多的高手，自己需要学习的东西还很多
+
+------
+
+因为知识浅薄，CTF 我只完成了最简单的一道，下面是我对这道题不成熟的解法
+如果有什么错误之处，欢迎下方留言
+
 ## RE1
 下载之后发现不是 .exe 文件
 用 Winhex 打开,发现是 ELF 文件
@@ -209,8 +217,8 @@ int main(){
 在 Kali 下测试,成功!
 ![AeTRLq.png](https://s2.ax1x.com/2019/03/17/AeTRLq.png)
 
-from 张芸峰 (scaryffy)
+提交，一百分到手。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzI2MDEzMCwtMTk5OTIzNDcyLDM5Mj
-YyNDA3MCw3MzY0NDgyMzFdfQ==
+eyJoaXN0b3J5IjpbLTEwNDUxODQ4NiwtODQ3MjYwMTMwLC0xOT
+k5MjM0NzIsMzkyNjI0MDcwLDczNjQ0ODIzMV19
 -->
