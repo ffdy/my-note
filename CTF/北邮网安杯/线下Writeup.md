@@ -254,8 +254,34 @@ http://58.87.73.74:8084/statics../flag.php
 下载到flag.php的代码  
 5. php的一个小trick  
 [图片]
+
+对了  
+BUPT CSC Final  
+Web1  
+  
+Flag: BUPT{ng1nx_Can_mak3_th1ngs_n0t_Ok}  
+  
+Description: nginx can make PHP easier  
+  
+Port: 8081  
+  
+Web2  
+  
+Flag: BUPT{55Rf_1s_ann0y1ng_BuT_C@n_l3ad_t0_RC3}  
+  
+Description: 管理员在别的机器上藏了一份大礼哦  
+  
+Port: 8082  
+  
+Web3  
+  
+Flag: BUPT{x55_1s_interesting_t00}  
+  
+Description: 该交作业啦!  
+  
+Port: 8083
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Mzg3NTA0OCwtMTA0NTE4NDg2LC04ND
-cyNjAxMzAsLTE5OTkyMzQ3MiwzOTI2MjQwNzAsNzM2NDQ4MjMx
-XX0=
+eyJoaXN0b3J5IjpbOTc4MDUxNDkzLC00NjM4NzUwNDgsLTEwND
+UxODQ4NiwtODQ3MjYwMTMwLC0xOTk5MjM0NzIsMzkyNjI0MDcw
+LDczNjQ0ODIzMV19
 -->
