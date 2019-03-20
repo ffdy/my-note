@@ -212,7 +212,7 @@ int main(){
 运行脚本得到 :`BUPTACHECKINVERYSIMPLESOEASYCANNOTBESIMPLERA`
 ![AeoEjI.png](https://s2.ax1x.com/2019/03/17/AeoEjI.png)
 将位置 4 和最后一位换成相应的 {} 
-得到 flag:`BUPT{CHECKINVERYSIMPLESOEASYCANNOTBESIMPLER}`
+得到 flag:``
 
 在 Kali 下测试,成功!
 ![AeTRLq.png](https://s2.ax1x.com/2019/03/17/AeTRLq.png)
@@ -281,7 +281,7 @@ Description: 该交作业啦!
   
 Port: 8083
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4MDUxNDkzLC00NjM4NzUwNDgsLTEwND
-UxODQ4NiwtODQ3MjYwMTMwLC0xOTk5MjM0NzIsMzkyNjI0MDcw
-LDczNjQ0ODIzMV19
+eyJoaXN0b3J5IjpbMjA4MDk2NzA2Myw5NzgwNTE0OTMsLTQ2Mz
+g3NTA0OCwtMTA0NTE4NDg2LC04NDcyNjAxMzAsLTE5OTkyMzQ3
+MiwzOTI2MjQwNzAsNzM2NDQ4MjMxXX0=
 -->
