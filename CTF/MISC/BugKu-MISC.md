@@ -6,8 +6,10 @@
 find KEY
 # 细心的大象
 查看属性，有奇怪的备注
-
+base64 解码
+foremost 1.jpg 得到 rar 
+hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTMyMzA3NiwxMjc0MzU4OTQ0LDExOD
-Y0NDg4MTFdfQ==
+eyJoaXN0b3J5IjpbLTIzMDYxNzYwLDEyNzQzNTg5NDQsMTE4Nj
+Q0ODgxMV19
 -->
