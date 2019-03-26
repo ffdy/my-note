@@ -1,7 +1,11 @@
 # 签到题
 关注微信公众号：Bugku即可
 # 这是一张单纯的图片
-
+用 winhex 打开，发现最后有奇怪的字符
+`&#107;&#101;&#121;&#123;&#121;&#111;&#117;&#32;&#97;&#114;&#101;&#32;&#114;&#105;&#103;&#104;&#116;&#125;`
+发现是一种编码
+在 Chrome 搜索框中解码（回车）得到 flag
+# 
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -14,6 +18,6 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY0OTI0OTMsLTIzMDYxNzYwLDEyNz
-QzNTg5NDQsMTE4NjQ0ODgxMV19
+eyJoaXN0b3J5IjpbLTE2NDk3MjQ4NjgsLTEyNzY0OTI0OTMsLT
+IzMDYxNzYwLDEyNzQzNTg5NDQsMTE4NjQ0ODgxMV19
 -->
