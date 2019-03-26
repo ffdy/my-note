@@ -6,7 +6,7 @@
 发现是一种编码
 在 Chrome 搜索框中解码（回车）得到 flag
 # 隐写
-
+png 文件
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -19,6 +19,6 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4ODI5OTk2OSwtMTI3NjQ5MjQ5MywtMj
-MwNjE3NjAsMTI3NDM1ODk0NCwxMTg2NDQ4ODExXX0=
+eyJoaXN0b3J5IjpbMzE4MjEwODMsLTEyNzY0OTI0OTMsLTIzMD
+YxNzYwLDEyNzQzNTg5NDQsMTE4NjQ0ODgxMV19
 -->
