@@ -30,7 +30,8 @@ binwalk 分析,发现确实粘连了东西
 foremost 还原得到另一张图片
 上面有 flag
 # 猜
-是一张只有半边脸的
+是一张只有半边脸的人像,提示是某人的名字的全拼,直接 Google 搜图
+
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -43,7 +44,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDgwODI0Nyw5MDE5NDAzODYsLTM3OD
+eyJoaXN0b3J5IjpbLTQ4NTc0NTEyNyw5MDE5NDAzODYsLTM3OD
 AwMDI3Nyw4MTMyMDgzMDMsLTE1ODc4NzUyMTksMzE4MjEwODMs
 LTEyNzY0OTI0OTMsLTIzMDYxNzYwLDEyNzQzNTg5NDQsMTE4Nj
 Q0ODgxMV19
