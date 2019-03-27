@@ -33,7 +33,8 @@ foremost 还原得到另一张图片
 是一张只有半边脸的人像,提示是某人的名字的全拼,直接 Google 搜图
 这个人是刘亦菲,得到 flag
 # 宽带信息泄露
-下载到一个 bin 文件,因为是宽带信息,所以用
+下载到一个 bin 文件,因为是宽带信息,所以用 RouterPassView 打开
+提示中
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -46,7 +47,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODg1NTYwOTksOTAxOTQwMzg2LC0zNz
+eyJoaXN0b3J5IjpbLTE0MDA4MTQxNTIsOTAxOTQwMzg2LC0zNz
 gwMDAyNzcsODEzMjA4MzAzLC0xNTg3ODc1MjE5LDMxODIxMDgz
 LC0xMjc2NDkyNDkzLC0yMzA2MTc2MCwxMjc0MzU4OTQ0LDExOD
 Y0NDg4MTFdfQ==
