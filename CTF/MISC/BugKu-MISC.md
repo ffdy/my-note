@@ -17,7 +17,8 @@ hex 修改高度得到 flag
 解压 Word 文档, 没有发现什么奇怪的文件
 打开所有的文件查找 `{` 得到 flag
 # 啊哒
-
+解压得到 jpg 文件
+用 010 打开
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -30,7 +31,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyNjU1NjQ3LDgxMzIwODMwMywtMTU4Nz
-g3NTIxOSwzMTgyMTA4MywtMTI3NjQ5MjQ5MywtMjMwNjE3NjAs
-MTI3NDM1ODk0NCwxMTg2NDQ4ODExXX0=
+eyJoaXN0b3J5IjpbLTk3Nzk2OTE0OCw4MTMyMDgzMDMsLTE1OD
+c4NzUyMTksMzE4MjEwODMsLTEyNzY0OTI0OTMsLTIzMDYxNzYw
+LDEyNzQzNTg5NDQsMTE4NjQ0ODgxMV19
 -->
