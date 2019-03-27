@@ -70,11 +70,13 @@ QR_Research 扫码得 flag
 DeathTime 记录死亡次数
 temp 不知道是啥,好像一直没变
 save1 是存档一,第 3 字节存储关卡数,最后一关是 35 
- 
+ 在显示 game over 之前截屏~~(考验单身手速的时候到了)~~
+ 得到 flag
 ## 白哥的鸽子
 010 打开 jpg 文件在最后发现多余字符
 分析为栅栏密码,栅栏数为 3
 解密得 flag
+## 
 ## 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -87,10 +89,10 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDI5NDA1MSwxNDY2MjMxMDUyLDE5NT
-c0NzQ5NjUsLTE2NTQ4MjAxMDcsLTg0NzI0OTkyMCwtMTY5MDg5
-OTU0MiwxNzE2NDI4OTY3LC04OTY1MzY5NzcsLTU4NDY5MTUwMi
-w0MjkyODY0NjgsOTAxOTQwMzg2LC0zNzgwMDAyNzcsODEzMjA4
-MzAzLC0xNTg3ODc1MjE5LDMxODIxMDgzLC0xMjc2NDkyNDkzLC
-0yMzA2MTc2MCwxMjc0MzU4OTQ0LDExODY0NDg4MTFdfQ==
+eyJoaXN0b3J5IjpbODUzMzYyOTUwLDE0NjYyMzEwNTIsMTk1Nz
+Q3NDk2NSwtMTY1NDgyMDEwNywtODQ3MjQ5OTIwLC0xNjkwODk5
+NTQyLDE3MTY0Mjg5NjcsLTg5NjUzNjk3NywtNTg0NjkxNTAyLD
+QyOTI4NjQ2OCw5MDE5NDAzODYsLTM3ODAwMDI3Nyw4MTMyMDgz
+MDMsLTE1ODc4NzUyMTksMzE4MjEwODMsLTEyNzY0OTI0OTMsLT
+IzMDYxNzYwLDEyNzQzNTg5NDQsMTE4NjQ0ODgxMV19
 -->
