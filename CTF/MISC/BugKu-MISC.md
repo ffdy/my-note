@@ -27,7 +27,10 @@ foremost 还原,得到一个 zip 文件
 # 又一张图片,还单纯吗
 010 打开,发现后面粘连了文件
 binwalk 分析,发现确实粘连了东西
-foremost 恢复
+foremost 还原得到另一张图片
+上面有 flag
+# 猜
+是一张只有半边脸的
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -40,8 +43,8 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODEyODk4LDkwMTk0MDM4NiwtMzc4MD
-AwMjc3LDgxMzIwODMwMywtMTU4Nzg3NTIxOSwzMTgyMTA4Mywt
-MTI3NjQ5MjQ5MywtMjMwNjE3NjAsMTI3NDM1ODk0NCwxMTg2ND
-Q4ODExXX0=
+eyJoaXN0b3J5IjpbLTMyMDgwODI0Nyw5MDE5NDAzODYsLTM3OD
+AwMDI3Nyw4MTMyMDgzMDMsLTE1ODc4NzUyMTksMzE4MjEwODMs
+LTEyNzY0OTI0OTMsLTIzMDYxNzYwLDEyNzQzNTg5NDQsMTE4Nj
+Q0ODgxMV19
 -->
