@@ -56,7 +56,8 @@ rar 解压发现不是 rar 文件,file 查看发现是 zip 文件
 得到一个二维码
 QR_Research 扫码得 flag
 # 闪的好快
-得到一个二维码的 gif 文件,
+得到一个二维码的 gif 文件,随便扫会得到不同的字母
+`convert masterGO.gif a.png` 将其maiyizheng 
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -69,9 +70,9 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA4OTk1NDIsMTcxNjQyODk2NywtOD
-k2NTM2OTc3LC01ODQ2OTE1MDIsNDI5Mjg2NDY4LDkwMTk0MDM4
-NiwtMzc4MDAwMjc3LDgxMzIwODMwMywtMTU4Nzg3NTIxOSwzMT
-gyMTA4MywtMTI3NjQ5MjQ5MywtMjMwNjE3NjAsMTI3NDM1ODk0
-NCwxMTg2NDQ4ODExXX0=
+eyJoaXN0b3J5IjpbLTE4NTQ2Nzk2ODMsLTE2OTA4OTk1NDIsMT
+cxNjQyODk2NywtODk2NTM2OTc3LC01ODQ2OTE1MDIsNDI5Mjg2
+NDY4LDkwMTk0MDM4NiwtMzc4MDAwMjc3LDgxMzIwODMwMywtMT
+U4Nzg3NTIxOSwzMTgyMTA4MywtMTI3NjQ5MjQ5MywtMjMwNjE3
+NjAsMTI3NDM1ODk0NCwxMTg2NDQ4ODExXX0=
 -->
