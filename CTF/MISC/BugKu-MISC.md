@@ -12,7 +12,9 @@ hex 修改高度得到 flag
 用 wireshark 打开
 追踪 TCP 流得到 flag
 # 眼见非实(ISCCCTF)
-解压得到 Word 文档,dekai
+解压得到 Word 文档,打开发现文件损坏
+猜测文件中加了东西
+解压 Word 文档
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -25,7 +27,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU3NjUzOTYsODEzMjA4MzAzLC0xNT
-g3ODc1MjE5LDMxODIxMDgzLC0xMjc2NDkyNDkzLC0yMzA2MTc2
-MCwxMjc0MzU4OTQ0LDExODY0NDg4MTFdfQ==
+eyJoaXN0b3J5IjpbMTM2MDcwMTExMSw4MTMyMDgzMDMsLTE1OD
+c4NzUyMTksMzE4MjEwODMsLTEyNzY0OTI0OTMsLTIzMDYxNzYw
+LDEyNzQzNTg5NDQsMTE4NjQ0ODgxMV19
 -->
