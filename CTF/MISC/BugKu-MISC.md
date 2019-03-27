@@ -64,7 +64,9 @@ QR_Research 扫码得 flag
 打开是一个游戏
 玩了一下,发现应该不可能通过~~(you can you up)~~
 退出发现根本没有关闭选项
-只能强行结束进程
+只能强行结束进程.....
+发现生成了三个无后缀的文件
+Deathtime
 ## 白哥的鸽子
 010 打开 jpg 文件在最后发现多余字符
 分析为栅栏密码,栅栏数为 3
@@ -81,10 +83,10 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjIzMTA1MiwxOTU3NDc0OTY1LC0xNj
-U0ODIwMTA3LC04NDcyNDk5MjAsLTE2OTA4OTk1NDIsMTcxNjQy
-ODk2NywtODk2NTM2OTc3LC01ODQ2OTE1MDIsNDI5Mjg2NDY4LD
-kwMTk0MDM4NiwtMzc4MDAwMjc3LDgxMzIwODMwMywtMTU4Nzg3
-NTIxOSwzMTgyMTA4MywtMTI3NjQ5MjQ5MywtMjMwNjE3NjAsMT
-I3NDM1ODk0NCwxMTg2NDQ4ODExXX0=
+eyJoaXN0b3J5IjpbLTE1OTk1OTMxODcsMTQ2NjIzMTA1MiwxOT
+U3NDc0OTY1LC0xNjU0ODIwMTA3LC04NDcyNDk5MjAsLTE2OTA4
+OTk1NDIsMTcxNjQyODk2NywtODk2NTM2OTc3LC01ODQ2OTE1MD
+IsNDI5Mjg2NDY4LDkwMTk0MDM4NiwtMzc4MDAwMjc3LDgxMzIw
+ODMwMywtMTU4Nzg3NTIxOSwzMTgyMTA4MywtMTI3NjQ5MjQ5My
+wtMjMwNjE3NjAsMTI3NDM1ODk0NCwxMTg2NDQ4ODExXX0=
 -->
