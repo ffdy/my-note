@@ -64,7 +64,7 @@ QR_Research 扫码得 flag
 打开是一个游戏
 玩了一下,发现应该不可能通过~~(you can you up)~~
 退出发现根本没有关闭选项
-只能强行jieshu
+只能强行结束进程
 ## 白哥的鸽子
 010 打开 jpg 文件在最后发现多余字符
 分析为栅栏密码,栅栏数为 3
@@ -81,10 +81,10 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODIzMDY2MTQsMTk1NzQ3NDk2NSwtMT
-Y1NDgyMDEwNywtODQ3MjQ5OTIwLC0xNjkwODk5NTQyLDE3MTY0
-Mjg5NjcsLTg5NjUzNjk3NywtNTg0NjkxNTAyLDQyOTI4NjQ2OC
-w5MDE5NDAzODYsLTM3ODAwMDI3Nyw4MTMyMDgzMDMsLTE1ODc4
-NzUyMTksMzE4MjEwODMsLTEyNzY0OTI0OTMsLTIzMDYxNzYwLD
-EyNzQzNTg5NDQsMTE4NjQ0ODgxMV19
+eyJoaXN0b3J5IjpbMTQ2NjIzMTA1MiwxOTU3NDc0OTY1LC0xNj
+U0ODIwMTA3LC04NDcyNDk5MjAsLTE2OTA4OTk1NDIsMTcxNjQy
+ODk2NywtODk2NTM2OTc3LC01ODQ2OTE1MDIsNDI5Mjg2NDY4LD
+kwMTk0MDM4NiwtMzc4MDAwMjc3LDgxMzIwODMwMywtMTU4Nzg3
+NTIxOSwzMTgyMTA4MywtMTI3NjQ5MjQ5MywtMjMwNjE3NjAsMT
+I3NDM1ODk0NCwxMTg2NDQ4ODExXX0=
 -->
