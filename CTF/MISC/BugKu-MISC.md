@@ -35,7 +35,10 @@ foremost 还原得到另一张图片
 # 宽带信息泄露
 下载到一个 bin 文件,因为是宽带信息,所以用 RouterPassView 打开
 提示中是用户名,查找 username 得到 flag 
-# 
+# 隐写2
+用 010 打开,发现 flag.rar 字样
+用 binwalk 分析,发现粘连
+foremost 还原得到加密的
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -48,8 +51,8 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5Mjg2NDY4LDkwMTk0MDM4NiwtMzc4MD
-AwMjc3LDgxMzIwODMwMywtMTU4Nzg3NTIxOSwzMTgyMTA4Mywt
-MTI3NjQ5MjQ5MywtMjMwNjE3NjAsMTI3NDM1ODk0NCwxMTg2ND
-Q4ODExXX0=
+eyJoaXN0b3J5IjpbLTE1NzU5MzIxMTEsNDI5Mjg2NDY4LDkwMT
+k0MDM4NiwtMzc4MDAwMjc3LDgxMzIwODMwMywtMTU4Nzg3NTIx
+OSwzMTgyMTA4MywtMTI3NjQ5MjQ5MywtMjMwNjE3NjAsMTI3ND
+M1ODk0NCwxMTg2NDQ4ODExXX0=
 -->
