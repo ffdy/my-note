@@ -55,7 +55,8 @@ rar 解压发现不是 rar 文件,file 查看发现是 zip 文件
 直接复制到 Chrome 搜索框中回车
 得到一个二维码
 QR_Research 扫码得 flag
-# 
+# 闪的好快
+得到一个二维码的 gif 文件,
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -68,7 +69,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDgxNDU5MzMsMTcxNjQyODk2NywtOD
+eyJoaXN0b3J5IjpbLTE2OTA4OTk1NDIsMTcxNjQyODk2NywtOD
 k2NTM2OTc3LC01ODQ2OTE1MDIsNDI5Mjg2NDY4LDkwMTk0MDM4
 NiwtMzc4MDAwMjc3LDgxMzIwODMwMywtMTU4Nzg3NTIxOSwzMT
 gyMTA4MywtMTI3NjQ5MjQ5MywtMjMwNjE3NjAsMTI3NDM1ODk0
