@@ -25,6 +25,7 @@ foremost 还原,得到一个 zip 文件
 继续分析原图片,发现 hex 值中有一段 16 进制数 `73646E6973635F32303138` 解码得到 `sdnisc_2018` 
 即为密码,解压 zip 得到 flag
 # 又一张图片,还单纯吗
+
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -37,7 +38,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Njk0NDI0NCwtMzc4MDAwMjc3LDgxMz
-IwODMwMywtMTU4Nzg3NTIxOSwzMTgyMTA4MywtMTI3NjQ5MjQ5
-MywtMjMwNjE3NjAsMTI3NDM1ODk0NCwxMTg2NDQ4ODExXX0=
+eyJoaXN0b3J5IjpbOTAxOTQwMzg2LC0zNzgwMDAyNzcsODEzMj
+A4MzAzLC0xNTg3ODc1MjE5LDMxODIxMDgzLC0xMjc2NDkyNDkz
+LC0yMzA2MTc2MCwxMjc0MzU4OTQ0LDExODY0NDg4MTFdfQ==
 -->
