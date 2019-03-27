@@ -76,7 +76,8 @@ save1 是存档一,第 3 字节存储关卡数,最后一关是 35
 010 打开 jpg 文件在最后发现多余字符
 分析为栅栏密码,栅栏数为 3
 解密得 flag
-## 
+## linux
+ji
 ## 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -89,10 +90,11 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzMzYyOTUwLDE0NjYyMzEwNTIsMTk1Nz
-Q3NDk2NSwtMTY1NDgyMDEwNywtODQ3MjQ5OTIwLC0xNjkwODk5
-NTQyLDE3MTY0Mjg5NjcsLTg5NjUzNjk3NywtNTg0NjkxNTAyLD
-QyOTI4NjQ2OCw5MDE5NDAzODYsLTM3ODAwMDI3Nyw4MTMyMDgz
-MDMsLTE1ODc4NzUyMTksMzE4MjEwODMsLTEyNzY0OTI0OTMsLT
-IzMDYxNzYwLDEyNzQzNTg5NDQsMTE4NjQ0ODgxMV19
+eyJoaXN0b3J5IjpbLTE2OTI2NDE1MTksODUzMzYyOTUwLDE0Nj
+YyMzEwNTIsMTk1NzQ3NDk2NSwtMTY1NDgyMDEwNywtODQ3MjQ5
+OTIwLC0xNjkwODk5NTQyLDE3MTY0Mjg5NjcsLTg5NjUzNjk3Ny
+wtNTg0NjkxNTAyLDQyOTI4NjQ2OCw5MDE5NDAzODYsLTM3ODAw
+MDI3Nyw4MTMyMDgzMDMsLTE1ODc4NzUyMTksMzE4MjEwODMsLT
+EyNzY0OTI0OTMsLTIzMDYxNzYwLDEyNzQzNTg5NDQsMTE4NjQ0
+ODgxMV19
 -->
