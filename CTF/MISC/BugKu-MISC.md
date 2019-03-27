@@ -44,7 +44,8 @@ rar 解压发现不是 rar 文件,file 查看发现是 zip 文件
 
 1. linux 工具暴力破解  `fcrackzip -b -l 3-3 -c1 -v flag.zip` 
 2. ARCHPR 暴力破解
-3. 解出提示中的密码
+3. 想出提示中的密码()
+
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -57,9 +58,9 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjQyODk2NywtODk2NTM2OTc3LC01OD
-Q2OTE1MDIsNDI5Mjg2NDY4LDkwMTk0MDM4NiwtMzc4MDAwMjc3
-LDgxMzIwODMwMywtMTU4Nzg3NTIxOSwzMTgyMTA4MywtMTI3Nj
-Q5MjQ5MywtMjMwNjE3NjAsMTI3NDM1ODk0NCwxMTg2NDQ4ODEx
-XX0=
+eyJoaXN0b3J5IjpbLTUyMTU2ODgyOCwxNzE2NDI4OTY3LC04OT
+Y1MzY5NzcsLTU4NDY5MTUwMiw0MjkyODY0NjgsOTAxOTQwMzg2
+LC0zNzgwMDAyNzcsODEzMjA4MzAzLC0xNTg3ODc1MjE5LDMxOD
+IxMDgzLC0xMjc2NDkyNDkzLC0yMzA2MTc2MCwxMjc0MzU4OTQ0
+LDExODY0NDg4MTFdfQ==
 -->
