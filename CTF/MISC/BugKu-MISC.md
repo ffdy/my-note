@@ -38,7 +38,8 @@ foremost 还原得到另一张图片
 # 隐写2
 用 010 打开,发现 flag.rar 字样
 用 binwalk 分析,发现粘连
-foremost 还原得到加密的
+foremost 还原得到加密的 flag.rar 和一个提示 jpg 文件
+
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -51,8 +52,8 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU5MzIxMTEsNDI5Mjg2NDY4LDkwMT
-k0MDM4NiwtMzc4MDAwMjc3LDgxMzIwODMwMywtMTU4Nzg3NTIx
-OSwzMTgyMTA4MywtMTI3NjQ5MjQ5MywtMjMwNjE3NjAsMTI3ND
-M1ODk0NCwxMTg2NDQ4ODExXX0=
+eyJoaXN0b3J5IjpbLTU4NDY5MTUwMiw0MjkyODY0NjgsOTAxOT
+QwMzg2LC0zNzgwMDAyNzcsODEzMjA4MzAzLC0xNTg3ODc1MjE5
+LDMxODIxMDgzLC0xMjc2NDkyNDkzLC0yMzA2MTc2MCwxMjc0Mz
+U4OTQ0LDExODY0NDg4MTFdfQ==
 -->
