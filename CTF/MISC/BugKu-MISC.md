@@ -19,7 +19,10 @@ hex 修改高度得到 flag
 # 啊哒
 解压得到 jpg 文件
 用 010 打开,在最后发现 flag.txt
-用 binwalk 分析
+用 binwalk 分析发现 flag.txt
+foremost 还原,得到一个 zip 文件
+解压发现需要密码
+继续分析原图片
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -32,7 +35,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODAwMDI3Nyw4MTMyMDgzMDMsLTE1OD
-c4NzUyMTksMzE4MjEwODMsLTEyNzY0OTI0OTMsLTIzMDYxNzYw
-LDEyNzQzNTg5NDQsMTE4NjQ0ODgxMV19
+eyJoaXN0b3J5IjpbLTE3NTYwOTY5NTgsLTM3ODAwMDI3Nyw4MT
+MyMDgzMDMsLTE1ODc4NzUyMTksMzE4MjEwODMsLTEyNzY0OTI0
+OTMsLTIzMDYxNzYwLDEyNzQzNTg5NDQsMTE4NjQ0ODgxMV19
 -->
