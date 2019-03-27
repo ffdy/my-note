@@ -81,7 +81,8 @@ save1 是存档一,第 3 字节存储关卡数,最后一关是 35
 用 strings 命令分离字符串发现最后有 key
 得到 flag
 ## 隐写3
-
+下载得到 png 文件
+图片看起来缺了一半
 ## 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -94,11 +95,11 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDU5OTIxNSw4NTMzNjI5NTAsMTQ2Nj
-IzMTA1MiwxOTU3NDc0OTY1LC0xNjU0ODIwMTA3LC04NDcyNDk5
-MjAsLTE2OTA4OTk1NDIsMTcxNjQyODk2NywtODk2NTM2OTc3LC
-01ODQ2OTE1MDIsNDI5Mjg2NDY4LDkwMTk0MDM4NiwtMzc4MDAw
-Mjc3LDgxMzIwODMwMywtMTU4Nzg3NTIxOSwzMTgyMTA4MywtMT
-I3NjQ5MjQ5MywtMjMwNjE3NjAsMTI3NDM1ODk0NCwxMTg2NDQ4
-ODExXX0=
+eyJoaXN0b3J5IjpbMTc3NjA1MDk4NCwyMDU0NTk5MjE1LDg1Mz
+M2Mjk1MCwxNDY2MjMxMDUyLDE5NTc0NzQ5NjUsLTE2NTQ4MjAx
+MDcsLTg0NzI0OTkyMCwtMTY5MDg5OTU0MiwxNzE2NDI4OTY3LC
+04OTY1MzY5NzcsLTU4NDY5MTUwMiw0MjkyODY0NjgsOTAxOTQw
+Mzg2LC0zNzgwMDAyNzcsODEzMjA4MzAzLC0xNTg3ODc1MjE5LD
+MxODIxMDgzLC0xMjc2NDkyNDkzLC0yMzA2MTc2MCwxMjc0MzU4
+OTQ0XX0=
 -->
