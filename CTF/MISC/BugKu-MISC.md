@@ -62,7 +62,7 @@ QR_Research 扫码得 flag
 ## 白哥的鸽子
 010 打开 jpg 文件在最后发现多余字符
 分析为栅栏密码,栅栏数为 3
-
+解密得 flag
 ## 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -75,7 +75,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTIxNDc4NywtMTY1NDgyMDEwNywtOD
+eyJoaXN0b3J5IjpbMTk1NzQ3NDk2NSwtMTY1NDgyMDEwNywtOD
 Q3MjQ5OTIwLC0xNjkwODk5NTQyLDE3MTY0Mjg5NjcsLTg5NjUz
 Njk3NywtNTg0NjkxNTAyLDQyOTI4NjQ2OCw5MDE5NDAzODYsLT
 M3ODAwMDI3Nyw4MTMyMDgzMDMsLTE1ODc4NzUyMTksMzE4MjEw
