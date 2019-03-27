@@ -9,7 +9,7 @@
 png 文件入门题
 hex 修改高度得到 flag
 # telent
-用 wir
+用 wireshark 打开
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -22,7 +22,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5MzAwNjgsLTE1ODc4NzUyMTksMzE4Mj
-EwODMsLTEyNzY0OTI0OTMsLTIzMDYxNzYwLDEyNzQzNTg5NDQs
-MTE4NjQ0ODgxMV19
+eyJoaXN0b3J5IjpbLTE1MDAwNjgwNzMsLTE1ODc4NzUyMTksMz
+E4MjEwODMsLTEyNzY0OTI0OTMsLTIzMDYxNzYwLDEyNzQzNTg5
+NDQsMTE4NjQ0ODgxMV19
 -->
