@@ -10,6 +10,7 @@ png 文件入门题
 hex 修改高度得到 flag
 # telent
 用 wireshark 打开
+追踪 TCP 流得到 flag
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -22,7 +23,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDAwNjgwNzMsLTE1ODc4NzUyMTksMz
-E4MjEwODMsLTEyNzY0OTI0OTMsLTIzMDYxNzYwLDEyNzQzNTg5
-NDQsMTE4NjQ0ODgxMV19
+eyJoaXN0b3J5IjpbODEzMjA4MzAzLC0xNTg3ODc1MjE5LDMxOD
+IxMDgzLC0xMjc2NDkyNDkzLC0yMzA2MTc2MCwxMjc0MzU4OTQ0
+LDExODY0NDg4MTFdfQ==
 -->
