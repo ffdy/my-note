@@ -44,7 +44,11 @@ rar 解压发现不是 rar 文件,file 查看发现是 zip 文件
 
 1. linux 工具暴力破解  `fcrackzip -b -l 3-3 -c1 -v flag.zip` 
 2. ARCHPR 暴力破解
-3. 想出提示中的密码()
+3. 想出提示中的密码(考验脑洞的时刻到了)
+解出密码是 871
+解压,又得到一张图片,还是 010 打开
+发现最后有 flag
+要把 @ 改为 a,大概是为了防止有人直接搜索 flag 得答案吧~~(出题人**)~~
 
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
@@ -58,7 +62,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTU2ODgyOCwxNzE2NDI4OTY3LC04OT
+eyJoaXN0b3J5IjpbMTMzODU5OTExMywxNzE2NDI4OTY3LC04OT
 Y1MzY5NzcsLTU4NDY5MTUwMiw0MjkyODY0NjgsOTAxOTQwMzg2
 LC0zNzgwMDAyNzcsODEzMjA4MzAzLC0xNTg3ODc1MjE5LDMxOD
 IxMDgzLC0xMjc2NDkyNDkzLC0yMzA2MTc2MCwxMjc0MzU4OTQ0
