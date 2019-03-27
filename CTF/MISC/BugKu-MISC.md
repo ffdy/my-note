@@ -59,6 +59,10 @@ QR_Research 扫码得 flag
 得到一个二维码的 gif 文件,随便扫会得到不同的字母
 `convert masterGO.gif a.png` 将其每一帧分离
 依次扫描得到 flag 
+## 白哥的鸽子
+010 打开 jpg 文件在最后发现多余字符
+分析为栅栏密码,栅栏数为 3
+
 ## 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -71,10 +75,10 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTQ4MjAxMDcsLTg0NzI0OTkyMCwtMT
-Y5MDg5OTU0MiwxNzE2NDI4OTY3LC04OTY1MzY5NzcsLTU4NDY5
-MTUwMiw0MjkyODY0NjgsOTAxOTQwMzg2LC0zNzgwMDAyNzcsOD
-EzMjA4MzAzLC0xNTg3ODc1MjE5LDMxODIxMDgzLC0xMjc2NDky
-NDkzLC0yMzA2MTc2MCwxMjc0MzU4OTQ0LDExODY0NDg4MTFdfQ
-==
+eyJoaXN0b3J5IjpbLTg3NTIxNDc4NywtMTY1NDgyMDEwNywtOD
+Q3MjQ5OTIwLC0xNjkwODk5NTQyLDE3MTY0Mjg5NjcsLTg5NjUz
+Njk3NywtNTg0NjkxNTAyLDQyOTI4NjQ2OCw5MDE5NDAzODYsLT
+M3ODAwMDI3Nyw4MTMyMDgzMDMsLTE1ODc4NzUyMTksMzE4MjEw
+ODMsLTEyNzY0OTI0OTMsLTIzMDYxNzYwLDEyNzQzNTg5NDQsMT
+E4NjQ0ODgxMV19
 -->
