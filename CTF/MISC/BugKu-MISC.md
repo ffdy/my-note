@@ -59,6 +59,10 @@ QR_Research 扫码得 flag
 得到一个二维码的 gif 文件,随便扫会得到不同的字母
 `convert masterGO.gif a.png` 将其每一帧分离
 依次扫描得到 flag 
+## come_game
+下载得到一个 exe 文件
+打开是一个游戏
+玩了一下,f
 ## 白哥的鸽子
 010 打开 jpg 文件在最后发现多余字符
 分析为栅栏密码,栅栏数为 3
@@ -75,10 +79,10 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzQ3NDk2NSwtMTY1NDgyMDEwNywtOD
-Q3MjQ5OTIwLC0xNjkwODk5NTQyLDE3MTY0Mjg5NjcsLTg5NjUz
-Njk3NywtNTg0NjkxNTAyLDQyOTI4NjQ2OCw5MDE5NDAzODYsLT
-M3ODAwMDI3Nyw4MTMyMDgzMDMsLTE1ODc4NzUyMTksMzE4MjEw
-ODMsLTEyNzY0OTI0OTMsLTIzMDYxNzYwLDEyNzQzNTg5NDQsMT
-E4NjQ0ODgxMV19
+eyJoaXN0b3J5IjpbMTA4NTAzNzE1NSwxOTU3NDc0OTY1LC0xNj
+U0ODIwMTA3LC04NDcyNDk5MjAsLTE2OTA4OTk1NDIsMTcxNjQy
+ODk2NywtODk2NTM2OTc3LC01ODQ2OTE1MDIsNDI5Mjg2NDY4LD
+kwMTk0MDM4NiwtMzc4MDAwMjc3LDgxMzIwODMwMywtMTU4Nzg3
+NTIxOSwzMTgyMTA4MywtMTI3NjQ5MjQ5MywtMjMwNjE3NjAsMT
+I3NDM1ODk0NCwxMTg2NDQ4ODExXX0=
 -->
