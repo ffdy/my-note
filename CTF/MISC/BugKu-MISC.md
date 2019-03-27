@@ -47,9 +47,9 @@ rar 解压发现不是 rar 文件,file 查看发现是 zip 文件
 3. 想出提示中的密码(考验脑洞的时刻到了)
 解出密码是 871
 解压,又得到一张图片,还是 010 打开
-发现最后有 flag
+发现最后有 flag ,base64 解密
 要把 @ 改为 a,大概是为了防止有人直接搜索 flag 得答案吧~~(出题人**)~~
-
+# 
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -62,9 +62,9 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODU5OTExMywxNzE2NDI4OTY3LC04OT
-Y1MzY5NzcsLTU4NDY5MTUwMiw0MjkyODY0NjgsOTAxOTQwMzg2
-LC0zNzgwMDAyNzcsODEzMjA4MzAzLC0xNTg3ODc1MjE5LDMxOD
-IxMDgzLC0xMjc2NDkyNDkzLC0yMzA2MTc2MCwxMjc0MzU4OTQ0
-LDExODY0NDg4MTFdfQ==
+eyJoaXN0b3J5IjpbLTE0NjgwODM3MTAsMTcxNjQyODk2NywtOD
+k2NTM2OTc3LC01ODQ2OTE1MDIsNDI5Mjg2NDY4LDkwMTk0MDM4
+NiwtMzc4MDAwMjc3LDgxMzIwODMwMywtMTU4Nzg3NTIxOSwzMT
+gyMTA4MywtMTI3NjQ5MjQ5MywtMjMwNjE3NjAsMTI3NDM1ODk0
+NCwxMTg2NDQ4ODExXX0=
 -->
