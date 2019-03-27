@@ -1,22 +1,22 @@
-# 签到题
+## 签到题
 关注微信公众号：Bugku即可
-# 这是一张单纯的图片
+## 这是一张单纯的图片
 用 winhex 打开，发现最后有奇怪的字符
 `&#107;&#101;&#121;&#123;&#121;&#111;&#117;&#32;&#97;&#114;&#101;&#32;&#114;&#105;&#103;&#104;&#116;&#125;`
 发现是一种编码
 在 Chrome 搜索框中解码（回车）得到 flag
-# 隐写
+## 隐写
 png 文件入门题
 hex 修改高度得到 flag
-# telent
+## telent
 用 wireshark 打开
 追踪 TCP 流得到 flag
-# 眼见非实(ISCCCTF)
+## 眼见非实(ISCCCTF)
 解压得到 Word 文档,打开发现文件损坏
 猜测文件中加了东西
 解压 Word 文档, 没有发现什么奇怪的文件
 打开所有的文件查找 `{` 得到 flag
-# 啊哒
+## 啊哒
 解压得到 jpg 文件
 用 010 打开,在最后发现 flag.txt
 用 binwalk 分析发现 flag.txt
@@ -24,18 +24,18 @@ foremost 还原,得到一个 zip 文件
 解压发现需要密码
 继续分析原图片,发现 hex 值中有一段 16 进制数 `73646E6973635F32303138` 解码得到 `sdnisc_2018` 
 即为密码,解压 zip 得到 flag
-# 又一张图片,还单纯吗
+## 又一张图片,还单纯吗
 010 打开,发现后面粘连了文件
 binwalk 分析,发现确实粘连了东西
 foremost 还原得到另一张图片
 上面有 flag
-# 猜
+## 猜
 是一张只有半边脸的人像,提示是某人的名字的全拼,直接 Google 搜图
 这个人是刘亦菲,得到 flag
-# 宽带信息泄露
+## 宽带信息泄露
 下载到一个 bin 文件,因为是宽带信息,所以用 RouterPassView 打开
 提示中是用户名,查找 username 得到 flag 
-# 隐写2
+## 隐写2
 用 010 打开,发现 flag.rar 字样
 用 binwalk 分析,发现粘连
 foremost 还原得到加密的 flag.rar 和一个提示 jpg 文件
@@ -49,31 +49,32 @@ rar 解压发现不是 rar 文件,file 查看发现是 zip 文件
 解压,又得到一张图片,还是 010 打开
 发现最后有 flag ,base64 解密
 要把 @ 改为 a,大概是为了防止有人直接搜索 flag 得答案吧~~(出题人**)~~
-# 多种方法解决
+## 多种方法解决
 下载得到一个 exe 文件
 但是无法运行,010 打开,发现是 base64 加密的图片
 直接复制到 Chrome 搜索框中回车
 得到一个二维码
 QR_Research 扫码得 flag
-# 闪的好快
+## 闪的好快
 得到一个二维码的 gif 文件,随便扫会得到不同的字母
 `convert masterGO.gif a.png` 将其每一帧分离
 依次扫描得到 flag 
-# 想蹭网现解开密码
+## 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
-# Linux2
+## Linux2
 `strings brave`
 find KEY
-# 细心的大象
+## 细心的大象
 查看属性，有奇怪的备注
 base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzI0OTkyMCwtMTY5MDg5OTU0MiwxNz
-E2NDI4OTY3LC04OTY1MzY5NzcsLTU4NDY5MTUwMiw0MjkyODY0
-NjgsOTAxOTQwMzg2LC0zNzgwMDAyNzcsODEzMjA4MzAzLC0xNT
-g3ODc1MjE5LDMxODIxMDgzLC0xMjc2NDkyNDkzLC0yMzA2MTc2
-MCwxMjc0MzU4OTQ0LDExODY0NDg4MTFdfQ==
+eyJoaXN0b3J5IjpbLTE2NTQ4MjAxMDcsLTg0NzI0OTkyMCwtMT
+Y5MDg5OTU0MiwxNzE2NDI4OTY3LC04OTY1MzY5NzcsLTU4NDY5
+MTUwMiw0MjkyODY0NjgsOTAxOTQwMzg2LC0zNzgwMDAyNzcsOD
+EzMjA4MzAzLC0xNTg3ODc1MjE5LDMxODIxMDgzLC0xMjc2NDky
+NDkzLC0yMzA2MTc2MCwxMjc0MzU4OTQ0LDExODY0NDg4MTFdfQ
+==
 -->
