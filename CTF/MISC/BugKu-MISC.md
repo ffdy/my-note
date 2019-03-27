@@ -66,7 +66,10 @@ QR_Research 扫码得 flag
 退出发现根本没有关闭选项
 只能强行结束进程.....
 发现生成了三个无后缀的文件
-经过分析 DeathTime 记录死亡次数
+经过分析 
+DeathTime 记录死亡次数
+temp 不知道是啥,好像一直没变
+
 ## 白哥的鸽子
 010 打开 jpg 文件在最后发现多余字符
 分析为栅栏密码,栅栏数为 3
@@ -83,10 +86,10 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTE2NzIxMywxNDY2MjMxMDUyLDE5NT
-c0NzQ5NjUsLTE2NTQ4MjAxMDcsLTg0NzI0OTkyMCwtMTY5MDg5
-OTU0MiwxNzE2NDI4OTY3LC04OTY1MzY5NzcsLTU4NDY5MTUwMi
-w0MjkyODY0NjgsOTAxOTQwMzg2LC0zNzgwMDAyNzcsODEzMjA4
-MzAzLC0xNTg3ODc1MjE5LDMxODIxMDgzLC0xMjc2NDkyNDkzLC
-0yMzA2MTc2MCwxMjc0MzU4OTQ0LDExODY0NDg4MTFdfQ==
+eyJoaXN0b3J5IjpbMjE0NjIzMjEsMTQ2NjIzMTA1MiwxOTU3ND
+c0OTY1LC0xNjU0ODIwMTA3LC04NDcyNDk5MjAsLTE2OTA4OTk1
+NDIsMTcxNjQyODk2NywtODk2NTM2OTc3LC01ODQ2OTE1MDIsND
+I5Mjg2NDY4LDkwMTk0MDM4NiwtMzc4MDAwMjc3LDgxMzIwODMw
+MywtMTU4Nzg3NTIxOSwzMTgyMTA4MywtMTI3NjQ5MjQ5MywtMj
+MwNjE3NjAsMTI3NDM1ODk0NCwxMTg2NDQ4ODExXX0=
 -->
