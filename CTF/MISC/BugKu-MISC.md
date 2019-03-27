@@ -49,7 +49,8 @@ rar 解压发现不是 rar 文件,file 查看发现是 zip 文件
 解压,又得到一张图片,还是 010 打开
 发现最后有 flag ,base64 解密
 要把 @ 改为 a,大概是为了防止有人直接搜索 flag 得答案吧~~(出题人**)~~
-# 
+# 多种方法解决
+下载得到一个
 # 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -62,9 +63,9 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjgwODM3MTAsMTcxNjQyODk2NywtOD
-k2NTM2OTc3LC01ODQ2OTE1MDIsNDI5Mjg2NDY4LDkwMTk0MDM4
-NiwtMzc4MDAwMjc3LDgxMzIwODMwMywtMTU4Nzg3NTIxOSwzMT
-gyMTA4MywtMTI3NjQ5MjQ5MywtMjMwNjE3NjAsMTI3NDM1ODk0
-NCwxMTg2NDQ4ODExXX0=
+eyJoaXN0b3J5IjpbNTYyNzI5MjQ0LDE3MTY0Mjg5NjcsLTg5Nj
+UzNjk3NywtNTg0NjkxNTAyLDQyOTI4NjQ2OCw5MDE5NDAzODYs
+LTM3ODAwMDI3Nyw4MTMyMDgzMDMsLTE1ODc4NzUyMTksMzE4Mj
+EwODMsLTEyNzY0OTI0OTMsLTIzMDYxNzYwLDEyNzQzNTg5NDQs
+MTE4NjQ0ODgxMV19
 -->
