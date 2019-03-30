@@ -115,18 +115,20 @@ burp 抓包,修改 isadmin 为 true,发包得到一个 123.exe 文件
 一开始以为是逆向,动静态分析半天,然后看了网上的 writeup
 发现是 wireshark 抓包,emmmmm
 随便填完信息,提交
-在 wireshark 中追踪 TCP 流,
+在 wireshark 中追踪 TCP 流,发现两个 base64 加密的密文
+解密得到网易邮箱的账号密码
+登陆,发现flag
 ## 细心的大象
 查看属性，有奇怪的备注
 base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTM5Nzk0MTQsOTc2MzYwMiw4MzI5OT
-I0NzMsLTMxMjc4NjgzMCwtMTU3NTEyNjAwNSwxMTgxMDc4MjA4
-LDIwNDQyMzY4NjIsLTE5ODI0NDU4MDMsMzg5NDI4MTUwLDIwNT
-Q1OTkyMTUsODUzMzYyOTUwLDE0NjYyMzEwNTIsMTk1NzQ3NDk2
-NSwtMTY1NDgyMDEwNywtODQ3MjQ5OTIwLC0xNjkwODk5NTQyLD
-E3MTY0Mjg5NjcsLTg5NjUzNjk3NywtNTg0NjkxNTAyLDQyOTI4
-NjQ2OF19
+eyJoaXN0b3J5IjpbLTQ4NTA0NjE1MCwtMTMxMzk3OTQxNCw5Nz
+YzNjAyLDgzMjk5MjQ3MywtMzEyNzg2ODMwLC0xNTc1MTI2MDA1
+LDExODEwNzgyMDgsMjA0NDIzNjg2MiwtMTk4MjQ0NTgwMywzOD
+k0MjgxNTAsMjA1NDU5OTIxNSw4NTMzNjI5NTAsMTQ2NjIzMTA1
+MiwxOTU3NDc0OTY1LC0xNjU0ODIwMTA3LC04NDcyNDk5MjAsLT
+E2OTA4OTk1NDIsMTcxNjQyODk2NywtODk2NTM2OTc3LC01ODQ2
+OTE1MDJdfQ==
 -->
