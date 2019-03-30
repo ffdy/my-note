@@ -170,9 +170,53 @@ emmmm
 用 NtfsStreamsEditor2 打开扫描,发现隐写了一个 pyc 文件
 恢复,打开,一闪而过
 在命令行中打开,啥都没有
-uncomp
+uncompyle2 反编译 pyc 文件得到
+```py
+#Embedded file name: flag.py
+import base64
+
+def encode():
+    flag = '*************'
+    ciphertext = []
+    for i in range(len(flag)):
+        s = chr(i ^ ord(flag[i]))
+        if i % 2 == 0:
+            s = ord(s) + 10
+        else:
+            s = ord(s) - 10
+        ciphertext.append(str(s))
+
+    return ciphertext[::-1]
+
+
+ciphertext = ['96',
+ '65',
+ '93',
+ '123',
+ '91',
+ '97',
+ '22',
+ '93',
+ '70',
+ '102',
+ '94',
+ '132',
+ '46',
+ '112',
+ '64',
+ '97',
+ '88',
+ '80',
+ '82',
+ '137',
+ '90',
+ '109',
+ '99',
+ '112']
+```
+fanbian
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjQxMjk5OCwtMTUzMjgzMDExOSwtMT
+eyJoaXN0b3J5IjpbMTYwODA3MzU2NCwtMTUzMjgzMDExOSwtMT
 Y5NTE3NTUwMywzMzcwODY0MDEsMjA2NDM4NjgyMSwxOTI5MjEx
 ODIxLDEwMTAwNDYzODQsMTczMjMyMTIxNyw0OTczNzA2NTMsMT
 M1MTc0MjA4MCwyMTM1NjQyNDc1LDE3MjM2NTQyODcsLTEwNDQ4
