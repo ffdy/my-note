@@ -107,18 +107,20 @@ base64 解密,得到 flag
 `strings brave | grep -i key #-i 忽略大小写`
 得到 flag
 ## 账号被盗了
-打开链接,点击 getflag 跳转到了 cookieflag
+打开链接,点击 getflag 跳转到了 cookieflag.php 回显 you are no admin
+由 cookieflag 想到 cookie
+查看 cookie,发现 isadmin 字段为 flad
 ## 细心的大象
 查看属性，有奇怪的备注
 base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTEyNzksLTE1NzUxMjYwMDUsMTE4MT
-A3ODIwOCwyMDQ0MjM2ODYyLC0xOTgyNDQ1ODAzLDM4OTQyODE1
-MCwyMDU0NTk5MjE1LDg1MzM2Mjk1MCwxNDY2MjMxMDUyLDE5NT
-c0NzQ5NjUsLTE2NTQ4MjAxMDcsLTg0NzI0OTkyMCwtMTY5MDg5
-OTU0MiwxNzE2NDI4OTY3LC04OTY1MzY5NzcsLTU4NDY5MTUwMi
-w0MjkyODY0NjgsOTAxOTQwMzg2LC0zNzgwMDAyNzcsODEzMjA4
-MzAzXX0=
+eyJoaXN0b3J5IjpbLTE5ODA4MjI0NDcsLTE1NzUxMjYwMDUsMT
+E4MTA3ODIwOCwyMDQ0MjM2ODYyLC0xOTgyNDQ1ODAzLDM4OTQy
+ODE1MCwyMDU0NTk5MjE1LDg1MzM2Mjk1MCwxNDY2MjMxMDUyLD
+E5NTc0NzQ5NjUsLTE2NTQ4MjAxMDcsLTg0NzI0OTkyMCwtMTY5
+MDg5OTU0MiwxNzE2NDI4OTY3LC04OTY1MzY5NzcsLTU4NDY5MT
+UwMiw0MjkyODY0NjgsOTAxOTQwMzg2LC0zNzgwMDAyNzcsODEz
+MjA4MzAzXX0=
 -->
