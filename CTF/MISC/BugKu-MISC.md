@@ -170,8 +170,9 @@ emmmm
 用 NtfsStreamsEditor2 打开扫描,发现隐写了一个 pyc 文件
 恢复,打开,一闪而过
 在命令行中打开,啥都没有
+uncomp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzE2MTc5MiwtMTUzMjgzMDExOSwtMT
+eyJoaXN0b3J5IjpbMTMwNjQxMjk5OCwtMTUzMjgzMDExOSwtMT
 Y5NTE3NTUwMywzMzcwODY0MDEsMjA2NDM4NjgyMSwxOTI5MjEx
 ODIxLDEwMTAwNDYzODQsMTczMjMyMTIxNyw0OTczNzA2NTMsMT
 M1MTc0MjA4MCwyMTM1NjQyNDc1LDE3MjM2NTQyODcsLTEwNDQ4
