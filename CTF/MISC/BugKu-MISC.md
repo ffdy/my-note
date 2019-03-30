@@ -114,18 +114,19 @@ burp 抓包,修改 isadmin 为 true,发包得到一个 123.exe 文件
 打开是一个 CF 刷枪软件,应该没法用了
 一开始以为是逆向,动静态分析半天,然后看了网上的 writeup
 发现是 wireshark 抓包,emmmmm
-随便填完信息
+随便填完信息,提交
+在wiresha
 ## 细心的大象
 查看属性，有奇怪的备注
 base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTU3NDAzNDYsOTc2MzYwMiw4MzI5OT
-I0NzMsLTMxMjc4NjgzMCwtMTU3NTEyNjAwNSwxMTgxMDc4MjA4
-LDIwNDQyMzY4NjIsLTE5ODI0NDU4MDMsMzg5NDI4MTUwLDIwNT
-Q1OTkyMTUsODUzMzYyOTUwLDE0NjYyMzEwNTIsMTk1NzQ3NDk2
-NSwtMTY1NDgyMDEwNywtODQ3MjQ5OTIwLC0xNjkwODk5NTQyLD
-E3MTY0Mjg5NjcsLTg5NjUzNjk3NywtNTg0NjkxNTAyLDQyOTI4
-NjQ2OF19
+eyJoaXN0b3J5IjpbODkwODU0OTYzLDk3NjM2MDIsODMyOTkyND
+czLC0zMTI3ODY4MzAsLTE1NzUxMjYwMDUsMTE4MTA3ODIwOCwy
+MDQ0MjM2ODYyLC0xOTgyNDQ1ODAzLDM4OTQyODE1MCwyMDU0NT
+k5MjE1LDg1MzM2Mjk1MCwxNDY2MjMxMDUyLDE5NTc0NzQ5NjUs
+LTE2NTQ4MjAxMDcsLTg0NzI0OTkyMCwtMTY5MDg5OTU0MiwxNz
+E2NDI4OTY3LC04OTY1MzY5NzcsLTU4NDY5MTUwMiw0MjkyODY0
+NjhdfQ==
 -->
