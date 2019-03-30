@@ -137,8 +137,11 @@ foremost 1.jpg 得到 rar
 010 修改高度,得到 flag
 上面 strings 分离得到的字符串只是个幌子,emmmm
 7-zip 报错应该是因为图片 CRC 值有问题 ~~(我猜的)~~
+## 爆照(08067CTF)
+得到一个 8.jpg 文件
+查看属性,meiyo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzM5OTU2MCwtMjAwOTYxNTY1Nyw5OT
+eyJoaXN0b3J5IjpbMTk1NzUxMTQyNSwtMjAwOTYxNTY1Nyw5OT
 A4MTU3MTAsLTEzMTM5Nzk0MTQsOTc2MzYwMiw4MzI5OTI0NzMs
 LTMxMjc4NjgzMCwtMTU3NTEyNjAwNSwxMTgxMDc4MjA4LDIwND
 QyMzY4NjIsLTE5ODI0NDU4MDMsMzg5NDI4MTUwLDIwNTQ1OTky
