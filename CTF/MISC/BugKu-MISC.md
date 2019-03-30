@@ -98,9 +98,11 @@ base64 解密,得到 flag
 直接 linux 下爆破
 先生成字典
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
-上 aircrack-ng 
+上 aircrack-ng 爆破
 `aircrack-ng  -a2  wifi.cap  -w  pass.txt`
+得到手机号,提交 flag
 ## Linux2
+和上一道 linux 一样,strings 命令即可
 `strings brave`
 find KEY
 ## 细心的大象
@@ -109,11 +111,11 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3NjQ3MjQwLDIwNDQyMzY4NjIsLTE5OD
-I0NDU4MDMsMzg5NDI4MTUwLDIwNTQ1OTkyMTUsODUzMzYyOTUw
-LDE0NjYyMzEwNTIsMTk1NzQ3NDk2NSwtMTY1NDgyMDEwNywtOD
-Q3MjQ5OTIwLC0xNjkwODk5NTQyLDE3MTY0Mjg5NjcsLTg5NjUz
-Njk3NywtNTg0NjkxNTAyLDQyOTI4NjQ2OCw5MDE5NDAzODYsLT
-M3ODAwMDI3Nyw4MTMyMDgzMDMsLTE1ODc4NzUyMTksMzE4MjEw
-ODNdfQ==
+eyJoaXN0b3J5IjpbMTE4MTA3ODIwOCwyMDQ0MjM2ODYyLC0xOT
+gyNDQ1ODAzLDM4OTQyODE1MCwyMDU0NTk5MjE1LDg1MzM2Mjk1
+MCwxNDY2MjMxMDUyLDE5NTc0NzQ5NjUsLTE2NTQ4MjAxMDcsLT
+g0NzI0OTkyMCwtMTY5MDg5OTU0MiwxNzE2NDI4OTY3LC04OTY1
+MzY5NzcsLTU4NDY5MTUwMiw0MjkyODY0NjgsOTAxOTQwMzg2LC
+0zNzgwMDAyNzcsODEzMjA4MzAzLC0xNTg3ODc1MjE5LDMxODIx
+MDgzXX0=
 -->
