@@ -87,7 +87,7 @@ save1 是存档一,第 3 字节存储关卡数,最后一关是 35
 得到 flag
 ## 做个游戏(08067CTF)
 得到一个 jar 包,打开是一个游戏
-
+你要控制一个不明物体
 ## 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -100,7 +100,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU4Mjg2MjQsMzg5NDI4MTUwLDIwNT
+eyJoaXN0b3J5IjpbLTE5ODI0NDU4MDMsMzg5NDI4MTUwLDIwNT
 Q1OTkyMTUsODUzMzYyOTUwLDE0NjYyMzEwNTIsMTk1NzQ3NDk2
 NSwtMTY1NDgyMDEwNywtODQ3MjQ5OTIwLC0xNjkwODk5NTQyLD
 E3MTY0Mjg5NjcsLTg5NjUzNjk3NywtNTg0NjkxNTAyLDQyOTI4
