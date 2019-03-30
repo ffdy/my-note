@@ -112,18 +112,18 @@ base64 解密,得到 flag
 查看 cookie,发现 isadmin 字段为 false 
 burp 抓包,修改 isadmin 为 true,发包得到一个 123.exe 文件
 打开是一个 CF 刷枪软件,应该没法用了
-一开始以为是逆向,动静态分析半天,然后看了
+一开始以为是逆向,动静态分析半天,然后看了wangshand
 ## 细心的大象
 查看属性，有奇怪的备注
 base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2MzYwMiw4MzI5OTI0NzMsLTMxMjc4Nj
-gzMCwtMTU3NTEyNjAwNSwxMTgxMDc4MjA4LDIwNDQyMzY4NjIs
-LTE5ODI0NDU4MDMsMzg5NDI4MTUwLDIwNTQ1OTkyMTUsODUzMz
-YyOTUwLDE0NjYyMzEwNTIsMTk1NzQ3NDk2NSwtMTY1NDgyMDEw
-NywtODQ3MjQ5OTIwLC0xNjkwODk5NTQyLDE3MTY0Mjg5NjcsLT
-g5NjUzNjk3NywtNTg0NjkxNTAyLDQyOTI4NjQ2OCw5MDE5NDAz
-ODZdfQ==
+eyJoaXN0b3J5IjpbLTY1NTY0ODE2Nyw5NzYzNjAyLDgzMjk5Mj
+Q3MywtMzEyNzg2ODMwLC0xNTc1MTI2MDA1LDExODEwNzgyMDgs
+MjA0NDIzNjg2MiwtMTk4MjQ0NTgwMywzODk0MjgxNTAsMjA1ND
+U5OTIxNSw4NTMzNjI5NTAsMTQ2NjIzMTA1MiwxOTU3NDc0OTY1
+LC0xNjU0ODIwMTA3LC04NDcyNDk5MjAsLTE2OTA4OTk1NDIsMT
+cxNjQyODk2NywtODk2NTM2OTc3LC01ODQ2OTE1MDIsNDI5Mjg2
+NDY4XX0=
 -->
