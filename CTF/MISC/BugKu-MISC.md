@@ -88,7 +88,9 @@ save1 是存档一,第 3 字节存储关卡数,最后一关是 35
 ## 做个游戏(08067CTF)
 得到一个 jar 包,打开是一个游戏
 你要控制一个不明物体存活 60 秒
-这里有一个 Bug,不知道是不是故意的,你可以把不明物体移动到
+这里有一个 Bug,不知道是不是故意的,你可以把不明物体移动到最右侧
+不过必须刚好 60 秒才能得到 flag
+用
 ## 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -101,11 +103,11 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDIzNjg2MiwtMTk4MjQ0NTgwMywzOD
-k0MjgxNTAsMjA1NDU5OTIxNSw4NTMzNjI5NTAsMTQ2NjIzMTA1
-MiwxOTU3NDc0OTY1LC0xNjU0ODIwMTA3LC04NDcyNDk5MjAsLT
-E2OTA4OTk1NDIsMTcxNjQyODk2NywtODk2NTM2OTc3LC01ODQ2
-OTE1MDIsNDI5Mjg2NDY4LDkwMTk0MDM4NiwtMzc4MDAwMjc3LD
-gxMzIwODMwMywtMTU4Nzg3NTIxOSwzMTgyMTA4MywtMTI3NjQ5
-MjQ5M119
+eyJoaXN0b3J5IjpbMTkzMTkwMzg3NiwyMDQ0MjM2ODYyLC0xOT
+gyNDQ1ODAzLDM4OTQyODE1MCwyMDU0NTk5MjE1LDg1MzM2Mjk1
+MCwxNDY2MjMxMDUyLDE5NTc0NzQ5NjUsLTE2NTQ4MjAxMDcsLT
+g0NzI0OTkyMCwtMTY5MDg5OTU0MiwxNzE2NDI4OTY3LC04OTY1
+MzY5NzcsLTU4NDY5MTUwMiw0MjkyODY0NjgsOTAxOTQwMzg2LC
+0zNzgwMDAyNzcsODEzMjA4MzAzLC0xNTg3ODc1MjE5LDMxODIx
+MDgzXX0=
 -->
