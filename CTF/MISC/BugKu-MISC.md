@@ -91,8 +91,11 @@ save1 是存档一,第 3 字节存储关卡数,最后一关是 35
 这里有一个 Bug,不知道是不是故意的,你可以把不明物体移动到最右侧
 不过必须刚好 60 秒才能得到 flag
 用 Java Decompiler 打开,找到相关的源码,发现 flag
-中间有一段密文,看到 = 号,推测是 base64 *emphasized text*
+中间有一段密文,看到 = 号,推测是 base64 
+base64 解密,得到 flag
 ## 想蹭网现解开密码
+提示h
+直接 linux 下爆破
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
 ## Linux2
@@ -104,7 +107,7 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDYxMDIyNTUsMjA0NDIzNjg2MiwtMT
+eyJoaXN0b3J5IjpbLTIwNTcyNDQ5ODksMjA0NDIzNjg2MiwtMT
 k4MjQ0NTgwMywzODk0MjgxNTAsMjA1NDU5OTIxNSw4NTMzNjI5
 NTAsMTQ2NjIzMTA1MiwxOTU3NDc0OTY1LC0xNjU0ODIwMTA3LC
 04NDcyNDk5MjAsLTE2OTA4OTk1NDIsMTcxNjQyODk2NywtODk2
