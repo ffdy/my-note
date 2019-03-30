@@ -166,13 +166,14 @@ win7 自带的画图板 Ctrl+Shift+i 得到正确二维码
 emmmm
 看了大佬的 Writeup,还有提示中的 NTFS 没有用
 必须用 WinRAR 解压,并且解压会报错
-报错就对了,这是一个 NTFS 隐写
+报错就对了,这是一个 [NTFS 隐写]([https://www.qingsword.com/qing/812.html](https://www.qingsword.com/qing/812.html))
+用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3MDg2NDAxLDIwNjQzODY4MjEsMTkyOT
-IxMTgyMSwxMDEwMDQ2Mzg0LDE3MzIzMjEyMTcsNDk3MzcwNjUz
-LDEzNTE3NDIwODAsMjEzNTY0MjQ3NSwxNzIzNjU0Mjg3LC0xMD
-Q0ODgxNzM2LC0xNDc2OTk0NTcyLC0yMDA5NjE1NjU3LDk5MDgx
-NTcxMCwtMTMxMzk3OTQxNCw5NzYzNjAyLDgzMjk5MjQ3MywtMz
-EyNzg2ODMwLC0xNTc1MTI2MDA1LDExODEwNzgyMDgsMjA0NDIz
-Njg2Ml19
+eyJoaXN0b3J5IjpbLTE2OTUxNzU1MDMsMzM3MDg2NDAxLDIwNj
+QzODY4MjEsMTkyOTIxMTgyMSwxMDEwMDQ2Mzg0LDE3MzIzMjEy
+MTcsNDk3MzcwNjUzLDEzNTE3NDIwODAsMjEzNTY0MjQ3NSwxNz
+IzNjU0Mjg3LC0xMDQ0ODgxNzM2LC0xNDc2OTk0NTcyLC0yMDA5
+NjE1NjU3LDk5MDgxNTcxMCwtMTMxMzk3OTQxNCw5NzYzNjAyLD
+gzMjk5MjQ3MywtMzEyNzg2ODMwLC0xNTc1MTI2MDA1LDExODEw
+NzgyMDhdfQ==
 -->
