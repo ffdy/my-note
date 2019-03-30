@@ -109,18 +109,19 @@ base64 解密,得到 flag
 ## 账号被盗了
 打开链接,点击 getflag 跳转到了 cookieflag.php 回显 you are no admin
 由 cookieflag 想到 cookie
-查看 cookie,发现 isadmin 字段为 flad
+查看 cookie,发现 isadmin 字段为 false 
+burp 抓包,修改 isadmin 为 true,发包得到一个
 ## 细心的大象
 查看属性，有奇怪的备注
 base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODA4MjI0NDcsLTE1NzUxMjYwMDUsMT
-E4MTA3ODIwOCwyMDQ0MjM2ODYyLC0xOTgyNDQ1ODAzLDM4OTQy
-ODE1MCwyMDU0NTk5MjE1LDg1MzM2Mjk1MCwxNDY2MjMxMDUyLD
-E5NTc0NzQ5NjUsLTE2NTQ4MjAxMDcsLTg0NzI0OTkyMCwtMTY5
-MDg5OTU0MiwxNzE2NDI4OTY3LC04OTY1MzY5NzcsLTU4NDY5MT
-UwMiw0MjkyODY0NjgsOTAxOTQwMzg2LC0zNzgwMDAyNzcsODEz
-MjA4MzAzXX0=
+eyJoaXN0b3J5IjpbMTY4MjcyMDczNywtMTU3NTEyNjAwNSwxMT
+gxMDc4MjA4LDIwNDQyMzY4NjIsLTE5ODI0NDU4MDMsMzg5NDI4
+MTUwLDIwNTQ1OTkyMTUsODUzMzYyOTUwLDE0NjYyMzEwNTIsMT
+k1NzQ3NDk2NSwtMTY1NDgyMDEwNywtODQ3MjQ5OTIwLC0xNjkw
+ODk5NTQyLDE3MTY0Mjg5NjcsLTg5NjUzNjk3NywtNTg0NjkxNT
+AyLDQyOTI4NjQ2OCw5MDE5NDAzODYsLTM3ODAwMDI3Nyw4MTMy
+MDgzMDNdfQ==
 -->
