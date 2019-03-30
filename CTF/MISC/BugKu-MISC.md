@@ -275,8 +275,10 @@ for i in range(0,len(s),3):
 print(flag)
 ```
 得到 flag
+## 乌云邀请码
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjI0ODU3NCwtMTU0MzEwNTE4NCwxOD
+eyJoaXN0b3J5IjpbMTExOTAwMzUxMywtMTU0MzEwNTE4NCwxOD
 I5MjA0NzI3LC0xNjcwNjM1NDMxLDEyNTg2MDYyODksLTc2MTU2
 ODE3NiwtMTU0MTQ5MjY0MSwtMTUzMjgzMDExOSwtMTY5NTE3NT
 UwMywzMzcwODY0MDEsMjA2NDM4NjgyMSwxOTI5MjExODIxLDEw
