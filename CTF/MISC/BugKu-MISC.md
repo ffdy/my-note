@@ -119,18 +119,19 @@ burp 抓包,修改 isadmin 为 true,发包得到一个 123.exe 文件
 解密得到网易邮箱的账号密码
 登陆,发现 flag 已经被之前的人改了
 emmmmmm,我还能说啥呢
-翻了别人的 writeup
+翻了别人的 Writeup,得到了 flag
+顺便把邮箱里 flag 改回去了
 ## 细心的大象
 查看属性，有奇怪的备注
 base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQ2ODQ2MzMsLTEzMTM5Nzk0MTQsOT
-c2MzYwMiw4MzI5OTI0NzMsLTMxMjc4NjgzMCwtMTU3NTEyNjAw
-NSwxMTgxMDc4MjA4LDIwNDQyMzY4NjIsLTE5ODI0NDU4MDMsMz
-g5NDI4MTUwLDIwNTQ1OTkyMTUsODUzMzYyOTUwLDE0NjYyMzEw
-NTIsMTk1NzQ3NDk2NSwtMTY1NDgyMDEwNywtODQ3MjQ5OTIwLC
-0xNjkwODk5NTQyLDE3MTY0Mjg5NjcsLTg5NjUzNjk3NywtNTg0
-NjkxNTAyXX0=
+eyJoaXN0b3J5IjpbOTkwODE1NzEwLC0xMzEzOTc5NDE0LDk3Nj
+M2MDIsODMyOTkyNDczLC0zMTI3ODY4MzAsLTE1NzUxMjYwMDUs
+MTE4MTA3ODIwOCwyMDQ0MjM2ODYyLC0xOTgyNDQ1ODAzLDM4OT
+QyODE1MCwyMDU0NTk5MjE1LDg1MzM2Mjk1MCwxNDY2MjMxMDUy
+LDE5NTc0NzQ5NjUsLTE2NTQ4MjAxMDcsLTg0NzI0OTkyMCwtMT
+Y5MDg5OTU0MiwxNzE2NDI4OTY3LC04OTY1MzY5NzcsLTU4NDY5
+MTUwMl19
 -->
