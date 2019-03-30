@@ -165,9 +165,9 @@ win7 自带的画图板 Ctrl+Shift+i 得到正确二维码
 你以为这就完了,不,打开 flag.txt 上面写着 flag 不在这里
 emmmm
 看了大佬的 Writeup,还有提示中的 NTFS 没有用
-bi
+必须用 WinRAR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODQ3NDUxNSwxOTI5MjExODIxLDEwMT
+eyJoaXN0b3J5IjpbMjA2NDM4NjgyMSwxOTI5MjExODIxLDEwMT
 AwNDYzODQsMTczMjMyMTIxNyw0OTczNzA2NTMsMTM1MTc0MjA4
 MCwyMTM1NjQyNDc1LDE3MjM2NTQyODcsLTEwNDQ4ODE3MzYsLT
 E0NzY5OTQ1NzIsLTIwMDk2MTU2NTcsOTkwODE1NzEwLC0xMzEz
