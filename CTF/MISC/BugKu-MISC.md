@@ -161,9 +161,9 @@ Stegsolve 打开 analyse -> data extract
 扫描发现不是,还需要进行反色处理
 win7 自带的画图板 Ctrl+Shift+i 得到正确二维码
 扫描得到 一个百度云链接,下载到一个 flag.rar 文件
-解压,得到 flag.txt 
+解压,得到 flag.txt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTM1NzU2NCwxNzMyMzIxMjE3LDQ5Nz
+eyJoaXN0b3J5IjpbMTAxMDA0NjM4NCwxNzMyMzIxMjE3LDQ5Nz
 M3MDY1MywxMzUxNzQyMDgwLDIxMzU2NDI0NzUsMTcyMzY1NDI4
 NywtMTA0NDg4MTczNiwtMTQ3Njk5NDU3MiwtMjAwOTYxNTY1Ny
 w5OTA4MTU3MTAsLTEzMTM5Nzk0MTQsOTc2MzYwMiw4MzI5OTI0
