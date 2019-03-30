@@ -122,17 +122,19 @@ emmmmmm,我还能说啥呢
 翻了别人的 Writeup,得到了 flag
 顺便把邮箱里 flag 改回去了
 ## 细心的大象
-解压,7-zip 报告
-查看属性，有奇怪的备注
+解压,7-zip 报告头部错误
+查看图片属性，有奇怪的备注
 base64 解码得到一个字符串
+binwalk 分析,发现粘连了一个 rar 文件
 foremost 1.jpg 得到 rar 
+解压
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzY3NTE2NCw5OTA4MTU3MTAsLTEzMT
-M5Nzk0MTQsOTc2MzYwMiw4MzI5OTI0NzMsLTMxMjc4NjgzMCwt
-MTU3NTEyNjAwNSwxMTgxMDc4MjA4LDIwNDQyMzY4NjIsLTE5OD
-I0NDU4MDMsMzg5NDI4MTUwLDIwNTQ1OTkyMTUsODUzMzYyOTUw
-LDE0NjYyMzEwNTIsMTk1NzQ3NDk2NSwtMTY1NDgyMDEwNywtOD
-Q3MjQ5OTIwLC0xNjkwODk5NTQyLDE3MTY0Mjg5NjcsLTg5NjUz
-Njk3N119
+eyJoaXN0b3J5IjpbMjEyMDAwMDI0LDk5MDgxNTcxMCwtMTMxMz
+k3OTQxNCw5NzYzNjAyLDgzMjk5MjQ3MywtMzEyNzg2ODMwLC0x
+NTc1MTI2MDA1LDExODEwNzgyMDgsMjA0NDIzNjg2MiwtMTk4Mj
+Q0NTgwMywzODk0MjgxNTAsMjA1NDU5OTIxNSw4NTMzNjI5NTAs
+MTQ2NjIzMTA1MiwxOTU3NDc0OTY1LC0xNjU0ODIwMTA3LC04ND
+cyNDk5MjAsLTE2OTA4OTk1NDIsMTcxNjQyODk2NywtODk2NTM2
+OTc3XX0=
 -->
