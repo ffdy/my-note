@@ -168,9 +168,10 @@ emmmm
 必须用 WinRAR 解压,并且解压会报错
 报错就对了,这是一个 [NTFS 隐写]([https://www.qingsword.com/qing/812.html](https://www.qingsword.com/qing/812.html))
 用 NtfsStreamsEditor2 打开扫描,发现隐写了一个 pyc 文件
-恢复,打开,yishan
+恢复,打开,一闪而过
+在命令行中打开,啥都没有
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MjEzMTg2MCwtMTUzMjgzMDExOSwtMT
+eyJoaXN0b3J5IjpbMTk0NzE2MTc5MiwtMTUzMjgzMDExOSwtMT
 Y5NTE3NTUwMywzMzcwODY0MDEsMjA2NDM4NjgyMSwxOTI5MjEx
 ODIxLDEwMTAwNDYzODQsMTczMjMyMTIxNyw0OTczNzA2NTMsMT
 M1MTc0MjA4MCwyMTM1NjQyNDc1LDE3MjM2NTQyODcsLTEwNDQ4
