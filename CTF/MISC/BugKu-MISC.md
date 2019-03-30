@@ -149,9 +149,9 @@ foremost 分离 8888 得到一个 zip 文件
 解压得到一个二维码,扫描得 panama
 888 查看属性,在备注上发现 base64 密文
 解密得 silisili
-三个连起来,得到 flag
+三个按源文件名字长度排序按题目要求连起来,得到 flag
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTIxNzUyMSwtMTA0NDg4MTczNiwtMT
+eyJoaXN0b3J5IjpbMTU1ODQzODc0NSwtMTA0NDg4MTczNiwtMT
 Q3Njk5NDU3MiwtMjAwOTYxNTY1Nyw5OTA4MTU3MTAsLTEzMTM5
 Nzk0MTQsOTc2MzYwMiw4MzI5OTI0NzMsLTMxMjc4NjgzMCwtMT
 U3NTEyNjAwNSwxMTgxMDc4MjA4LDIwNDQyMzY4NjIsLTE5ODI0
