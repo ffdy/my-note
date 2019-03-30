@@ -146,9 +146,9 @@ foremost 还原得到一个 zip 文件
 又因为提示 flag 分三段
 说明剩下的图片中还有两个字符串,继续分析
 foremost 分离 888 得到一个 zip 文件
-解压得到一个二维码,
+解压得到一个二维码,扫描得 panama
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTc1MDI0OSwtMTQ3Njk5NDU3MiwtMj
+eyJoaXN0b3J5IjpbLTYyMDI3OTE5NiwtMTQ3Njk5NDU3MiwtMj
 AwOTYxNTY1Nyw5OTA4MTU3MTAsLTEzMTM5Nzk0MTQsOTc2MzYw
 Miw4MzI5OTI0NzMsLTMxMjc4NjgzMCwtMTU3NTEyNjAwNSwxMT
 gxMDc4MjA4LDIwNDQyMzY4NjIsLTE5ODI0NDU4MDMsMzg5NDI4
