@@ -90,7 +90,7 @@ save1 是存档一,第 3 字节存储关卡数,最后一关是 35
 你要控制一个不明物体存活 60 秒
 这里有一个 Bug,不知道是不是故意的,你可以把不明物体移动到最右侧
 不过必须刚好 60 秒才能得到 flag
-用
+用 Java Decompiler 代开
 ## 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -103,11 +103,11 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTkwMzg3NiwyMDQ0MjM2ODYyLC0xOT
-gyNDQ1ODAzLDM4OTQyODE1MCwyMDU0NTk5MjE1LDg1MzM2Mjk1
-MCwxNDY2MjMxMDUyLDE5NTc0NzQ5NjUsLTE2NTQ4MjAxMDcsLT
-g0NzI0OTkyMCwtMTY5MDg5OTU0MiwxNzE2NDI4OTY3LC04OTY1
-MzY5NzcsLTU4NDY5MTUwMiw0MjkyODY0NjgsOTAxOTQwMzg2LC
-0zNzgwMDAyNzcsODEzMjA4MzAzLC0xNTg3ODc1MjE5LDMxODIx
-MDgzXX0=
+eyJoaXN0b3J5IjpbODcwNDQwNDI5LDIwNDQyMzY4NjIsLTE5OD
+I0NDU4MDMsMzg5NDI4MTUwLDIwNTQ1OTkyMTUsODUzMzYyOTUw
+LDE0NjYyMzEwNTIsMTk1NzQ3NDk2NSwtMTY1NDgyMDEwNywtOD
+Q3MjQ5OTIwLC0xNjkwODk5NTQyLDE3MTY0Mjg5NjcsLTg5NjUz
+Njk3NywtNTg0NjkxNTAyLDQyOTI4NjQ2OCw5MDE5NDAzODYsLT
+M3ODAwMDI3Nyw4MTMyMDgzMDMsLTE1ODc4NzUyMTksMzE4MjEw
+ODNdfQ==
 -->
