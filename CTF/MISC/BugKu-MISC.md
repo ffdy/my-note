@@ -167,9 +167,9 @@ emmmm
 看了大佬的 Writeup,还有提示中的 NTFS 没有用
 必须用 WinRAR 解压,并且解压会报错
 报错就对了,这是一个 [NTFS 隐写]([https://www.qingsword.com/qing/812.html](https://www.qingsword.com/qing/812.html))
-用 
+用 NtfsStreamsEditor2 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODEwOTg1OSwtMTY5NTE3NTUwMywzMz
+eyJoaXN0b3J5IjpbMTA5NzUyNjY0NiwtMTY5NTE3NTUwMywzMz
 cwODY0MDEsMjA2NDM4NjgyMSwxOTI5MjExODIxLDEwMTAwNDYz
 ODQsMTczMjMyMTIxNyw0OTczNzA2NTMsMTM1MTc0MjA4MCwyMT
 M1NjQyNDc1LDE3MjM2NTQyODcsLTEwNDQ4ODE3MzYsLTE0NzY5
