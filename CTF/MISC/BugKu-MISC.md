@@ -85,7 +85,7 @@ save1 是存档一,第 3 字节存储关卡数,最后一关是 35
 图片看起来缺了一半
 010 打开,修改高度(第 21 到 24 字节)
 得到 flag
-## 
+## 做个游戏
 ## 想蹭网现解开密码
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
 `aircrack-ng  -a2  wifi.cap  -w  password.txt`
@@ -98,11 +98,11 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5NDI4MTUwLDIwNTQ1OTkyMTUsODUzMz
-YyOTUwLDE0NjYyMzEwNTIsMTk1NzQ3NDk2NSwtMTY1NDgyMDEw
-NywtODQ3MjQ5OTIwLC0xNjkwODk5NTQyLDE3MTY0Mjg5NjcsLT
-g5NjUzNjk3NywtNTg0NjkxNTAyLDQyOTI4NjQ2OCw5MDE5NDAz
-ODYsLTM3ODAwMDI3Nyw4MTMyMDgzMDMsLTE1ODc4NzUyMTksMz
-E4MjEwODMsLTEyNzY0OTI0OTMsLTIzMDYxNzYwLDEyNzQzNTg5
-NDRdfQ==
+eyJoaXN0b3J5IjpbNTYzMTIzNDksMzg5NDI4MTUwLDIwNTQ1OT
+kyMTUsODUzMzYyOTUwLDE0NjYyMzEwNTIsMTk1NzQ3NDk2NSwt
+MTY1NDgyMDEwNywtODQ3MjQ5OTIwLC0xNjkwODk5NTQyLDE3MT
+Y0Mjg5NjcsLTg5NjUzNjk3NywtNTg0NjkxNTAyLDQyOTI4NjQ2
+OCw5MDE5NDAzODYsLTM3ODAwMDI3Nyw4MTMyMDgzMDMsLTE1OD
+c4NzUyMTksMzE4MjEwODMsLTEyNzY0OTI0OTMsLTIzMDYxNzYw
+XX0=
 -->
