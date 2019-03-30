@@ -162,13 +162,14 @@ Stegsolve 打开 analyse -> data extract
 win7 自带的画图板 Ctrl+Shift+i 得到正确二维码
 扫描得到 一个百度云链接,下载到一个 flag.rar 文件
 解压,得到 flag.txt
-你以为这就完了,不,打开
+你以为这就完了,不,打开 flag.txt 上面写着 flag 不在这里
+emmmm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTIxMTgyMSwxMDEwMDQ2Mzg0LDE3Mz
-IzMjEyMTcsNDk3MzcwNjUzLDEzNTE3NDIwODAsMjEzNTY0MjQ3
-NSwxNzIzNjU0Mjg3LC0xMDQ0ODgxNzM2LC0xNDc2OTk0NTcyLC
-0yMDA5NjE1NjU3LDk5MDgxNTcxMCwtMTMxMzk3OTQxNCw5NzYz
-NjAyLDgzMjk5MjQ3MywtMzEyNzg2ODMwLC0xNTc1MTI2MDA1LD
-ExODEwNzgyMDgsMjA0NDIzNjg2MiwtMTk4MjQ0NTgwMywzODk0
-MjgxNTBdfQ==
+eyJoaXN0b3J5IjpbLTc5NTIxMTk5MywxOTI5MjExODIxLDEwMT
+AwNDYzODQsMTczMjMyMTIxNyw0OTczNzA2NTMsMTM1MTc0MjA4
+MCwyMTM1NjQyNDc1LDE3MjM2NTQyODcsLTEwNDQ4ODE3MzYsLT
+E0NzY5OTQ1NzIsLTIwMDk2MTU2NTcsOTkwODE1NzEwLC0xMzEz
+OTc5NDE0LDk3NjM2MDIsODMyOTkyNDczLC0zMTI3ODY4MzAsLT
+E1NzUxMjYwMDUsMTE4MTA3ODIwOCwyMDQ0MjM2ODYyLC0xOTgy
+NDQ1ODAzXX0=
 -->
