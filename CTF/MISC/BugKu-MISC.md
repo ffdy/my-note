@@ -125,18 +125,20 @@ emmmmmm,我还能说啥呢
 解压,7-zip 报告头部错误
 查看图片属性，有奇怪的备注
 base64 解码得到一个字符串
-010 打开,发现末尾有一个疑似 flag 的字符串
+strings 分离,发现有一个疑似 flag 的字符串
+鼓捣半天,不知道
+010 打开,发现末尾粘连有东西
 binwalk 分析,发现粘连了一个 rar 文件
 foremost 1.jpg 得到 rar 
 解压需要密码,猜测是刚刚的字符串,果然
 又得到一张图片
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjA1NzQwMiwtMjAwOTYxNTY1Nyw5OT
-A4MTU3MTAsLTEzMTM5Nzk0MTQsOTc2MzYwMiw4MzI5OTI0NzMs
-LTMxMjc4NjgzMCwtMTU3NTEyNjAwNSwxMTgxMDc4MjA4LDIwND
-QyMzY4NjIsLTE5ODI0NDU4MDMsMzg5NDI4MTUwLDIwNTQ1OTky
-MTUsODUzMzYyOTUwLDE0NjYyMzEwNTIsMTk1NzQ3NDk2NSwtMT
-Y1NDgyMDEwNywtODQ3MjQ5OTIwLC0xNjkwODk5NTQyLDE3MTY0
-Mjg5NjddfQ==
+eyJoaXN0b3J5IjpbLTE1NDk0Mjk0OTQsLTIwMDk2MTU2NTcsOT
+kwODE1NzEwLC0xMzEzOTc5NDE0LDk3NjM2MDIsODMyOTkyNDcz
+LC0zMTI3ODY4MzAsLTE1NzUxMjYwMDUsMTE4MTA3ODIwOCwyMD
+Q0MjM2ODYyLC0xOTgyNDQ1ODAzLDM4OTQyODE1MCwyMDU0NTk5
+MjE1LDg1MzM2Mjk1MCwxNDY2MjMxMDUyLDE5NTc0NzQ5NjUsLT
+E2NTQ4MjAxMDcsLTg0NzI0OTkyMCwtMTY5MDg5OTU0MiwxNzE2
+NDI4OTY3XX0=
 -->
