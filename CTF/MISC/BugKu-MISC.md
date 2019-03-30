@@ -157,9 +157,9 @@ foremost 分离 8888 得到一个 zip 文件
 Stegsolve 打开 analyse -> data extract
 ![AB6KPg.png](https://s2.ax1x.com/2019/03/30/AB6KPg.png)
 发现 png 文件的文件头,Save Bin,将文件前两个字节删去
-得到半张二维码,010 修改
+得到半张二维码,010 修改高度,得到 flag
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1NzUyODIyLDIxMzU2NDI0NzUsMTcyMz
+eyJoaXN0b3J5IjpbODY5ODY4NzM3LDIxMzU2NDI0NzUsMTcyMz
 Y1NDI4NywtMTA0NDg4MTczNiwtMTQ3Njk5NDU3MiwtMjAwOTYx
 NTY1Nyw5OTA4MTU3MTAsLTEzMTM5Nzk0MTQsOTc2MzYwMiw4Mz
 I5OTI0NzMsLTMxMjc4NjgzMCwtMTU3NTEyNjAwNSwxMTgxMDc4
