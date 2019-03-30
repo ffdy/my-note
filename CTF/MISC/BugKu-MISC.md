@@ -110,14 +110,15 @@ base64 解密,得到 flag
 打开链接,点击 getflag 跳转到了 cookieflag.php 回显 you are no admin
 由 cookieflag 想到 cookie
 查看 cookie,发现 isadmin 字段为 false 
-burp 抓包,修改 isadmin 为 true,发包得到一个
+burp 抓包,修改 isadmin 为 true,发包得到一个 123.exe 文件
+打开是一个 CF 刷枪软件,应该没法用了
 ## 细心的大象
 查看属性，有奇怪的备注
 base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MjcyMDczNywtMTU3NTEyNjAwNSwxMT
+eyJoaXN0b3J5IjpbLTMxMjc4NjgzMCwtMTU3NTEyNjAwNSwxMT
 gxMDc4MjA4LDIwNDQyMzY4NjIsLTE5ODI0NDU4MDMsMzg5NDI4
 MTUwLDIwNTQ1OTkyMTUsODUzMzYyOTUwLDE0NjYyMzEwNTIsMT
 k1NzQ3NDk2NSwtMTY1NDgyMDEwNywtODQ3MjQ5OTIwLC0xNjkw
