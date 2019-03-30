@@ -263,9 +263,9 @@ print(de())
 `Decode.exe -X -P syclovergeek sycgeek-mp3.mp3`
 得到 flag
 ## 普通的二维码
-
+QR 扫描,显示 flag 就在这里
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzk3NzAzMCwtMTY3MDYzNTQzMSwxMj
+eyJoaXN0b3J5IjpbMTgyOTIwNDcyNywtMTY3MDYzNTQzMSwxMj
 U4NjA2Mjg5LC03NjE1NjgxNzYsLTE1NDE0OTI2NDEsLTE1MzI4
 MzAxMTksLTE2OTUxNzU1MDMsMzM3MDg2NDAxLDIwNjQzODY4Mj
 EsMTkyOTIxMTgyMSwxMDEwMDQ2Mzg0LDE3MzIzMjEyMTcsNDk3
