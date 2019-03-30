@@ -167,13 +167,14 @@ emmmm
 看了大佬的 Writeup,还有提示中的 NTFS 没有用
 必须用 WinRAR 解压,并且解压会报错
 报错就对了,这是一个 [NTFS 隐写]([https://www.qingsword.com/qing/812.html](https://www.qingsword.com/qing/812.html))
-用 NtfsStreamsEditor2 
+用 NtfsStreamsEditor2 打开扫描,发现隐写了一个 pyc 文件
+恢复
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzUyNjY0NiwtMTY5NTE3NTUwMywzMz
-cwODY0MDEsMjA2NDM4NjgyMSwxOTI5MjExODIxLDEwMTAwNDYz
-ODQsMTczMjMyMTIxNyw0OTczNzA2NTMsMTM1MTc0MjA4MCwyMT
-M1NjQyNDc1LDE3MjM2NTQyODcsLTEwNDQ4ODE3MzYsLTE0NzY5
-OTQ1NzIsLTIwMDk2MTU2NTcsOTkwODE1NzEwLC0xMzEzOTc5ND
-E0LDk3NjM2MDIsODMyOTkyNDczLC0zMTI3ODY4MzAsLTE1NzUx
-MjYwMDVdfQ==
+eyJoaXN0b3J5IjpbLTE1MzI4MzAxMTksLTE2OTUxNzU1MDMsMz
+M3MDg2NDAxLDIwNjQzODY4MjEsMTkyOTIxMTgyMSwxMDEwMDQ2
+Mzg0LDE3MzIzMjEyMTcsNDk3MzcwNjUzLDEzNTE3NDIwODAsMj
+EzNTY0MjQ3NSwxNzIzNjU0Mjg3LC0xMDQ0ODgxNzM2LC0xNDc2
+OTk0NTcyLC0yMDA5NjE1NjU3LDk5MDgxNTcxMCwtMTMxMzk3OT
+QxNCw5NzYzNjAyLDgzMjk5MjQ3MywtMzEyNzg2ODMwLC0xNTc1
+MTI2MDA1XX0=
 -->
