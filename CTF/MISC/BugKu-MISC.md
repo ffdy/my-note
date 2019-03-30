@@ -160,8 +160,9 @@ Stegsolve 打开 analyse -> data extract
 得到半张二维码,010 修改高度,得到完整二维码
 扫描发现不是,还需要进行反色处理
 win7 自带的画图板 Ctrl+Shift+i 得到正确二维码
+扫描
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjU0NzkyNzgsMjEzNTY0MjQ3NSwxNz
+eyJoaXN0b3J5IjpbLTIwOTQ5ODU4NjAsMjEzNTY0MjQ3NSwxNz
 IzNjU0Mjg3LC0xMDQ0ODgxNzM2LC0xNDc2OTk0NTcyLC0yMDA5
 NjE1NjU3LDk5MDgxNTcxMCwtMTMxMzk3OTQxNCw5NzYzNjAyLD
 gzMjk5MjQ3MywtMzEyNzg2ODMwLC0xNTc1MTI2MDA1LDExODEw
