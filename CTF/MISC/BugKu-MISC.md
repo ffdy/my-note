@@ -132,10 +132,11 @@ binwalk 分析,发现粘连了一个 rar 文件
 foremost 1.jpg 得到 rar 
 解压需要密码,猜测是刚刚的字符串,果然
 又得到一张图片 2.png
-打开 eog 报错,CRC jiaoyanbuto
+打开 eog 报错,CRC 校验不通过
+用 win7 自带图片查看器打开,发现与shan隐写的图片
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzYxMjg3MCwtMjAwOTYxNTY1Nyw5OT
+eyJoaXN0b3J5IjpbMTg1MzA0Mjc3MCwtMjAwOTYxNTY1Nyw5OT
 A4MTU3MTAsLTEzMTM5Nzk0MTQsOTc2MzYwMiw4MzI5OTI0NzMs
 LTMxMjc4NjgzMCwtMTU3NTEyNjAwNSwxMTgxMDc4MjA4LDIwND
 QyMzY4NjIsLTE5ODI0NDU4MDMsMzg5NDI4MTUwLDIwNTQ1OTky
