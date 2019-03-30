@@ -94,10 +94,12 @@ save1 是存档一,第 3 字节存储关卡数,最后一关是 35
 中间有一段密文,看到 = 号,推测是 base64 
 base64 解密,得到 flag
 ## 想蹭网现解开密码
-提示h
+提示很明显,并且只有 4 位需要爆破
 直接 linux 下爆破
+先生成字典
 `crunch 11 11 -t 1391040%%%% -o  pass.txt`
-`aircrack-ng  -a2  wifi.cap  -w  password.txt`
+上 aircrack-ng 
+`aircrack-ng  -a2  wifi.cap  -w  pass.txt`
 ## Linux2
 `strings brave`
 find KEY
@@ -107,11 +109,11 @@ base64 解码
 foremost 1.jpg 得到 rar 
 hex 修改高度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTcyNDQ5ODksMjA0NDIzNjg2MiwtMT
-k4MjQ0NTgwMywzODk0MjgxNTAsMjA1NDU5OTIxNSw4NTMzNjI5
-NTAsMTQ2NjIzMTA1MiwxOTU3NDc0OTY1LC0xNjU0ODIwMTA3LC
-04NDcyNDk5MjAsLTE2OTA4OTk1NDIsMTcxNjQyODk2NywtODk2
-NTM2OTc3LC01ODQ2OTE1MDIsNDI5Mjg2NDY4LDkwMTk0MDM4Ni
-wtMzc4MDAwMjc3LDgxMzIwODMwMywtMTU4Nzg3NTIxOSwzMTgy
-MTA4M119
+eyJoaXN0b3J5IjpbNzI3NjQ3MjQwLDIwNDQyMzY4NjIsLTE5OD
+I0NDU4MDMsMzg5NDI4MTUwLDIwNTQ1OTkyMTUsODUzMzYyOTUw
+LDE0NjYyMzEwNTIsMTk1NzQ3NDk2NSwtMTY1NDgyMDEwNywtOD
+Q3MjQ5OTIwLC0xNjkwODk5NTQyLDE3MTY0Mjg5NjcsLTg5NjUz
+Njk3NywtNTg0NjkxNTAyLDQyOTI4NjQ2OCw5MDE5NDAzODYsLT
+M3ODAwMDI3Nyw4MTMyMDgzMDMsLTE1ODc4NzUyMTksMzE4MjEw
+ODNdfQ==
 -->
