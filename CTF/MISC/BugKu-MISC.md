@@ -214,14 +214,51 @@ ciphertext = ['96',
  '99',
  '112']
 ```
+反解 py 代码
+```py
+ciphertext = ['96',
+ '65',
+ '93',
+ '123',
+ '91',
+ '97',
+ '22',
+ '93',
+ '70',
+ '102',
+ '94',
+ '132',
+ '46',
+ '112',
+ '64',
+ '97',
+ '88',
+ '80',
+ '82',
+ '137',
+ '90',
+ '109',
+ '99',
+ '112']
+ciphertext=ciphertext[::-1]
+def de():
+    flag=''
+    for i in range(len(ciphertext)):
+        if i % 2==0:
+            s=int(ciphertext[i])-10
+        else :
+            s=int(ciphertext[i])+10
+        flag+=chr(s^i)
+    return flag
 
-
+print(de())
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDE0OTI2NDEsLTE1MzI4MzAxMTksLT
-E2OTUxNzU1MDMsMzM3MDg2NDAxLDIwNjQzODY4MjEsMTkyOTIx
-MTgyMSwxMDEwMDQ2Mzg0LDE3MzIzMjEyMTcsNDk3MzcwNjUzLD
-EzNTE3NDIwODAsMjEzNTY0MjQ3NSwxNzIzNjU0Mjg3LC0xMDQ0
-ODgxNzM2LC0xNDc2OTk0NTcyLC0yMDA5NjE1NjU3LDk5MDgxNT
-cxMCwtMTMxMzk3OTQxNCw5NzYzNjAyLDgzMjk5MjQ3MywtMzEy
-Nzg2ODMwXX0=
+eyJoaXN0b3J5IjpbOTY2MDI2NjQxLC0xNTQxNDkyNjQxLC0xNT
+MyODMwMTE5LC0xNjk1MTc1NTAzLDMzNzA4NjQwMSwyMDY0Mzg2
+ODIxLDE5MjkyMTE4MjEsMTAxMDA0NjM4NCwxNzMyMzIxMjE3LD
+Q5NzM3MDY1MywxMzUxNzQyMDgwLDIxMzU2NDI0NzUsMTcyMzY1
+NDI4NywtMTA0NDg4MTczNiwtMTQ3Njk5NDU3MiwtMjAwOTYxNT
+Y1Nyw5OTA4MTU3MTAsLTEzMTM5Nzk0MTQsOTc2MzYwMiw4MzI5
+OTI0NzNdfQ==
 -->
