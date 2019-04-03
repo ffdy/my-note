@@ -350,7 +350,8 @@ if(md5($key1) == md5($key2) && $key1 !== $key2){
 ```
 因为是弱类型比较,可以用 MD5 碰撞,也可以用数组绕过
 然后发现他过滤了 URL 中的 key
-可以构造 payload:`?kkeyey1[]=1&kkeyey2[]=2` 或者 `
+可以构造 payload:`?kkeyey1[]=1&kkeyey2[]=2` 或者 `?kkeyey1=QNKCDZO&kkeyey2=s878926199a`
+至于那一串字符
 ## 过狗一句话
 ```php
 <?php 
@@ -375,8 +376,9 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDkxNzMzMTgsNzk1NzE1NjI1LDQ1ND
-EyNTYyMywtMTE3NzQwNzk0NiwtNzc5NjM0Nzg0LC02NDU3Nzk2
-MDYsMTQwMzIzNzE4MSwxNjU1NzgxNTMsNDg0NTM5NzgxLC0xMj
-E5MDU1MDM5LC0xNzQ1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
+eyJoaXN0b3J5IjpbLTc5OTEzMjI3MiwtMTk0OTE3MzMxOCw3OT
+U3MTU2MjUsNDU0MTI1NjIzLC0xMTc3NDA3OTQ2LC03Nzk2MzQ3
+ODQsLTY0NTc3OTYwNiwxNDAzMjM3MTgxLDE2NTU3ODE1Myw0OD
+Q1Mzk3ODEsLTEyMTkwNTUwMzksLTE3NDUwOTI2MjgsLTQyODcy
+NTgwNF19
 -->
