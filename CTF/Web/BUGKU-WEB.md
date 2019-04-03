@@ -353,7 +353,7 @@ if(md5($key1) == md5($key2) && $key1 !== $key2){
 可以构造 payload:`?kkeyey1[]=1&kkeyey2[]=2` 或者 `?kkeyey1=QNKCDZO&kkeyey2=s878926199a`
 至于那一串字符,仔细观察发现他是两个 `d41d8cd98f00b204e9800998ecf8427e` MD5 解密后得到 NULL
 也就是没提交东西时 key1 和 key2 都是 NULL 时的 MD5 加密
-## 
+## 成绩单
 ## 过狗一句话
 ```php
 <?php 
@@ -378,9 +378,9 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk3NDU2OCwtNzk5MTMyMjcyLC0xOT
-Q5MTczMzE4LDc5NTcxNTYyNSw0NTQxMjU2MjMsLTExNzc0MDc5
-NDYsLTc3OTYzNDc4NCwtNjQ1Nzc5NjA2LDE0MDMyMzcxODEsMT
-Y1NTc4MTUzLDQ4NDUzOTc4MSwtMTIxOTA1NTAzOSwtMTc0NTA5
-MjYyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTE4NTM3NjM4NDgsLTc5OTEzMjI3MiwtMT
+k0OTE3MzMxOCw3OTU3MTU2MjUsNDU0MTI1NjIzLC0xMTc3NDA3
+OTQ2LC03Nzk2MzQ3ODQsLTY0NTc3OTYwNiwxNDAzMjM3MTgxLD
+E2NTU3ODE1Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMzksLTE3NDUw
+OTI2MjgsLTQyODcyNTgwNF19
 -->
