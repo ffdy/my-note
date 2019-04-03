@@ -311,7 +311,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
           $(this).width('375px').height('375px');
           clicks++;
           $("#clickcount").text(clicks);
-          if(clicks >= 1000000){
+          if(clicks >= 1000000){ # >= 改为 <
           	var form = $('<form action="" method="post">' +
 						'<input type="text" name="clicks" value="' + clicks + '" hidden/>' +
 						'</form>');
@@ -320,7 +320,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
           }
         });
     });
-```
+``` 
 直接修改 JS 
 ## 过狗一句话
 ```php
@@ -346,7 +346,7 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwNDAzNTYwLC0xMTc3NDA3OTQ2LC03Nz
+eyJoaXN0b3J5IjpbNDU0MTI1NjIzLC0xMTc3NDA3OTQ2LC03Nz
 k2MzQ3ODQsLTY0NTc3OTYwNiwxNDAzMjM3MTgxLDE2NTU3ODE1
 Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMzksLTE3NDUwOTI2MjgsLT
 QyODcyNTgwNF19
