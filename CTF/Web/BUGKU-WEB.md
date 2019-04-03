@@ -311,7 +311,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
           $(this).width('375px').height('375px');
           clicks++;
           $("#clickcount").text(clicks);
-          if(clicks >= 1000000){ # >= 改为 <
+          if(clicks >= 1000000){ 
           	var form = $('<form action="" method="post">' +
 						'<input type="text" name="clicks" value="' + clicks + '" hidden/>' +
 						'</form>');
@@ -321,7 +321,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
         });
     });
 ``` 
-直接修改 JS 
+在 Consoles 中把 clicks 的值修改为 1e6,再点击yixia
 ## 过狗一句话
 ```php
 <?php 
@@ -346,8 +346,8 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU0MTI1NjIzLC0xMTc3NDA3OTQ2LC03Nz
-k2MzQ3ODQsLTY0NTc3OTYwNiwxNDAzMjM3MTgxLDE2NTU3ODE1
-Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMzksLTE3NDUwOTI2MjgsLT
-QyODcyNTgwNF19
+eyJoaXN0b3J5IjpbLTMxOTU5MTcxNyw0NTQxMjU2MjMsLTExNz
+c0MDc5NDYsLTc3OTYzNDc4NCwtNjQ1Nzc5NjA2LDE0MDMyMzcx
+ODEsMTY1NTc4MTUzLDQ4NDUzOTc4MSwtMTIxOTA1NTAzOSwtMT
+c0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 -->
