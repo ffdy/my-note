@@ -326,7 +326,30 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 有题目名字想到备份文件 .bak 提交得到备份文件
 得到源码
 ```php
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Norse
+ * Date: 2017/8/6
+ * Time: 20:22
+*/
 
+include_once "flag.php";
+ini_set("display_errors", 0);
+$str = strstr($_SERVER['REQUEST_URI'], '?');
+$str = substr($str,1);
+$str = str_replace('key','',$str);
+parse_str($str);
+echo md5($key1);
+
+echo md5($key2);
+if(md5($key1) == md5($key2) && $key1 !== $key2){
+    echo $flag."取得flag";
+}
+?>
+```
+因为是弱类型比较,可以用 MD5 碰撞,也可以用数组绕过
+构造 payload:`
 ## 过狗一句话
 ```php
 <?php 
@@ -351,8 +374,8 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzU2MDc3OTksNDU0MTI1NjIzLC0xMT
-c3NDA3OTQ2LC03Nzk2MzQ3ODQsLTY0NTc3OTYwNiwxNDAzMjM3
-MTgxLDE2NTU3ODE1Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMzksLT
-E3NDUwOTI2MjgsLTQyODcyNTgwNF19
+eyJoaXN0b3J5IjpbNzk1NzE1NjI1LDQ1NDEyNTYyMywtMTE3Nz
+QwNzk0NiwtNzc5NjM0Nzg0LC02NDU3Nzk2MDYsMTQwMzIzNzE4
+MSwxNjU1NzgxNTMsNDg0NTM5NzgxLC0xMjE5MDU1MDM5LC0xNz
+Q1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
 -->
