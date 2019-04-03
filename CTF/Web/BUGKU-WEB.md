@@ -295,7 +295,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 如果不进行base64编码传入，就会直接执行，而flag的信息在注释中，是得不到的。
 
 我们再看一下源码中 存在对 ../ tp data input 的过滤，其实这都是php://协议中的其他方法
-
+## 请输入密码查看 flag
 ## 过狗一句话
 ```php
 <?php 
@@ -320,7 +320,8 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTYzNDc4NCwtNjQ1Nzc5NjA2LDE0MD
-MyMzcxODEsMTY1NTc4MTUzLDQ4NDUzOTc4MSwtMTIxOTA1NTAz
-OSwtMTc0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTExNzc0MDc5NDYsLTc3OTYzNDc4NCwtNj
+Q1Nzc5NjA2LDE0MDMyMzcxODEsMTY1NTc4MTUzLDQ4NDUzOTc4
+MSwtMTIxOTA1NTAzOSwtMTc0NTA5MjYyOCwtNDI4NzI1ODA0XX
+0=
 -->
