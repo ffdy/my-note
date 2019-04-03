@@ -349,7 +349,7 @@ if(md5($key1) == md5($key2) && $key1 !== $key2){
 ?>
 ```
 因为是弱类型比较,可以用 MD5 碰撞,也可以用数组绕过
-构造 payload:`
+
 ## 过狗一句话
 ```php
 <?php 
@@ -374,8 +374,8 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1NzE1NjI1LDQ1NDEyNTYyMywtMTE3Nz
-QwNzk0NiwtNzc5NjM0Nzg0LC02NDU3Nzk2MDYsMTQwMzIzNzE4
-MSwxNjU1NzgxNTMsNDg0NTM5NzgxLC0xMjE5MDU1MDM5LC0xNz
-Q1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
+eyJoaXN0b3J5IjpbLTE1NTAxMDM3NTEsNzk1NzE1NjI1LDQ1ND
+EyNTYyMywtMTE3NzQwNzk0NiwtNzc5NjM0Nzg0LC02NDU3Nzk2
+MDYsMTQwMzIzNzE4MSwxNjU1NzgxNTMsNDg0NTM5NzgxLC0xMj
+E5MDU1MDM5LC0xNzQ1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
 -->
