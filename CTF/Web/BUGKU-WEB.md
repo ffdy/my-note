@@ -298,7 +298,7 @@ document.getElementById("levelQuest").onsubmit=checkSubmit;
 ## 请输入密码查看 flag
 提示输入 5 位数密码,直接 Burp 抓包数字爆破
 ## 点击一百万次
-
+查看网页代码,发现 JS 
 ## 过狗一句话
 ```php
 <?php 
@@ -323,7 +323,7 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyNDY0MjU2LC0xMTc3NDA3OTQ2LC03Nz
+eyJoaXN0b3J5IjpbMjcyNzk0Nzk4LC0xMTc3NDA3OTQ2LC03Nz
 k2MzQ3ODQsLTY0NTc3OTYwNiwxNDAzMjM3MTgxLDE2NTU3ODE1
 Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMzksLTE3NDUwOTI2MjgsLT
 QyODcyNTgwNF19
