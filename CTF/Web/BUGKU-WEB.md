@@ -363,7 +363,10 @@ Sql post 注入
 `py -2 sqlmap -r post.txt -P id -D * -T * -C * --dump` 爆当前数据库表中字段的记录
 得到 flag
 ## 秋名山老司机
-要求 post 提交老司机的车速,并且
+要求 post 提交老司机的车速,并且页面的算式会改变
+Python 写脚本
+```py
+```
 ## 过狗一句话
 ```php
 <?php 
@@ -388,10 +391,10 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNTAzNjA5MCwxNjY0OTY3MTQ2LC0xOD
-UzNzYzODQ4LC03OTkxMzIyNzIsLTE5NDkxNzMzMTgsNzk1NzE1
-NjI1LDQ1NDEyNTYyMywtMTE3NzQwNzk0NiwtNzc5NjM0Nzg0LC
-02NDU3Nzk2MDYsMTQwMzIzNzE4MSwxNjU1NzgxNTMsNDg0NTM5
-NzgxLC0xMjE5MDU1MDM5LC0xNzQ1MDkyNjI4LC00Mjg3MjU4MD
-RdfQ==
+eyJoaXN0b3J5IjpbLTExNjI0OTU4ODQsMTY2NDk2NzE0NiwtMT
+g1Mzc2Mzg0OCwtNzk5MTMyMjcyLC0xOTQ5MTczMzE4LDc5NTcx
+NTYyNSw0NTQxMjU2MjMsLTExNzc0MDc5NDYsLTc3OTYzNDc4NC
+wtNjQ1Nzc5NjA2LDE0MDMyMzcxODEsMTY1NTc4MTUzLDQ4NDUz
+OTc4MSwtMTIxOTA1NTAzOSwtMTc0NTA5MjYyOCwtNDI4NzI1OD
+A0XX0=
 -->
