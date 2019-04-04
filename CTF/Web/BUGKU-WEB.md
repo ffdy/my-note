@@ -385,7 +385,20 @@ base64 解密,提交,不对
 再次查看,发现 flag 字段已经变了
 结合题目提示,写脚本
 ```py
+import re
+import base64
+import requests
+url='http://123.206.87.240:8002/web6/'
+s=requests.Session()
+source=s.get(url).headers
+mid=base64.b64decode(source['flag'])
+mid=mid.decode()
+flag=s.post(url,{'margin': base64.b64decode((mid.split(':')[1]))}).text
+print(flag)
 ```
+得到 flag
+## cookie 欺骗
+打开发现 url 上有key
 ## 过狗一句话
 ```php
 <?php 
@@ -410,10 +423,10 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjIyMTY1MywtMTE2MjQ5NTg4NCwxNj
-Y0OTY3MTQ2LC0xODUzNzYzODQ4LC03OTkxMzIyNzIsLTE5NDkx
-NzMzMTgsNzk1NzE1NjI1LDQ1NDEyNTYyMywtMTE3NzQwNzk0Ni
-wtNzc5NjM0Nzg0LC02NDU3Nzk2MDYsMTQwMzIzNzE4MSwxNjU1
-NzgxNTMsNDg0NTM5NzgxLC0xMjE5MDU1MDM5LC0xNzQ1MDkyNj
-I4LC00Mjg3MjU4MDRdfQ==
+eyJoaXN0b3J5IjpbLTc2ODQ5NzE3MCwxODYyMjIxNjUzLC0xMT
+YyNDk1ODg0LDE2NjQ5NjcxNDYsLTE4NTM3NjM4NDgsLTc5OTEz
+MjI3MiwtMTk0OTE3MzMxOCw3OTU3MTU2MjUsNDU0MTI1NjIzLC
+0xMTc3NDA3OTQ2LC03Nzk2MzQ3ODQsLTY0NTc3OTYwNiwxNDAz
+MjM3MTgxLDE2NTU3ODE1Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMz
+ksLTE3NDUwOTI2MjgsLTQyODcyNTgwNF19
 -->
