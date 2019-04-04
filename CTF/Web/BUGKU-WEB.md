@@ -381,6 +381,9 @@ print(s.post(url,data=post).text)
 多交几次,得到 flag
 ## 速度要快
 查看源码,提示提交 margin,查看头,发现 flag
+base64 解密,提交,不对
+再次查看,发现 flag 字段已经变了
+结合题目提示
 ## 过狗一句话
 ```php
 <?php 
@@ -405,7 +408,7 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQzMjkxNjIsLTExNjI0OTU4ODQsMT
+eyJoaXN0b3J5IjpbLTIxMzg0NjY5NDUsLTExNjI0OTU4ODQsMT
 Y2NDk2NzE0NiwtMTg1Mzc2Mzg0OCwtNzk5MTMyMjcyLC0xOTQ5
 MTczMzE4LDc5NTcxNTYyNSw0NTQxMjU2MjMsLTExNzc0MDc5ND
 YsLTc3OTYzNDc4NCwtNjQ1Nzc5NjA2LDE0MDMyMzcxODEsMTY1
