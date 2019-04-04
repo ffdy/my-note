@@ -366,7 +366,20 @@ Sql post 注入
 要求 post 提交老司机的车速,并且页面的算式会改变
 Python 写脚本
 ```py
+import re
+import requests
+url='http://123.206.87.240:8002/qiumingshan/'
+s=requests.Session()
+source=s.get(url)
+expression=re.search(r'(\d+[+\-*])+(\d+)',source.text).group() 
+# 正则式匹配算式
+print(expression)
+result=eval(expression)
+post={'value':result}
+print(s.post(url,data=post).text)
 ```
+多交几次,得到 flag
+## 
 ## 过狗一句话
 ```php
 <?php 
@@ -391,10 +404,10 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI0OTU4ODQsMTY2NDk2NzE0NiwtMT
-g1Mzc2Mzg0OCwtNzk5MTMyMjcyLC0xOTQ5MTczMzE4LDc5NTcx
-NTYyNSw0NTQxMjU2MjMsLTExNzc0MDc5NDYsLTc3OTYzNDc4NC
-wtNjQ1Nzc5NjA2LDE0MDMyMzcxODEsMTY1NTc4MTUzLDQ4NDUz
-OTc4MSwtMTIxOTA1NTAzOSwtMTc0NTA5MjYyOCwtNDI4NzI1OD
-A0XX0=
+eyJoaXN0b3J5IjpbLTE4MzQ1NjU2MTEsLTExNjI0OTU4ODQsMT
+Y2NDk2NzE0NiwtMTg1Mzc2Mzg0OCwtNzk5MTMyMjcyLC0xOTQ5
+MTczMzE4LDc5NTcxNTYyNSw0NTQxMjU2MjMsLTExNzc0MDc5ND
+YsLTc3OTYzNDc4NCwtNjQ1Nzc5NjA2LDE0MDMyMzcxODEsMTY1
+NTc4MTUzLDQ4NDUzOTc4MSwtMTIxOTA1NTAzOSwtMTc0NTA5Mj
+YyOCwtNDI4NzI1ODA0XX0=
 -->
