@@ -379,7 +379,7 @@ post={'value':result}
 print(s.post(url,data=post).text)
 ```
 多交几次,得到 flag
-## 
+## 速度要快
 ## 过狗一句话
 ```php
 <?php 
@@ -404,10 +404,10 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ1NjU2MTEsLTExNjI0OTU4ODQsMT
-Y2NDk2NzE0NiwtMTg1Mzc2Mzg0OCwtNzk5MTMyMjcyLC0xOTQ5
-MTczMzE4LDc5NTcxNTYyNSw0NTQxMjU2MjMsLTExNzc0MDc5ND
-YsLTc3OTYzNDc4NCwtNjQ1Nzc5NjA2LDE0MDMyMzcxODEsMTY1
-NTc4MTUzLDQ4NDUzOTc4MSwtMTIxOTA1NTAzOSwtMTc0NTA5Mj
-YyOCwtNDI4NzI1ODA0XX0=
+eyJoaXN0b3J5IjpbLTEyMzY3MzA4MiwtMTE2MjQ5NTg4NCwxNj
+Y0OTY3MTQ2LC0xODUzNzYzODQ4LC03OTkxMzIyNzIsLTE5NDkx
+NzMzMTgsNzk1NzE1NjI1LDQ1NDEyNTYyMywtMTE3NzQwNzk0Ni
+wtNzc5NjM0Nzg0LC02NDU3Nzk2MDYsMTQwMzIzNzE4MSwxNjU1
+NzgxNTMsNDg0NTM5NzgxLC0xMjE5MDU1MDM5LC0xNzQ1MDkyNj
+I4LC00Mjg3MjU4MDRdfQ==
 -->
