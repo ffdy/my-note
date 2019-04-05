@@ -704,7 +704,7 @@ Content-Length: 1
 
 1
 ```
-## 
+## 细心
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -712,7 +712,7 @@ Content-Length: 1
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDc2MDQ1NSwtMTAwMjU3Mjc3NiwyMD
+eyJoaXN0b3J5IjpbMTQ2MjAzODc0OCwtMTAwMjU3Mjc3NiwyMD
 Y4NDg4MDE2LDk2OTgyNzIwNywxMjk1ODkxMDksMzczMDQ5MzM3
 LC0xNDI4NzM2NzQ3LDQ2MDYxODUzNywtNzA0MzQzMjk4LDIwND
 UxNzc0MzgsLTU2MTc5MTE2OSwtOTM3NTE2MTk5LC0xMTU3ODI3
