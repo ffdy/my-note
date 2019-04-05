@@ -682,7 +682,7 @@ if (isset($_GET['uname']) and isset($_POST['passwd'])) {
 ?> 
 ```
 提交的 id url 解码后等于 margin
-sha1 加密 uname 和 passwd 后两者相等,但是两者又不能相等,可以利用数组绕过,也可以 sha1 碰撞
+sha1 加密 uname 和 passwd 后两者相等,但是两者又不能相等,可以利用数组绕过,但是不可以 sha1 碰撞,因为弱比较中字符等于字符
 构造 payload
 ```
 POST /web7/?uname[]=1&id=%6Dargin HTTP/1.1
@@ -713,7 +713,7 @@ passwd%5B%5D=2
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTI1ODAxMywtMTAwMjU3Mjc3NiwyMD
+eyJoaXN0b3J5IjpbLTU2NjY5MTA2OCwtMTAwMjU3Mjc3NiwyMD
 Y4NDg4MDE2LDk2OTgyNzIwNywxMjk1ODkxMDksMzczMDQ5MzM3
 LC0xNDI4NzM2NzQ3LDQ2MDYxODUzNywtNzA0MzQzMjk4LDIwND
 UxNzc0MzgsLTU2MTc5MTE2OSwtOTM3NTE2MTk5LC0xMTU3ODI3
