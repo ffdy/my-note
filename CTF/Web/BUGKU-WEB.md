@@ -490,6 +490,8 @@ else
 ?>
 ```
 不知是不是出题人疏忽,直接访问 f4l2a3g.txt 就可得到 flag
+但是也可以构造 payload 绕过
+首先是 id de
 ## 过狗一句话
 ```php
 <?php 
@@ -514,11 +516,11 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTEzNTk5MCwyNTY3NDI4NzYsLTQ5Mz
-kyMTQxNywxODc5MDIwNzYzLDE4NjIyMjE2NTMsLTExNjI0OTU4
-ODQsMTY2NDk2NzE0NiwtMTg1Mzc2Mzg0OCwtNzk5MTMyMjcyLC
-0xOTQ5MTczMzE4LDc5NTcxNTYyNSw0NTQxMjU2MjMsLTExNzc0
-MDc5NDYsLTc3OTYzNDc4NCwtNjQ1Nzc5NjA2LDE0MDMyMzcxOD
-EsMTY1NTc4MTUzLDQ4NDUzOTc4MSwtMTIxOTA1NTAzOSwtMTc0
-NTA5MjYyOF19
+eyJoaXN0b3J5IjpbMTg3OTE3OTAyMSwtOTgxMTM1OTkwLDI1Nj
+c0Mjg3NiwtNDkzOTIxNDE3LDE4NzkwMjA3NjMsMTg2MjIyMTY1
+MywtMTE2MjQ5NTg4NCwxNjY0OTY3MTQ2LC0xODUzNzYzODQ4LC
+03OTkxMzIyNzIsLTE5NDkxNzMzMTgsNzk1NzE1NjI1LDQ1NDEy
+NTYyMywtMTE3NzQwNzk0NiwtNzc5NjM0Nzg0LC02NDU3Nzk2MD
+YsMTQwMzIzNzE4MSwxNjU1NzgxNTMsNDg0NTM5NzgxLC0xMjE5
+MDU1MDM5XX0=
 -->
