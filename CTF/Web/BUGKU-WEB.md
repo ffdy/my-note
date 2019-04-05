@@ -681,6 +681,7 @@ if (isset($_GET['uname']) and isset($_POST['passwd'])) {
 } 
 ?> 
 ```
+提交的 id url 解码后等于
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -688,11 +689,11 @@ if (isset($_GET['uname']) and isset($_POST['passwd'])) {
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODQ4ODAxNiw5Njk4MjcyMDcsMTI5NT
-g5MTA5LDM3MzA0OTMzNywtMTQyODczNjc0Nyw0NjA2MTg1Mzcs
-LTcwNDM0MzI5OCwyMDQ1MTc3NDM4LC01NjE3OTExNjksLTkzNz
-UxNjE5OSwtMTE1NzgyNzAwNSwxMTkxMzI1Nzk1LC0xMDI2MDI1
-MjU3LDYwNDU3NDc5MiwtMTIxNjQ1NDE0NywtMTY5MTI0ODQ0NC
-wtMTU4ODU0ODkzLDg2OTM3MDMzMCwxNDc2MDE5NDM5LC0yMTQ1
-NzcxNTA4XX0=
+eyJoaXN0b3J5IjpbLTEzNDM2OTUwNTcsMjA2ODQ4ODAxNiw5Nj
+k4MjcyMDcsMTI5NTg5MTA5LDM3MzA0OTMzNywtMTQyODczNjc0
+Nyw0NjA2MTg1MzcsLTcwNDM0MzI5OCwyMDQ1MTc3NDM4LC01Nj
+E3OTExNjksLTkzNzUxNjE5OSwtMTE1NzgyNzAwNSwxMTkxMzI1
+Nzk1LC0xMDI2MDI1MjU3LDYwNDU3NDc5MiwtMTIxNjQ1NDE0Ny
+wtMTY5MTI0ODQ0NCwtMTU4ODU0ODkzLDg2OTM3MDMzMCwxNDc2
+MDE5NDM5XX0=
 -->
