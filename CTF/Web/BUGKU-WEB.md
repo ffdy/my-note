@@ -648,7 +648,8 @@ hint: SQL 约束攻击
 伪造跳转地址
 `Referer: https://www.google.com`
 得到 flag
-## 
+## md5 collision(NUPT_CTF)
+MD5 碰撞
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -656,11 +657,11 @@ hint: SQL 约束攻击
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczMDQ5MzM3LC0xNDI4NzM2NzQ3LDQ2MD
-YxODUzNywtNzA0MzQzMjk4LDIwNDUxNzc0MzgsLTU2MTc5MTE2
-OSwtOTM3NTE2MTk5LC0xMTU3ODI3MDA1LDExOTEzMjU3OTUsLT
-EwMjYwMjUyNTcsNjA0NTc0NzkyLC0xMjE2NDU0MTQ3LC0xNjkx
-MjQ4NDQ0LC0xNTg4NTQ4OTMsODY5MzcwMzMwLDE0NzYwMTk0Mz
-ksLTIxNDU3NzE1MDgsLTEyOTg4MTMyMzEsNTkzODM1MDEsLTEz
-Mjk2MTgwNDRdfQ==
+eyJoaXN0b3J5IjpbMTI5NTg5MTA5LDM3MzA0OTMzNywtMTQyOD
+czNjc0Nyw0NjA2MTg1MzcsLTcwNDM0MzI5OCwyMDQ1MTc3NDM4
+LC01NjE3OTExNjksLTkzNzUxNjE5OSwtMTE1NzgyNzAwNSwxMT
+kxMzI1Nzk1LC0xMDI2MDI1MjU3LDYwNDU3NDc5MiwtMTIxNjQ1
+NDE0NywtMTY5MTI0ODQ0NCwtMTU4ODU0ODkzLDg2OTM3MDMzMC
+wxNDc2MDE5NDM5LC0yMTQ1NzcxNTA4LC0xMjk4ODEzMjMxLDU5
+MzgzNTAxXX0=
 -->
