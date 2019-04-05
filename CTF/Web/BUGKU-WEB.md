@@ -682,7 +682,8 @@ if (isset($_GET['uname']) and isset($_POST['passwd'])) {
 ?> 
 ```
 提交的 id url 解码后等于 margin
-sha1 加密 uname 和 passwd 后两者相等,但是两者又不能相等,可以利用数组绕过
+sha1 加密 uname 和 passwd 后两者相等,但是两者又不能相等,可以利用数组绕过,也可以 sha1 碰撞
+构造 payload:`
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -690,7 +691,7 @@ sha1 加密 uname 和 passwd 后两者相等,但是两者又不能相等,可以�
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQzMTk0NDQsMjA2ODQ4ODAxNiw5Nj
+eyJoaXN0b3J5IjpbLTEwMDI1NzI3NzYsMjA2ODQ4ODAxNiw5Nj
 k4MjcyMDcsMTI5NTg5MTA5LDM3MzA0OTMzNywtMTQyODczNjc0
 Nyw0NjA2MTg1MzcsLTcwNDM0MzI5OCwyMDQ1MTc3NDM4LC01Nj
 E3OTExNjksLTkzNzUxNjE5OSwtMTE1NzgyNzAwNSwxMTkxMzI1
