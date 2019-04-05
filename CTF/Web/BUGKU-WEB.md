@@ -582,6 +582,8 @@ die('key is: '.$key);
 正则式匹配
 构造 payload:`?id=keyakeyakey1232key:/1/akeye"`
 得到 flag
+## 前女友(SKCTF)
+
 ## web8 
 ```php
 <?php  
@@ -624,11 +626,11 @@ Content-Length: 1
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE5ODg0MDgsLTEwMjYwMjUyNTcsNj
-A0NTc0NzkyLC0xMjE2NDU0MTQ3LC0xNjkxMjQ4NDQ0LC0xNTg4
-NTQ4OTMsODY5MzcwMzMwLDE0NzYwMTk0MzksLTIxNDU3NzE1MD
-gsLTEyOTg4MTMyMzEsNTkzODM1MDEsLTEzMjk2MTgwNDQsLTk4
-MTEzNTk5MCwyNTY3NDI4NzYsLTQ5MzkyMTQxNywxODc5MDIwNz
-YzLDE4NjIyMjE2NTMsLTExNjI0OTU4ODQsMTY2NDk2NzE0Niwt
-MTg1Mzc2Mzg0OF19
+eyJoaXN0b3J5IjpbMTE5MTMyNTc5NSwtMTAyNjAyNTI1Nyw2MD
+Q1NzQ3OTIsLTEyMTY0NTQxNDcsLTE2OTEyNDg0NDQsLTE1ODg1
+NDg5Myw4NjkzNzAzMzAsMTQ3NjAxOTQzOSwtMjE0NTc3MTUwOC
+wtMTI5ODgxMzIzMSw1OTM4MzUwMSwtMTMyOTYxODA0NCwtOTgx
+MTM1OTkwLDI1Njc0Mjg3NiwtNDkzOTIxNDE3LDE4NzkwMjA3Nj
+MsMTg2MjIyMTY1MywtMTE2MjQ5NTg4NCwxNjY0OTY3MTQ2LC0x
+ODUzNzYzODQ4XX0=
 -->
