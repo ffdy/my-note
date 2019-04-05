@@ -598,7 +598,9 @@ if(isset($_GET['v1']) && isset($_GET['v2']) && isset($_GET['v3'])){
 }
 ?>
 ```
-需要提交 3 个参数
+需要提交 3 个参数,v1 不等于 v2,MD5(v1)==MD5(v2) 
+因为是弱类型比较,可以用 MD5 碰撞,也可以数组绕过
+
 ## web8 
 ```php
 <?php  
@@ -641,11 +643,11 @@ Content-Length: 1
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDc3MzY3MiwxMTkxMzI1Nzk1LC0xMD
-I2MDI1MjU3LDYwNDU3NDc5MiwtMTIxNjQ1NDE0NywtMTY5MTI0
-ODQ0NCwtMTU4ODU0ODkzLDg2OTM3MDMzMCwxNDc2MDE5NDM5LC
-0yMTQ1NzcxNTA4LC0xMjk4ODEzMjMxLDU5MzgzNTAxLC0xMzI5
-NjE4MDQ0LC05ODExMzU5OTAsMjU2NzQyODc2LC00OTM5MjE0MT
-csMTg3OTAyMDc2MywxODYyMjIxNjUzLC0xMTYyNDk1ODg0LDE2
-NjQ5NjcxNDZdfQ==
+eyJoaXN0b3J5IjpbLTEyNDYwMDA0MzgsMTE5MTMyNTc5NSwtMT
+AyNjAyNTI1Nyw2MDQ1NzQ3OTIsLTEyMTY0NTQxNDcsLTE2OTEy
+NDg0NDQsLTE1ODg1NDg5Myw4NjkzNzAzMzAsMTQ3NjAxOTQzOS
+wtMjE0NTc3MTUwOCwtMTI5ODgxMzIzMSw1OTM4MzUwMSwtMTMy
+OTYxODA0NCwtOTgxMTM1OTkwLDI1Njc0Mjg3NiwtNDkzOTIxND
+E3LDE4NzkwMjA3NjMsMTg2MjIyMTY1MywtMTE2MjQ5NTg4NCwx
+NjY0OTY3MTQ2XX0=
 -->
