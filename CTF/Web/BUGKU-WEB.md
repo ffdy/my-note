@@ -527,7 +527,7 @@ if(isset($user)&&(file_get_contents($user,'r')==="welcome to the bugkuctf")){
 }  
 ```
 首先可以用 PHP 伪协议 php://input 绕过审查
-再用 php://filter/read=convert.base64-encode/source=hint.php
+再用 php://filter/read=convert.base64-encode/resource=
 ## 过狗一句话
 ```php
 <?php 
@@ -552,11 +552,11 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzU3MDExNiw1OTM4MzUwMSwtMTMyOT
-YxODA0NCwtOTgxMTM1OTkwLDI1Njc0Mjg3NiwtNDkzOTIxNDE3
-LDE4NzkwMjA3NjMsMTg2MjIyMTY1MywtMTE2MjQ5NTg4NCwxNj
-Y0OTY3MTQ2LC0xODUzNzYzODQ4LC03OTkxMzIyNzIsLTE5NDkx
-NzMzMTgsNzk1NzE1NjI1LDQ1NDEyNTYyMywtMTE3NzQwNzk0Ni
-wtNzc5NjM0Nzg0LC02NDU3Nzk2MDYsMTQwMzIzNzE4MSwxNjU1
-NzgxNTNdfQ==
+eyJoaXN0b3J5IjpbNTg5MTMzNzg0LDU5MzgzNTAxLC0xMzI5Nj
+E4MDQ0LC05ODExMzU5OTAsMjU2NzQyODc2LC00OTM5MjE0MTcs
+MTg3OTAyMDc2MywxODYyMjIxNjUzLC0xMTYyNDk1ODg0LDE2Nj
+Q5NjcxNDYsLTE4NTM3NjM4NDgsLTc5OTEzMjI3MiwtMTk0OTE3
+MzMxOCw3OTU3MTU2MjUsNDU0MTI1NjIzLC0xMTc3NDA3OTQ2LC
+03Nzk2MzQ3ODQsLTY0NTc3OTYwNiwxNDAzMjM3MTgxLDE2NTU3
+ODE1M119
 -->
