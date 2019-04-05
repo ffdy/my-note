@@ -656,6 +656,9 @@ MD5 碰撞
 得到 flag
 ## 程序员本地网站
 伪造本地 IP
+`X-Forwarded-For: 127.0.0.1`
+得到 flag
+## 各种绕过
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -663,11 +666,11 @@ MD5 碰撞
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzM5Mzg0OTgsOTY5ODI3MjA3LDEyOT
-U4OTEwOSwzNzMwNDkzMzcsLTE0Mjg3MzY3NDcsNDYwNjE4NTM3
-LC03MDQzNDMyOTgsMjA0NTE3NzQzOCwtNTYxNzkxMTY5LC05Mz
-c1MTYxOTksLTExNTc4MjcwMDUsMTE5MTMyNTc5NSwtMTAyNjAy
-NTI1Nyw2MDQ1NzQ3OTIsLTEyMTY0NTQxNDcsLTE2OTEyNDg0ND
-QsLTE1ODg1NDg5Myw4NjkzNzAzMzAsMTQ3NjAxOTQzOSwtMjE0
-NTc3MTUwOF19
+eyJoaXN0b3J5IjpbLTgwNjE5NjQzMiw5Njk4MjcyMDcsMTI5NT
+g5MTA5LDM3MzA0OTMzNywtMTQyODczNjc0Nyw0NjA2MTg1Mzcs
+LTcwNDM0MzI5OCwyMDQ1MTc3NDM4LC01NjE3OTExNjksLTkzNz
+UxNjE5OSwtMTE1NzgyNzAwNSwxMTkxMzI1Nzk1LC0xMDI2MDI1
+MjU3LDYwNDU3NDc5MiwtMTIxNjQ1NDE0NywtMTY5MTI0ODQ0NC
+wtMTU4ODU0ODkzLDg2OTM3MDMzMCwxNDc2MDE5NDM5LC0yMTQ1
+NzcxNTA4XX0=
 -->
