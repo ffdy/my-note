@@ -583,7 +583,22 @@ die('key is: '.$key);
 构造 payload:`?id=keyakeyakey1232key:/1/akeye"`
 得到 flag
 ## 前女友(SKCTF)
-
+查看源码发现一个链接,访问
+```php
+<?php
+if(isset($_GET['v1']) && isset($_GET['v2']) && isset($_GET['v3'])){
+    $v1 = $_GET['v1'];
+    $v2 = $_GET['v2'];
+    $v3 = $_GET['v3'];
+    if($v1 != $v2 && md5($v1) == md5($v2)){
+        if(!strcmp($v3, $flag)){
+            echo $flag;
+        }
+    }
+}
+?>
+```
+需要提交 3 个参数
 ## web8 
 ```php
 <?php  
@@ -626,11 +641,11 @@ Content-Length: 1
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTMyNTc5NSwtMTAyNjAyNTI1Nyw2MD
-Q1NzQ3OTIsLTEyMTY0NTQxNDcsLTE2OTEyNDg0NDQsLTE1ODg1
-NDg5Myw4NjkzNzAzMzAsMTQ3NjAxOTQzOSwtMjE0NTc3MTUwOC
-wtMTI5ODgxMzIzMSw1OTM4MzUwMSwtMTMyOTYxODA0NCwtOTgx
-MTM1OTkwLDI1Njc0Mjg3NiwtNDkzOTIxNDE3LDE4NzkwMjA3Nj
-MsMTg2MjIyMTY1MywtMTE2MjQ5NTg4NCwxNjY0OTY3MTQ2LC0x
-ODUzNzYzODQ4XX0=
+eyJoaXN0b3J5IjpbLTM2MDc3MzY3MiwxMTkxMzI1Nzk1LC0xMD
+I2MDI1MjU3LDYwNDU3NDc5MiwtMTIxNjQ1NDE0NywtMTY5MTI0
+ODQ0NCwtMTU4ODU0ODkzLDg2OTM3MDMzMCwxNDc2MDE5NDM5LC
+0yMTQ1NzcxNTA4LC0xMjk4ODEzMjMxLDU5MzgzNTAxLC0xMzI5
+NjE4MDQ0LC05ODExMzU5OTAsMjU2NzQyODc2LC00OTM5MjE0MT
+csMTg3OTAyMDc2MywxODYyMjIxNjUzLC0xMTYyNDk1ODg0LDE2
+NjQ5NjcxNDZdfQ==
 -->
