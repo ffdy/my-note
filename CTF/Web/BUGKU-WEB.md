@@ -546,7 +546,7 @@ class Flag{//flag.php
 定义了一个 Flag 类,不知有何用,但看见 flag.php 
 利用 include 漏洞读取一波得到 `涓嶈兘鐜板湪灏辩粰浣爁lag鍝�` 
 这是啥??懵逼
-
+想想应该是编码问题
 ## 过狗一句话
 ```php
 <?php 
@@ -571,7 +571,7 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjA3OTQwMjYsNTkzODM1MDEsLTEzMj
+eyJoaXN0b3J5IjpbLTEyOTg4MTMyMzEsNTkzODM1MDEsLTEzMj
 k2MTgwNDQsLTk4MTEzNTk5MCwyNTY3NDI4NzYsLTQ5MzkyMTQx
 NywxODc5MDIwNzYzLDE4NjIyMjE2NTMsLTExNjI0OTU4ODQsMT
 Y2NDk2NzE0NiwtMTg1Mzc2Mzg0OCwtNzk5MTMyMjcyLC0xOTQ5
