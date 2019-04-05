@@ -659,6 +659,9 @@ MD5 碰撞
 `X-Forwarded-For: 127.0.0.1`
 得到 flag
 ## 各种绕过
+访问得到 php 代码
+```php
+
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -666,7 +669,7 @@ MD5 碰撞
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjE5NjQzMiw5Njk4MjcyMDcsMTI5NT
+eyJoaXN0b3J5IjpbLTU5NTE0MzkyOCw5Njk4MjcyMDcsMTI5NT
 g5MTA5LDM3MzA0OTMzNywtMTQyODczNjc0Nyw0NjA2MTg1Mzcs
 LTcwNDM0MzI5OCwyMDQ1MTc3NDM4LC01NjE3OTExNjksLTkzNz
 UxNjE5OSwtMTE1NzgyNzAwNSwxMTkxMzI1Nzk1LC0xMDI2MDI1
