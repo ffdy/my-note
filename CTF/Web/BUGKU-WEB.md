@@ -456,7 +456,8 @@ Connection: close
 ```
 得到 flag
 ## never give up
-
+打开网页,让我不要放弃... ~~(废话)~~
+查看源码,看到注释
 ## 过狗一句话
 ```php
 <?php 
@@ -481,10 +482,11 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTAyMDc2MywxODYyMjIxNjUzLC0xMT
-YyNDk1ODg0LDE2NjQ5NjcxNDYsLTE4NTM3NjM4NDgsLTc5OTEz
-MjI3MiwtMTk0OTE3MzMxOCw3OTU3MTU2MjUsNDU0MTI1NjIzLC
-0xMTc3NDA3OTQ2LC03Nzk2MzQ3ODQsLTY0NTc3OTYwNiwxNDAz
-MjM3MTgxLDE2NTU3ODE1Myw0ODQ1Mzk3ODEsLTEyMTkwNTUwMz
-ksLTE3NDUwOTI2MjgsLTQyODcyNTgwNF19
+eyJoaXN0b3J5IjpbMzQyOTM0MjYwLDE4NzkwMjA3NjMsMTg2Mj
+IyMTY1MywtMTE2MjQ5NTg4NCwxNjY0OTY3MTQ2LC0xODUzNzYz
+ODQ4LC03OTkxMzIyNzIsLTE5NDkxNzMzMTgsNzk1NzE1NjI1LD
+Q1NDEyNTYyMywtMTE3NzQwNzk0NiwtNzc5NjM0Nzg0LC02NDU3
+Nzk2MDYsMTQwMzIzNzE4MSwxNjU1NzgxNTMsNDg0NTM5NzgxLC
+0xMjE5MDU1MDM5LC0xNzQ1MDkyNjI4LC00Mjg3MjU4MDRdfQ==
+
 -->
