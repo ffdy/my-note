@@ -461,7 +461,7 @@ Connection: close
 打开,发现跳转到 Bugku 的论坛
 中间绝对有事!!!
 `view-source:http://123.206.87.240:8006/test/1p.html` 查看 1p.html 源码
-得到先是 url 编码,后 base64 编码的字符串
+得到先是 url 编码,后 base64 编码,再 url bian的字符串
 解码得到
 
 ## 过狗一句话
@@ -488,11 +488,11 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2NzQyODc2LC00OTM5MjE0MTcsMTg3OT
-AyMDc2MywxODYyMjIxNjUzLC0xMTYyNDk1ODg0LDE2NjQ5Njcx
-NDYsLTE4NTM3NjM4NDgsLTc5OTEzMjI3MiwtMTk0OTE3MzMxOC
-w3OTU3MTU2MjUsNDU0MTI1NjIzLC0xMTc3NDA3OTQ2LC03Nzk2
-MzQ3ODQsLTY0NTc3OTYwNiwxNDAzMjM3MTgxLDE2NTU3ODE1My
-w0ODQ1Mzk3ODEsLTEyMTkwNTUwMzksLTE3NDUwOTI2MjgsLTQy
-ODcyNTgwNF19
+eyJoaXN0b3J5IjpbNDk4MjE5NTY4LDI1Njc0Mjg3NiwtNDkzOT
+IxNDE3LDE4NzkwMjA3NjMsMTg2MjIyMTY1MywtMTE2MjQ5NTg4
+NCwxNjY0OTY3MTQ2LC0xODUzNzYzODQ4LC03OTkxMzIyNzIsLT
+E5NDkxNzMzMTgsNzk1NzE1NjI1LDQ1NDEyNTYyMywtMTE3NzQw
+Nzk0NiwtNzc5NjM0Nzg0LC02NDU3Nzk2MDYsMTQwMzIzNzE4MS
+wxNjU1NzgxNTMsNDg0NTM5NzgxLC0xMjE5MDU1MDM5LC0xNzQ1
+MDkyNjI4XX0=
 -->
