@@ -640,6 +640,7 @@ Content-Length: 1
 1
 ```
 ## login1(SKCTF)
+hint: SQL 约束攻击
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -648,7 +649,7 @@ Content-Length: 1
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTEwNzA2MywtOTM3NTE2MTk5LC0xMT
+eyJoaXN0b3J5IjpbLTU2MTc5MTE2OSwtOTM3NTE2MTk5LC0xMT
 U3ODI3MDA1LDExOTEzMjU3OTUsLTEwMjYwMjUyNTcsNjA0NTc0
 NzkyLC0xMjE2NDU0MTQ3LC0xNjkxMjQ4NDQ0LC0xNTg4NTQ4OT
 MsODY5MzcwMzMwLDE0NzYwMTk0MzksLTIxNDU3NzE1MDgsLTEy
