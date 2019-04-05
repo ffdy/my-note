@@ -681,7 +681,8 @@ if (isset($_GET['uname']) and isset($_POST['passwd'])) {
 } 
 ?> 
 ```
-提交的 id url 解码后等于
+提交的 id url 解码后等于 margin
+sha1 加密 uname 和 passwd 后两者相等,但是两者又不能相等,可以利用
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -689,11 +690,11 @@ if (isset($_GET['uname']) and isset($_POST['passwd'])) {
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM2OTUwNTcsMjA2ODQ4ODAxNiw5Nj
-k4MjcyMDcsMTI5NTg5MTA5LDM3MzA0OTMzNywtMTQyODczNjc0
-Nyw0NjA2MTg1MzcsLTcwNDM0MzI5OCwyMDQ1MTc3NDM4LC01Nj
-E3OTExNjksLTkzNzUxNjE5OSwtMTE1NzgyNzAwNSwxMTkxMzI1
-Nzk1LC0xMDI2MDI1MjU3LDYwNDU3NDc5MiwtMTIxNjQ1NDE0Ny
-wtMTY5MTI0ODQ0NCwtMTU4ODU0ODkzLDg2OTM3MDMzMCwxNDc2
-MDE5NDM5XX0=
+eyJoaXN0b3J5IjpbNDUzOTk0MDY2LDIwNjg0ODgwMTYsOTY5OD
+I3MjA3LDEyOTU4OTEwOSwzNzMwNDkzMzcsLTE0Mjg3MzY3NDcs
+NDYwNjE4NTM3LC03MDQzNDMyOTgsMjA0NTE3NzQzOCwtNTYxNz
+kxMTY5LC05Mzc1MTYxOTksLTExNTc4MjcwMDUsMTE5MTMyNTc5
+NSwtMTAyNjAyNTI1Nyw2MDQ1NzQ3OTIsLTEyMTY0NTQxNDcsLT
+E2OTEyNDg0NDQsLTE1ODg1NDg5Myw4NjkzNzAzMzAsMTQ3NjAx
+OTQzOV19
 -->
