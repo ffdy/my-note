@@ -581,6 +581,8 @@ die('key is: '.$key);
 ```
 正则式匹配
 构造 payload:`?id=keyakeyakey1232key:/1/akeye"`
+得到 flag
+## web8 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -588,7 +590,7 @@ die('key is: '.$key);
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTAzNzA1LC0xMDI2MDI1MjU3LDYwND
+eyJoaXN0b3J5IjpbODY3MzE1NzM2LC0xMDI2MDI1MjU3LDYwND
 U3NDc5MiwtMTIxNjQ1NDE0NywtMTY5MTI0ODQ0NCwtMTU4ODU0
 ODkzLDg2OTM3MDMzMCwxNDc2MDE5NDM5LC0yMTQ1NzcxNTA4LC
 0xMjk4ODEzMjMxLDU5MzgzNTAxLC0xMzI5NjE4MDQ0LC05ODEx
