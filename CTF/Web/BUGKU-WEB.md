@@ -579,6 +579,7 @@ die('key is: '.$key);
 }  
 ?>
 ```
+正则式匹配
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -586,11 +587,11 @@ die('key is: '.$key);
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTY0NTQxNDcsLTE2OTEyNDg0NDQsLT
-E1ODg1NDg5Myw4NjkzNzAzMzAsMTQ3NjAxOTQzOSwtMjE0NTc3
-MTUwOCwtMTI5ODgxMzIzMSw1OTM4MzUwMSwtMTMyOTYxODA0NC
-wtOTgxMTM1OTkwLDI1Njc0Mjg3NiwtNDkzOTIxNDE3LDE4Nzkw
-MjA3NjMsMTg2MjIyMTY1MywtMTE2MjQ5NTg4NCwxNjY0OTY3MT
-Q2LC0xODUzNzYzODQ4LC03OTkxMzIyNzIsLTE5NDkxNzMzMTgs
-Nzk1NzE1NjI1XX0=
+eyJoaXN0b3J5IjpbNjA0NTc0NzkyLC0xMjE2NDU0MTQ3LC0xNj
+kxMjQ4NDQ0LC0xNTg4NTQ4OTMsODY5MzcwMzMwLDE0NzYwMTk0
+MzksLTIxNDU3NzE1MDgsLTEyOTg4MTMyMzEsNTkzODM1MDEsLT
+EzMjk2MTgwNDQsLTk4MTEzNTk5MCwyNTY3NDI4NzYsLTQ5Mzky
+MTQxNywxODc5MDIwNzYzLDE4NjIyMjE2NTMsLTExNjI0OTU4OD
+QsMTY2NDk2NzE0NiwtMTg1Mzc2Mzg0OCwtNzk5MTMyMjcyLC0x
+OTQ5MTczMzE4XX0=
 -->
