@@ -641,7 +641,8 @@ Content-Length: 1
 ```
 ## login1(SKCTF)
 hint: SQL 约束攻击
-没有限制用户名的长度就是注册一个
+没有限制用户名的长度,可以进行 SQL 约束攻击
+就是注册一个 admin,但是后面添加很多空格,使之超出数据库的长度
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -649,11 +650,11 @@ hint: SQL 约束攻击
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU2MTU5MTIsLTU2MTc5MTE2OSwtOT
-M3NTE2MTk5LC0xMTU3ODI3MDA1LDExOTEzMjU3OTUsLTEwMjYw
-MjUyNTcsNjA0NTc0NzkyLC0xMjE2NDU0MTQ3LC0xNjkxMjQ4ND
-Q0LC0xNTg4NTQ4OTMsODY5MzcwMzMwLDE0NzYwMTk0MzksLTIx
-NDU3NzE1MDgsLTEyOTg4MTMyMzEsNTkzODM1MDEsLTEzMjk2MT
-gwNDQsLTk4MTEzNTk5MCwyNTY3NDI4NzYsLTQ5MzkyMTQxNywx
-ODc5MDIwNzYzXX0=
+eyJoaXN0b3J5IjpbNzQ1ODUyMTI2LC01NjE3OTExNjksLTkzNz
+UxNjE5OSwtMTE1NzgyNzAwNSwxMTkxMzI1Nzk1LC0xMDI2MDI1
+MjU3LDYwNDU3NDc5MiwtMTIxNjQ1NDE0NywtMTY5MTI0ODQ0NC
+wtMTU4ODU0ODkzLDg2OTM3MDMzMCwxNDc2MDE5NDM5LC0yMTQ1
+NzcxNTA4LC0xMjk4ODEzMjMxLDU5MzgzNTAxLC0xMzI5NjE4MD
+Q0LC05ODExMzU5OTAsMjU2NzQyODc2LC00OTM5MjE0MTcsMTg3
+OTAyMDc2M119
 -->
