@@ -567,6 +567,18 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 
 得到 flag 的文件名
 访问得 flag
+## 字符？正则？
+得到 php 代码
+```php
+<?php  
+highlight_file('2.php');  
+$key='KEY{********************************}';  
+$IM= preg_match("/key.*key.{4,7}key:\/.\/(.*key)[a-z][[:punct:]]/i", trim($_GET["id"]), $match);  
+if( $IM ){  
+die('key is: '.$key);  
+}  
+?>
+```
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -574,11 +586,11 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTEyNDg0NDQsLTE1ODg1NDg5Myw4Nj
-kzNzAzMzAsMTQ3NjAxOTQzOSwtMjE0NTc3MTUwOCwtMTI5ODgx
-MzIzMSw1OTM4MzUwMSwtMTMyOTYxODA0NCwtOTgxMTM1OTkwLD
-I1Njc0Mjg3NiwtNDkzOTIxNDE3LDE4NzkwMjA3NjMsMTg2MjIy
-MTY1MywtMTE2MjQ5NTg4NCwxNjY0OTY3MTQ2LC0xODUzNzYzOD
-Q4LC03OTkxMzIyNzIsLTE5NDkxNzMzMTgsNzk1NzE1NjI1LDQ1
-NDEyNTYyM119
+eyJoaXN0b3J5IjpbLTEyMTY0NTQxNDcsLTE2OTEyNDg0NDQsLT
+E1ODg1NDg5Myw4NjkzNzAzMzAsMTQ3NjAxOTQzOSwtMjE0NTc3
+MTUwOCwtMTI5ODgxMzIzMSw1OTM4MzUwMSwtMTMyOTYxODA0NC
+wtOTgxMTM1OTkwLDI1Njc0Mjg3NiwtNDkzOTIxNDE3LDE4Nzkw
+MjA3NjMsMTg2MjIyMTY1MywtMTE2MjQ5NTg4NCwxNjY0OTY3MT
+Q2LC0xODUzNzYzODQ4LC03OTkxMzIyNzIsLTE5NDkxNzMzMTgs
+Nzk1NzE1NjI1XX0=
 -->
