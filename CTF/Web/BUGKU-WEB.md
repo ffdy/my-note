@@ -459,6 +459,7 @@ Connection: close
 打开网页,让我不要放弃... ~~(废话)~~
 查看源码,看到注释 `<!--1p.html-->`
 打开,发现跳转到 Bugku 的论坛
+
 ## 过狗一句话
 ```php
 <?php 
@@ -483,11 +484,11 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzc2MDg2NjcsMTg3OTAyMDc2MywxOD
-YyMjIxNjUzLC0xMTYyNDk1ODg0LDE2NjQ5NjcxNDYsLTE4NTM3
-NjM4NDgsLTc5OTEzMjI3MiwtMTk0OTE3MzMxOCw3OTU3MTU2Mj
-UsNDU0MTI1NjIzLC0xMTc3NDA3OTQ2LC03Nzk2MzQ3ODQsLTY0
-NTc3OTYwNiwxNDAzMjM3MTgxLDE2NTU3ODE1Myw0ODQ1Mzk3OD
-EsLTEyMTkwNTUwMzksLTE3NDUwOTI2MjgsLTQyODcyNTgwNF19
+eyJoaXN0b3J5IjpbLTQ5MzkyMTQxNywxODc5MDIwNzYzLDE4Nj
+IyMjE2NTMsLTExNjI0OTU4ODQsMTY2NDk2NzE0NiwtMTg1Mzc2
+Mzg0OCwtNzk5MTMyMjcyLC0xOTQ5MTczMzE4LDc5NTcxNTYyNS
+w0NTQxMjU2MjMsLTExNzc0MDc5NDYsLTc3OTYzNDc4NCwtNjQ1
+Nzc5NjA2LDE0MDMyMzcxODEsMTY1NTc4MTUzLDQ4NDUzOTc4MS
+wtMTIxOTA1NTAzOSwtMTc0NTA5MjYyOCwtNDI4NzI1ODA0XX0=
 
 -->
