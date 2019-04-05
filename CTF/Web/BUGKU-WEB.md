@@ -658,7 +658,7 @@ MD5 碰撞
 伪造本地 IP
 `X-Forwarded-For: 127.0.0.1`
 得到 flag
-## 各种绕过
+## 各种绕过 * 
 访问得到 php 代码
 ```php
 <?php 
@@ -703,9 +703,9 @@ Connection: close
 
 passwd%5B%5D=2
 ```
-或者
+或者 sha1 碰撞
 ```
-
+```
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -713,7 +713,7 @@ passwd%5B%5D=2
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTkxMzc2NCwtMTAwMjU3Mjc3NiwyMD
+eyJoaXN0b3J5IjpbMTkwNTI1ODAxMywtMTAwMjU3Mjc3NiwyMD
 Y4NDg4MDE2LDk2OTgyNzIwNywxMjk1ODkxMDksMzczMDQ5MzM3
 LC0xNDI4NzM2NzQ3LDQ2MDYxODUzNywtNzA0MzQzMjk4LDIwND
 UxNzc0MzgsLTU2MTc5MTE2OSwtOTM3NTE2MTk5LC0xMTU3ODI3
