@@ -461,6 +461,7 @@ Connection: close
 打开,发现跳转到 Bugku 的论坛
 中间绝对有事!!!
 `view-source:http://123.206.87.240:8006/test/1p.html` 查看 1p.html 源码
+得到xian
 ## 过狗一句话
 ```php
 <?php 
@@ -485,7 +486,7 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzYxNTE5NCwtNDkzOTIxNDE3LDE4Nz
+eyJoaXN0b3J5IjpbMTk2MjU4NzM5NSwtNDkzOTIxNDE3LDE4Nz
 kwMjA3NjMsMTg2MjIyMTY1MywtMTE2MjQ5NTg4NCwxNjY0OTY3
 MTQ2LC0xODUzNzYzODQ4LC03OTkxMzIyNzIsLTE5NDkxNzMzMT
 gsNzk1NzE1NjI1LDQ1NDEyNTYyMywtMTE3NzQwNzk0NiwtNzc5
