@@ -600,7 +600,8 @@ if(isset($_GET['v1']) && isset($_GET['v2']) && isset($_GET['v3'])){
 ```
 需要提交 3 个参数,v1 不等于 v2,MD5(v1)==MD5(v2) 
 因为是弱类型比较,可以用 MD5 碰撞,也可以数组绕过
-
+strcmp 函数比较可以用数组绕过
+综上,构造 payload:`
 ## web8 
 ```php
 <?php  
@@ -643,7 +644,7 @@ Content-Length: 1
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDYwMDA0MzgsMTE5MTMyNTc5NSwtMT
+eyJoaXN0b3J5IjpbLTExNTc4MjcwMDUsMTE5MTMyNTc5NSwtMT
 AyNjAyNTI1Nyw2MDQ1NzQ3OTIsLTEyMTY0NTQxNDcsLTE2OTEy
 NDg0NDQsLTE1ODg1NDg5Myw4NjkzNzAzMzAsMTQ3NjAxOTQzOS
 wtMjE0NTc3MTUwOCwtMTI5ODgxMzIzMSw1OTM4MzUwMSwtMTMy
