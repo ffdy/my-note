@@ -580,6 +580,7 @@ die('key is: '.$key);
 ?>
 ```
 正则式匹配
+构造 payload:`?id=keyakeyakey1232key:/1/akeye%27`
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -587,11 +588,11 @@ die('key is: '.$key);
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0NTc0NzkyLC0xMjE2NDU0MTQ3LC0xNj
-kxMjQ4NDQ0LC0xNTg4NTQ4OTMsODY5MzcwMzMwLDE0NzYwMTk0
-MzksLTIxNDU3NzE1MDgsLTEyOTg4MTMyMzEsNTkzODM1MDEsLT
-EzMjk2MTgwNDQsLTk4MTEzNTk5MCwyNTY3NDI4NzYsLTQ5Mzky
-MTQxNywxODc5MDIwNzYzLDE4NjIyMjE2NTMsLTExNjI0OTU4OD
-QsMTY2NDk2NzE0NiwtMTg1Mzc2Mzg0OCwtNzk5MTMyMjcyLC0x
-OTQ5MTczMzE4XX0=
+eyJoaXN0b3J5IjpbLTEwMjYwMjUyNTcsNjA0NTc0NzkyLC0xMj
+E2NDU0MTQ3LC0xNjkxMjQ4NDQ0LC0xNTg4NTQ4OTMsODY5Mzcw
+MzMwLDE0NzYwMTk0MzksLTIxNDU3NzE1MDgsLTEyOTg4MTMyMz
+EsNTkzODM1MDEsLTEzMjk2MTgwNDQsLTk4MTEzNTk5MCwyNTY3
+NDI4NzYsLTQ5MzkyMTQxNywxODc5MDIwNzYzLDE4NjIyMjE2NT
+MsLTExNjI0OTU4ODQsMTY2NDk2NzE0NiwtMTg1Mzc2Mzg0OCwt
+Nzk5MTMyMjcyXX0=
 -->
