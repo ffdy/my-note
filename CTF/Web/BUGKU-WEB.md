@@ -645,7 +645,10 @@ hint: SQL 约束攻击
 就是注册一个 admin,但是后面添加很多空格,使之超出数据库给该字段规定的长度
 然后就可以用这个密码去登陆 admin,就能得到 flag
 ## 你从哪里来
+伪造跳转地址
 `Referer: https://www.google.com`
+得到 flag
+## 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -653,11 +656,11 @@ hint: SQL 约束攻击
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjg3MzY3NDcsNDYwNjE4NTM3LC03MD
-QzNDMyOTgsMjA0NTE3NzQzOCwtNTYxNzkxMTY5LC05Mzc1MTYx
-OTksLTExNTc4MjcwMDUsMTE5MTMyNTc5NSwtMTAyNjAyNTI1Ny
-w2MDQ1NzQ3OTIsLTEyMTY0NTQxNDcsLTE2OTEyNDg0NDQsLTE1
-ODg1NDg5Myw4NjkzNzAzMzAsMTQ3NjAxOTQzOSwtMjE0NTc3MT
-UwOCwtMTI5ODgxMzIzMSw1OTM4MzUwMSwtMTMyOTYxODA0NCwt
-OTgxMTM1OTkwXX0=
+eyJoaXN0b3J5IjpbMzczMDQ5MzM3LC0xNDI4NzM2NzQ3LDQ2MD
+YxODUzNywtNzA0MzQzMjk4LDIwNDUxNzc0MzgsLTU2MTc5MTE2
+OSwtOTM3NTE2MTk5LC0xMTU3ODI3MDA1LDExOTEzMjU3OTUsLT
+EwMjYwMjUyNTcsNjA0NTc0NzkyLC0xMjE2NDU0MTQ3LC0xNjkx
+MjQ4NDQ0LC0xNTg4NTQ4OTMsODY5MzcwMzMwLDE0NzYwMTk0Mz
+ksLTIxNDU3NzE1MDgsLTEyOTg4MTMyMzEsNTkzODM1MDEsLTEz
+Mjk2MTgwNDRdfQ==
 -->
