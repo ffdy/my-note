@@ -512,7 +512,7 @@ Content-Length: 26
 bugku is a nice plateform!
 ```
 得到 flag
-## welcome to bugkuctf
+## welcome to bugkuctf *
 查看网页源码,发现部分代码
 ```php
 $user = $_GET["txt"];  
@@ -547,7 +547,7 @@ class Flag{//flag.php
 利用 include 漏洞读取一波得到 `涓嶈兘鐜板湪灏辩粰浣爁lag鍝�` 
 这是啥??懵逼
 想想应该是编码问题
-$$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+
 ## 过狗一句话 
 ```php
 <?php 
@@ -572,11 +572,11 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5MzcwMzMwLDE0NzYwMTk0MzksLTIxND
-U3NzE1MDgsLTEyOTg4MTMyMzEsNTkzODM1MDEsLTEzMjk2MTgw
-NDQsLTk4MTEzNTk5MCwyNTY3NDI4NzYsLTQ5MzkyMTQxNywxOD
-c5MDIwNzYzLDE4NjIyMjE2NTMsLTExNjI0OTU4ODQsMTY2NDk2
-NzE0NiwtMTg1Mzc2Mzg0OCwtNzk5MTMyMjcyLC0xOTQ5MTczMz
-E4LDc5NTcxNTYyNSw0NTQxMjU2MjMsLTExNzc0MDc5NDYsLTc3
-OTYzNDc4NF19
+eyJoaXN0b3J5IjpbLTE1ODg1NDg5Myw4NjkzNzAzMzAsMTQ3Nj
+AxOTQzOSwtMjE0NTc3MTUwOCwtMTI5ODgxMzIzMSw1OTM4MzUw
+MSwtMTMyOTYxODA0NCwtOTgxMTM1OTkwLDI1Njc0Mjg3NiwtND
+kzOTIxNDE3LDE4NzkwMjA3NjMsMTg2MjIyMTY1MywtMTE2MjQ5
+NTg4NCwxNjY0OTY3MTQ2LC0xODUzNzYzODQ4LC03OTkxMzIyNz
+IsLTE5NDkxNzMzMTgsNzk1NzE1NjI1LDQ1NDEyNTYyMywtMTE3
+NzQwNzk0Nl19
 -->
