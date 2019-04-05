@@ -494,6 +494,7 @@ else
 首先是 id 的值非空非零(别说了,我直接构造 id=0 卡了我半天)
 然后 a 中不能有 . 
 data 等于文件 a,这里可以用 PHP 伪协议 php://input 来绕过
+b 111 加上 b 的首位能被 1114 匹配,并且 b 的首位不能是 4
 ## 过狗一句话
 ```php
 <?php 
@@ -518,11 +519,11 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTcwMTg1NiwtOTgxMTM1OTkwLDI1Nj
-c0Mjg3NiwtNDkzOTIxNDE3LDE4NzkwMjA3NjMsMTg2MjIyMTY1
-MywtMTE2MjQ5NTg4NCwxNjY0OTY3MTQ2LC0xODUzNzYzODQ4LC
-03OTkxMzIyNzIsLTE5NDkxNzMzMTgsNzk1NzE1NjI1LDQ1NDEy
-NTYyMywtMTE3NzQwNzk0NiwtNzc5NjM0Nzg0LC02NDU3Nzk2MD
-YsMTQwMzIzNzE4MSwxNjU1NzgxNTMsNDg0NTM5NzgxLC0xMjE5
-MDU1MDM5XX0=
+eyJoaXN0b3J5IjpbODI0NTQ1OTA1LC05ODExMzU5OTAsMjU2Nz
+QyODc2LC00OTM5MjE0MTcsMTg3OTAyMDc2MywxODYyMjIxNjUz
+LC0xMTYyNDk1ODg0LDE2NjQ5NjcxNDYsLTE4NTM3NjM4NDgsLT
+c5OTEzMjI3MiwtMTk0OTE3MzMxOCw3OTU3MTU2MjUsNDU0MTI1
+NjIzLC0xMTc3NDA3OTQ2LC03Nzk2MzQ3ODQsLTY0NTc3OTYwNi
+wxNDAzMjM3MTgxLDE2NTU3ODE1Myw0ODQ1Mzk3ODEsLTEyMTkw
+NTUwMzldfQ==
 -->
