@@ -512,7 +512,8 @@ Content-Length: 26
 bugku is a nice plateform!
 ```
 得到 flag
-## 
+## welcome to bugkuctf
+打开
 ## 过狗一句话
 ```php
 <?php 
@@ -537,11 +538,11 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjk2MTgwNDQsLTk4MTEzNTk5MCwyNT
-Y3NDI4NzYsLTQ5MzkyMTQxNywxODc5MDIwNzYzLDE4NjIyMjE2
-NTMsLTExNjI0OTU4ODQsMTY2NDk2NzE0NiwtMTg1Mzc2Mzg0OC
-wtNzk5MTMyMjcyLC0xOTQ5MTczMzE4LDc5NTcxNTYyNSw0NTQx
-MjU2MjMsLTExNzc0MDc5NDYsLTc3OTYzNDc4NCwtNjQ1Nzc5Nj
-A2LDE0MDMyMzcxODEsMTY1NTc4MTUzLDQ4NDUzOTc4MSwtMTIx
-OTA1NTAzOV19
+eyJoaXN0b3J5IjpbNTkzODM1MDEsLTEzMjk2MTgwNDQsLTk4MT
+EzNTk5MCwyNTY3NDI4NzYsLTQ5MzkyMTQxNywxODc5MDIwNzYz
+LDE4NjIyMjE2NTMsLTExNjI0OTU4ODQsMTY2NDk2NzE0NiwtMT
+g1Mzc2Mzg0OCwtNzk5MTMyMjcyLC0xOTQ5MTczMzE4LDc5NTcx
+NTYyNSw0NTQxMjU2MjMsLTExNzc0MDc5NDYsLTc3OTYzNDc4NC
+wtNjQ1Nzc5NjA2LDE0MDMyMzcxODEsMTY1NTc4MTUzLDQ4NDUz
+OTc4MV19
 -->
