@@ -644,7 +644,8 @@ hint: SQL 约束攻击
 没有限制用户名的长度,可以进行 SQL 约束攻击
 就是注册一个 admin,但是后面添加很多空格,使之超出数据库给该字段规定的长度
 然后就可以用这个密码去登陆 admin,就能得到 flag
-##
+## 你从哪里来
+`Referer: https://www.google.com`
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -652,11 +653,11 @@ hint: SQL 约束攻击
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1NzcxNjM5LDQ2MDYxODUzNywtNzA0Mz
-QzMjk4LDIwNDUxNzc0MzgsLTU2MTc5MTE2OSwtOTM3NTE2MTk5
-LC0xMTU3ODI3MDA1LDExOTEzMjU3OTUsLTEwMjYwMjUyNTcsNj
-A0NTc0NzkyLC0xMjE2NDU0MTQ3LC0xNjkxMjQ4NDQ0LC0xNTg4
-NTQ4OTMsODY5MzcwMzMwLDE0NzYwMTk0MzksLTIxNDU3NzE1MD
-gsLTEyOTg4MTMyMzEsNTkzODM1MDEsLTEzMjk2MTgwNDQsLTk4
-MTEzNTk5MF19
+eyJoaXN0b3J5IjpbLTE0Mjg3MzY3NDcsNDYwNjE4NTM3LC03MD
+QzNDMyOTgsMjA0NTE3NzQzOCwtNTYxNzkxMTY5LC05Mzc1MTYx
+OTksLTExNTc4MjcwMDUsMTE5MTMyNTc5NSwtMTAyNjAyNTI1Ny
+w2MDQ1NzQ3OTIsLTEyMTY0NTQxNDcsLTE2OTEyNDg0NDQsLTE1
+ODg1NDg5Myw4NjkzNzAzMzAsMTQ3NjAxOTQzOSwtMjE0NTc3MT
+UwOCwtMTI5ODgxMzIzMSw1OTM4MzUwMSwtMTMyOTYxODA0NCwt
+OTgxMTM1OTkwXX0=
 -->
