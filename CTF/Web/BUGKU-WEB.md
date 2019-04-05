@@ -495,7 +495,8 @@ else
 然后 a 中不能有 . 
 data 等于文件 a,这里可以用 PHP 伪协议 php://input 来绕过
 b 的长度大于 5,111 加上 b 的首位能被 1114 匹配,并且 b 的首位不能是 4
-这里可以用 eregi(ereg) 函数会丢掉空字节后面的东西r
+这里可以用 eregi(ereg) 函数会丢掉空字节后面的东西绕过
+综上,构造
 ## 过狗一句话
 ```php
 <?php 
@@ -520,11 +521,11 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODUyODk0MSwtOTgxMTM1OTkwLDI1Nj
-c0Mjg3NiwtNDkzOTIxNDE3LDE4NzkwMjA3NjMsMTg2MjIyMTY1
-MywtMTE2MjQ5NTg4NCwxNjY0OTY3MTQ2LC0xODUzNzYzODQ4LC
-03OTkxMzIyNzIsLTE5NDkxNzMzMTgsNzk1NzE1NjI1LDQ1NDEy
-NTYyMywtMTE3NzQwNzk0NiwtNzc5NjM0Nzg0LC02NDU3Nzk2MD
-YsMTQwMzIzNzE4MSwxNjU1NzgxNTMsNDg0NTM5NzgxLC0xMjE5
-MDU1MDM5XX0=
+eyJoaXN0b3J5IjpbLTEwMTcyOTI0ODksLTk4MTEzNTk5MCwyNT
+Y3NDI4NzYsLTQ5MzkyMTQxNywxODc5MDIwNzYzLDE4NjIyMjE2
+NTMsLTExNjI0OTU4ODQsMTY2NDk2NzE0NiwtMTg1Mzc2Mzg0OC
+wtNzk5MTMyMjcyLC0xOTQ5MTczMzE4LDc5NTcxNTYyNSw0NTQx
+MjU2MjMsLTExNzc0MDc5NDYsLTc3OTYzNDc4NCwtNjQ1Nzc5Nj
+A2LDE0MDMyMzcxODEsMTY1NTc4MTUzLDQ4NDUzOTc4MSwtMTIx
+OTA1NTAzOV19
 -->
