@@ -461,8 +461,35 @@ Connection: close
 打开,发现跳转到 Bugku 的论坛
 中间绝对有事!!!
 `view-source:http://123.206.87.240:8006/test/1p.html` 查看 1p.html 源码
-得到先是 url 编码,后 base64 编码,再 url bian的字符串
-解码得到
+得到先是 url 编码,后 base64 编码,再 url 编码的的字符串
+解码得到 php 源码
+```php
+if(!$_GET['id'])
+{
+	header('Location: hello.php?id=1');
+	exit();
+}
+$id=$_GET['id'];
+$a=$_GET['a'];
+$b=$_GET['b'];
+if(stripos($a,'.'))
+{
+	echo 'no no no no no no no';
+	return ;
+}
+$data = @file_get_contents($a,'r');
+if($data=="bugku is a nice plateform!" and $id==0 and strlen($b)>5 and eregi("111".substr($b,0,1),"1114") and substr($b,0,1)!=4)
+{
+	require("f4l2a3g.txt");
+}
+else
+{
+	print "never never never give up !!!";
+}
+
+
+?>
+```
 
 ## 过狗一句话
 ```php
@@ -488,7 +515,7 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4MjE5NTY4LDI1Njc0Mjg3NiwtNDkzOT
+eyJoaXN0b3J5IjpbNTY4MjQ4Mjk4LDI1Njc0Mjg3NiwtNDkzOT
 IxNDE3LDE4NzkwMjA3NjMsMTg2MjIyMTY1MywtMTE2MjQ5NTg4
 NCwxNjY0OTY3MTQ2LC0xODUzNzYzODQ4LC03OTkxMzIyNzIsLT
 E5NDkxNzMzMTgsNzk1NzE1NjI1LDQ1NDEyNTYyMywtMTE3NzQw
