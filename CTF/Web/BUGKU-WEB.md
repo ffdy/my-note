@@ -513,7 +513,11 @@ bugku is a nice plateform!
 ```
 得到 flag
 ## welcome to bugkuctf
-打开
+查看网页源码,发现部分代码
+```php
+
+
+
 ## 过狗一句话
 ```php
 <?php 
@@ -538,11 +542,11 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzODM1MDEsLTEzMjk2MTgwNDQsLTk4MT
-EzNTk5MCwyNTY3NDI4NzYsLTQ5MzkyMTQxNywxODc5MDIwNzYz
-LDE4NjIyMjE2NTMsLTExNjI0OTU4ODQsMTY2NDk2NzE0NiwtMT
-g1Mzc2Mzg0OCwtNzk5MTMyMjcyLC0xOTQ5MTczMzE4LDc5NTcx
-NTYyNSw0NTQxMjU2MjMsLTExNzc0MDc5NDYsLTc3OTYzNDc4NC
-wtNjQ1Nzc5NjA2LDE0MDMyMzcxODEsMTY1NTc4MTUzLDQ4NDUz
-OTc4MV19
+eyJoaXN0b3J5IjpbLTk3Mzc4NzAwOCw1OTM4MzUwMSwtMTMyOT
+YxODA0NCwtOTgxMTM1OTkwLDI1Njc0Mjg3NiwtNDkzOTIxNDE3
+LDE4NzkwMjA3NjMsMTg2MjIyMTY1MywtMTE2MjQ5NTg4NCwxNj
+Y0OTY3MTQ2LC0xODUzNzYzODQ4LC03OTkxMzIyNzIsLTE5NDkx
+NzMzMTgsNzk1NzE1NjI1LDQ1NDEyNTYyMywtMTE3NzQwNzk0Ni
+wtNzc5NjM0Nzg0LC02NDU3Nzk2MDYsMTQwMzIzNzE4MSwxNjU1
+NzgxNTNdfQ==
 -->
