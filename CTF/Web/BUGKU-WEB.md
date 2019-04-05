@@ -601,7 +601,8 @@ if(isset($_GET['v1']) && isset($_GET['v2']) && isset($_GET['v3'])){
 需要提交 3 个参数,v1 不等于 v2,MD5(v1)==MD5(v2) 
 因为是弱类型比较,可以用 MD5 碰撞,也可以数组绕过
 strcmp 函数比较可以用数组绕过
-综上,构造 payload:`
+综上,构造 payload:`?v1=s878926199a&v2=s155964671a&v3[]=0`
+ 或者 `?v1[]=0&v2[]=1&v3[]=0`
 ## web8 
 ```php
 <?php  
@@ -644,11 +645,11 @@ Content-Length: 1
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTc4MjcwMDUsMTE5MTMyNTc5NSwtMT
-AyNjAyNTI1Nyw2MDQ1NzQ3OTIsLTEyMTY0NTQxNDcsLTE2OTEy
-NDg0NDQsLTE1ODg1NDg5Myw4NjkzNzAzMzAsMTQ3NjAxOTQzOS
-wtMjE0NTc3MTUwOCwtMTI5ODgxMzIzMSw1OTM4MzUwMSwtMTMy
-OTYxODA0NCwtOTgxMTM1OTkwLDI1Njc0Mjg3NiwtNDkzOTIxND
-E3LDE4NzkwMjA3NjMsMTg2MjIyMTY1MywtMTE2MjQ5NTg4NCwx
-NjY0OTY3MTQ2XX0=
+eyJoaXN0b3J5IjpbLTE1NzcxMjI3NjQsLTExNTc4MjcwMDUsMT
+E5MTMyNTc5NSwtMTAyNjAyNTI1Nyw2MDQ1NzQ3OTIsLTEyMTY0
+NTQxNDcsLTE2OTEyNDg0NDQsLTE1ODg1NDg5Myw4NjkzNzAzMz
+AsMTQ3NjAxOTQzOSwtMjE0NTc3MTUwOCwtMTI5ODgxMzIzMSw1
+OTM4MzUwMSwtMTMyOTYxODA0NCwtOTgxMTM1OTkwLDI1Njc0Mj
+g3NiwtNDkzOTIxNDE3LDE4NzkwMjA3NjMsMTg2MjIyMTY1Mywt
+MTE2MjQ5NTg4NF19
 -->
