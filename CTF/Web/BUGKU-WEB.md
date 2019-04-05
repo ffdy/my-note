@@ -489,7 +489,7 @@ else
 }
 ?>
 ```
-
+不知是不是出题人疏忽,直接访问 f4l2a3g.txt 就可得到 flag
 ## 过狗一句话
 ```php
 <?php 
@@ -514,7 +514,7 @@ explode() 函数将 `$pos` 以 `#` 为界限打散装进 `$pos_1` 数组
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjgyMjA3NywyNTY3NDI4NzYsLTQ5Mz
+eyJoaXN0b3J5IjpbLTk4MTEzNTk5MCwyNTY3NDI4NzYsLTQ5Mz
 kyMTQxNywxODc5MDIwNzYzLDE4NjIyMjE2NTMsLTExNjI0OTU4
 ODQsMTY2NDk2NzE0NiwtMTg1Mzc2Mzg0OCwtNzk5MTMyMjcyLC
 0xOTQ5MTczMzE4LDc5NTcxNTYyNSw0NTQxMjU2MjMsLTExNzc0
