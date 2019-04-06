@@ -711,6 +711,9 @@ Content-Length: 1
 404 界面只是个幌子, disearch 扫描站点,发现 robots.txt 文件,访问
 有一个 resusl.php 文件,继续访问
 提示说我的 IP 被标记了
+还有一句 php 代码
+```php
+if($_GET[x]
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -718,11 +721,11 @@ Content-Length: 1
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQzMjExMzYsLTY5NjI4MjY0OCwtMz
-g2MjQ2MzQyLDE0NjIwMzg3NDgsLTEwMDI1NzI3NzYsMjA2ODQ4
-ODAxNiw5Njk4MjcyMDcsMTI5NTg5MTA5LDM3MzA0OTMzNywtMT
-QyODczNjc0Nyw0NjA2MTg1MzcsLTcwNDM0MzI5OCwyMDQ1MTc3
-NDM4LC01NjE3OTExNjksLTkzNzUxNjE5OSwtMTE1NzgyNzAwNS
-wxMTkxMzI1Nzk1LC0xMDI2MDI1MjU3LDYwNDU3NDc5MiwtMTIx
-NjQ1NDE0N119
+eyJoaXN0b3J5IjpbMTIyMjM0NjE4LC0xMTQ0MzIxMTM2LC02OT
+YyODI2NDgsLTM4NjI0NjM0MiwxNDYyMDM4NzQ4LC0xMDAyNTcy
+Nzc2LDIwNjg0ODgwMTYsOTY5ODI3MjA3LDEyOTU4OTEwOSwzNz
+MwNDkzMzcsLTE0Mjg3MzY3NDcsNDYwNjE4NTM3LC03MDQzNDMy
+OTgsMjA0NTE3NzQzOCwtNTYxNzkxMTY5LC05Mzc1MTYxOTksLT
+ExNTc4MjcwMDUsMTE5MTMyNTc5NSwtMTAyNjAyNTI1Nyw2MDQ1
+NzQ3OTJdfQ==
 -->
