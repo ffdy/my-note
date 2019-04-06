@@ -705,7 +705,8 @@ Content-Length: 1
 1
 ```
 ## 细心
-访问发现 404 错误
+访问发现 404 错误,然后查看源码,没有发现
+以为是题挂了,jiu
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -713,7 +714,7 @@ Content-Length: 1
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTUyOTMxOCwxNDYyMDM4NzQ4LC0xMD
+eyJoaXN0b3J5IjpbMTQ0MjM2ODg0OCwxNDYyMDM4NzQ4LC0xMD
 AyNTcyNzc2LDIwNjg0ODgwMTYsOTY5ODI3MjA3LDEyOTU4OTEw
 OSwzNzMwNDkzMzcsLTE0Mjg3MzY3NDcsNDYwNjE4NTM3LC03MD
 QzNDMyOTgsMjA0NTE3NzQzOCwtNTYxNzkxMTY5LC05Mzc1MTYx
