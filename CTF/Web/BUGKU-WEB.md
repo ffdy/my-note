@@ -706,7 +706,9 @@ Content-Length: 1
 ```
 ## 细心
 访问发现 404 错误,然后查看源码,没有发现
-以为是题挂了,jiu
+以为是题挂了,就没管
+后来看到一篇 Writeup,题没挂,是我挂了(让我哭一会)
+404 界面只是个幌子, disearch 扫描zhan
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -714,11 +716,11 @@ Content-Length: 1
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MjM2ODg0OCwxNDYyMDM4NzQ4LC0xMD
-AyNTcyNzc2LDIwNjg0ODgwMTYsOTY5ODI3MjA3LDEyOTU4OTEw
-OSwzNzMwNDkzMzcsLTE0Mjg3MzY3NDcsNDYwNjE4NTM3LC03MD
-QzNDMyOTgsMjA0NTE3NzQzOCwtNTYxNzkxMTY5LC05Mzc1MTYx
-OTksLTExNTc4MjcwMDUsMTE5MTMyNTc5NSwtMTAyNjAyNTI1Ny
-w2MDQ1NzQ3OTIsLTEyMTY0NTQxNDcsLTE2OTEyNDg0NDQsLTE1
-ODg1NDg5M119
+eyJoaXN0b3J5IjpbLTExMzUzMzE5NDgsMTQ2MjAzODc0OCwtMT
+AwMjU3Mjc3NiwyMDY4NDg4MDE2LDk2OTgyNzIwNywxMjk1ODkx
+MDksMzczMDQ5MzM3LC0xNDI4NzM2NzQ3LDQ2MDYxODUzNywtNz
+A0MzQzMjk4LDIwNDUxNzc0MzgsLTU2MTc5MTE2OSwtOTM3NTE2
+MTk5LC0xMTU3ODI3MDA1LDExOTEzMjU3OTUsLTEwMjYwMjUyNT
+csNjA0NTc0NzkyLC0xMjE2NDU0MTQ3LC0xNjkxMjQ4NDQ0LC0x
+NTg4NTQ4OTNdfQ==
 -->
