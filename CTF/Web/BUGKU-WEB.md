@@ -709,7 +709,7 @@ Content-Length: 1
 以为是题挂了,就没管
 后来看到一篇 Writeup,题没挂,是我挂了(让我哭一会)
 404 界面只是个幌子, disearch 扫描站点,发现 robots.txt 文件,访问
-有一个 resusl.php 文件,ji
+有一个 resusl.php 文件,继续访问
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -717,7 +717,7 @@ Content-Length: 1
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDkyNDQwMCwxNDYyMDM4NzQ4LC0xMD
+eyJoaXN0b3J5IjpbLTM4NjI0NjM0MiwxNDYyMDM4NzQ4LC0xMD
 AyNTcyNzc2LDIwNjg0ODgwMTYsOTY5ODI3MjA3LDEyOTU4OTEw
 OSwzNzMwNDkzMzcsLTE0Mjg3MzY3NDcsNDYwNjE4NTM3LC03MD
 QzNDMyOTgsMjA0NTE3NzQzOCwtNTYxNzkxMTY5LC05Mzc1MTYx
