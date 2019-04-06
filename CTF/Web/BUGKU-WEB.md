@@ -716,7 +716,12 @@ Content-Length: 1
 if ($_GET[x]==$password)
 ```
 想到改本地 IP,但是提交啥?
-
+尝试了很多,无果
+Burp 爆破,得到要 GET 提交 x=admin
+其实题目提示的有
+得到 flag
+做完不太放心,看了大佬的 Writeup 发现只需要构造 payload:`?x=admin`
+就行了
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -724,7 +729,7 @@ if ($_GET[x]==$password)
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDI1NDIyMCwxMjIyMzQ2MTgsLTExND
+eyJoaXN0b3J5IjpbLTQ4NzgxOTIwNSwxMjIyMzQ2MTgsLTExND
 QzMjExMzYsLTY5NjI4MjY0OCwtMzg2MjQ2MzQyLDE0NjIwMzg3
 NDgsLTEwMDI1NzI3NzYsMjA2ODQ4ODAxNiw5Njk4MjcyMDcsMT
 I5NTg5MTA5LDM3MzA0OTMzNywtMTQyODczNjc0Nyw0NjA2MTg1
