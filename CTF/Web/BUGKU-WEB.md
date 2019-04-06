@@ -713,7 +713,9 @@ Content-Length: 1
 提示说我的 IP 被标记了
 还有一句 php 代码
 ```php
-if($_GET[x]
+if ($_GET[x]==$password)
+```
+
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -721,11 +723,11 @@ if($_GET[x]
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjM0NjE4LC0xMTQ0MzIxMTM2LC02OT
-YyODI2NDgsLTM4NjI0NjM0MiwxNDYyMDM4NzQ4LC0xMDAyNTcy
-Nzc2LDIwNjg0ODgwMTYsOTY5ODI3MjA3LDEyOTU4OTEwOSwzNz
-MwNDkzMzcsLTE0Mjg3MzY3NDcsNDYwNjE4NTM3LC03MDQzNDMy
-OTgsMjA0NTE3NzQzOCwtNTYxNzkxMTY5LC05Mzc1MTYxOTksLT
-ExNTc4MjcwMDUsMTE5MTMyNTc5NSwtMTAyNjAyNTI1Nyw2MDQ1
-NzQ3OTJdfQ==
+eyJoaXN0b3J5IjpbMTg3NzI0ODQ3OCwxMjIyMzQ2MTgsLTExND
+QzMjExMzYsLTY5NjI4MjY0OCwtMzg2MjQ2MzQyLDE0NjIwMzg3
+NDgsLTEwMDI1NzI3NzYsMjA2ODQ4ODAxNiw5Njk4MjcyMDcsMT
+I5NTg5MTA5LDM3MzA0OTMzNywtMTQyODczNjc0Nyw0NjA2MTg1
+MzcsLTcwNDM0MzI5OCwyMDQ1MTc3NDM4LC01NjE3OTExNjksLT
+kzNzUxNjE5OSwtMTE1NzgyNzAwNSwxMTkxMzI1Nzk1LC0xMDI2
+MDI1MjU3XX0=
 -->
