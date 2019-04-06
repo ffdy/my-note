@@ -715,6 +715,7 @@ Content-Length: 1
 ```php
 if ($_GET[x]==$password)
 ```
+想到改本地 IP,但是提交啥?
 
 ## 求 Getshell
 后缀名黑名单检测和类型检测
@@ -723,7 +724,7 @@ if ($_GET[x]==$password)
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzI0ODQ3OCwxMjIyMzQ2MTgsLTExND
+eyJoaXN0b3J5IjpbLTI1MDI1NDIyMCwxMjIyMzQ2MTgsLTExND
 QzMjExMzYsLTY5NjI4MjY0OCwtMzg2MjQ2MzQyLDE0NjIwMzg3
 NDgsLTEwMDI1NzI3NzYsMjA2ODQ4ODAxNiw5Njk4MjcyMDcsMT
 I5NTg5MTA5LDM3MzA0OTMzNywtMTQyODczNjc0Nyw0NjA2MTg1
