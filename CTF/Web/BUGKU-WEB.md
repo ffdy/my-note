@@ -727,13 +727,15 @@ Burp 爆破,得到要 GET 提交 x=admin
 
 如果是 walf 严格匹配，通过修改Content-type后字母的大小写可以绕过检测，使得需要上传的文件可以到达服务器端，而服务器的容错率较高，一般我们上传的文件可以解析。然后就需要确定我们如何上传文件，这里将文件的后缀名改为.jpg和.png都不可行，在分别将后缀名修改为php2, php3, php4, php5, phps, pht, phtm, phtml（php的别名），发现只有php5没有被过滤，成功上传，得到flag
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
-
+## 这是一个神奇的登陆框
+sqlmap post 注入
+按套路走,得到 flag
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzgxOTIwNSwxMjIyMzQ2MTgsLTExND
-QzMjExMzYsLTY5NjI4MjY0OCwtMzg2MjQ2MzQyLDE0NjIwMzg3
-NDgsLTEwMDI1NzI3NzYsMjA2ODQ4ODAxNiw5Njk4MjcyMDcsMT
-I5NTg5MTA5LDM3MzA0OTMzNywtMTQyODczNjc0Nyw0NjA2MTg1
-MzcsLTcwNDM0MzI5OCwyMDQ1MTc3NDM4LC01NjE3OTExNjksLT
-kzNzUxNjE5OSwtMTE1NzgyNzAwNSwxMTkxMzI1Nzk1LC0xMDI2
-MDI1MjU3XX0=
+eyJoaXN0b3J5IjpbLTE2MTUwMjczNDAsLTQ4NzgxOTIwNSwxMj
+IyMzQ2MTgsLTExNDQzMjExMzYsLTY5NjI4MjY0OCwtMzg2MjQ2
+MzQyLDE0NjIwMzg3NDgsLTEwMDI1NzI3NzYsMjA2ODQ4ODAxNi
+w5Njk4MjcyMDcsMTI5NTg5MTA5LDM3MzA0OTMzNywtMTQyODcz
+Njc0Nyw0NjA2MTg1MzcsLTcwNDM0MzI5OCwyMDQ1MTc3NDM4LC
+01NjE3OTExNjksLTkzNzUxNjE5OSwtMTE1NzgyNzAwNSwxMTkx
+MzI1Nzk1XX0=
 -->
