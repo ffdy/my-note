@@ -710,7 +710,7 @@ Content-Length: 1
 后来看到一篇 Writeup,题没挂,是我挂了(让我哭一会)
 404 界面只是个幌子, disearch 扫描站点,发现 robots.txt 文件,访问
 有一个 resusl.php 文件,继续访问
-
+提示说我的 IP 被标记了
 ## 求 Getshell
 后缀名黑名单检测和类型检测
 
@@ -718,11 +718,11 @@ Content-Length: 1
 ![](https://upload-images.jianshu.io/upload_images/9172841-0b4859adfbdad510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/702/format/webp)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NjI4MjY0OCwtMzg2MjQ2MzQyLDE0Nj
-IwMzg3NDgsLTEwMDI1NzI3NzYsMjA2ODQ4ODAxNiw5Njk4Mjcy
-MDcsMTI5NTg5MTA5LDM3MzA0OTMzNywtMTQyODczNjc0Nyw0Nj
-A2MTg1MzcsLTcwNDM0MzI5OCwyMDQ1MTc3NDM4LC01NjE3OTEx
-NjksLTkzNzUxNjE5OSwtMTE1NzgyNzAwNSwxMTkxMzI1Nzk1LC
-0xMDI2MDI1MjU3LDYwNDU3NDc5MiwtMTIxNjQ1NDE0NywtMTY5
-MTI0ODQ0NF19
+eyJoaXN0b3J5IjpbLTExNDQzMjExMzYsLTY5NjI4MjY0OCwtMz
+g2MjQ2MzQyLDE0NjIwMzg3NDgsLTEwMDI1NzI3NzYsMjA2ODQ4
+ODAxNiw5Njk4MjcyMDcsMTI5NTg5MTA5LDM3MzA0OTMzNywtMT
+QyODczNjc0Nyw0NjA2MTg1MzcsLTcwNDM0MzI5OCwyMDQ1MTc3
+NDM4LC01NjE3OTExNjksLTkzNzUxNjE5OSwtMTE1NzgyNzAwNS
+wxMTkxMzI1Nzk1LC0xMDI2MDI1MjU3LDYwNDU3NDc5MiwtMTIx
+NjQ1NDE0N119
 -->
