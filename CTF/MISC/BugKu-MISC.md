@@ -48,7 +48,7 @@ rar 解压发现不是 rar 文件,file 查看发现是 zip 文件
 解出密码是 871
 解压,又得到一张图片,还是 010 打开
 发现最后有 flag ,base64 解密
-要把 @ 改为 a,大概是为了防止有人直接搜索 flag 得答案吧~~(出题人**)~~
+要把 @ 改为 a,大概是为了防止有人直接搜索 flag 得答案吧 ~~(出题人**)~~
 ## 多种方法解决
 下载得到一个 exe 文件
 但是无法运行,010 打开,发现是 base64 加密的图片
@@ -278,11 +278,11 @@ print(flag)
 ## 乌云邀请码
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTAwMzUxMywtMTU0MzEwNTE4NCwxOD
-I5MjA0NzI3LC0xNjcwNjM1NDMxLDEyNTg2MDYyODksLTc2MTU2
-ODE3NiwtMTU0MTQ5MjY0MSwtMTUzMjgzMDExOSwtMTY5NTE3NT
-UwMywzMzcwODY0MDEsMjA2NDM4NjgyMSwxOTI5MjExODIxLDEw
-MTAwNDYzODQsMTczMjMyMTIxNyw0OTczNzA2NTMsMTM1MTc0Mj
-A4MCwyMTM1NjQyNDc1LDE3MjM2NTQyODcsLTEwNDQ4ODE3MzYs
-LTE0NzY5OTQ1NzJdfQ==
+eyJoaXN0b3J5IjpbODg1NjE1OTMxLDExMTkwMDM1MTMsLTE1ND
+MxMDUxODQsMTgyOTIwNDcyNywtMTY3MDYzNTQzMSwxMjU4NjA2
+Mjg5LC03NjE1NjgxNzYsLTE1NDE0OTI2NDEsLTE1MzI4MzAxMT
+ksLTE2OTUxNzU1MDMsMzM3MDg2NDAxLDIwNjQzODY4MjEsMTky
+OTIxMTgyMSwxMDEwMDQ2Mzg0LDE3MzIzMjEyMTcsNDk3MzcwNj
+UzLDEzNTE3NDIwODAsMjEzNTY0MjQ3NSwxNzIzNjU0Mjg3LC0x
+MDQ0ODgxNzM2XX0=
 -->
