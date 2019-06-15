@@ -1,5 +1,6 @@
 ## msfvenom
-`-l payloads` 回显所有w
+`-l payloads` 回显所有可生成的木马
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzQ1MTI4M119
+eyJoaXN0b3J5IjpbNzM1MTY0NzUyXX0=
 -->
