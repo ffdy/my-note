@@ -42,7 +42,7 @@
 
 在sqlmap 的 tamper目录下有很多space2morehash.py 编码脚本自行加载
 
-### 宽字节注入
+### 宽字节注入 (GBK)
 - `py -2 sqlmap.py -u url?id=1%df%27`
 
 
@@ -50,5 +50,6 @@
 - https://www.freebuf.com/sectool/164608.html
 - http://www.91ri.org/3574.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDI0NDEyOCwtMTkzMDA3OTA5NF19
+eyJoaXN0b3J5IjpbLTg1MTMzNTI5NSwxNTgwMjQ0MTI4LC0xOT
+MwMDc5MDk0XX0=
 -->
