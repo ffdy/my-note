@@ -42,10 +42,13 @@
 
 在sqlmap 的 tamper目录下有很多space2morehash.py 编码脚本自行加载
 
-### kuan
+### 宽字节注入
+- `py -2 sqlmap.py -u url?id=1%df%27`
+
+
 ### 相关链接
 - https://www.freebuf.com/sectool/164608.html
 - http://www.91ri.org/3574.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODIwNTYwNCwtMTkzMDA3OTA5NF19
+eyJoaXN0b3J5IjpbMTU4MDI0NDEyOCwtMTkzMDA3OTA5NF19
 -->
