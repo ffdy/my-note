@@ -39,7 +39,8 @@ output=p32(addr)+'%10&n'
 我们假设 printf 函数中的 output 偏移量为 10
 
 如果我们把以上 output 输入
+printf 函数就会把 output 前四个字节当做 %n 的地址ji
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTIxMDU2MDYsLTE3OTY3NjY5NzEsND
+eyJoaXN0b3J5IjpbLTE4NzQzNTg3NjQsLTE3OTY3NjY5NzEsND
 QyOTQxMDc5LDEwMTgzMjEyNjhdfQ==
 -->
