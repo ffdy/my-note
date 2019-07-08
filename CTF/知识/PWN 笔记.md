@@ -41,8 +41,13 @@ output=p32(addr)+'%10$n'
 
 如果我们把以上 output 输入
 printf 函数就会把 output 前四个字节当做 %n 的写入地址将已经输出的字符个数写入其中,addr 长度为四个字节,所以结果就是 addr 所对的值变成 4
+
+如果要让 addr 所对的值变为 8,只需要在 output 中加入四个字节
+比如
+```py
+output=p32(addr)+'a
 这个 $ 就相当于与一个标志,告诉程序偏移量终止
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Mzc1NTEyMCwtMTc5Njc2Njk3MSw0ND
-I5NDEwNzksMTAxODMyMTI2OF19
+eyJoaXN0b3J5IjpbLTEyMzQzNDk4NjksLTE3OTY3NjY5NzEsND
+QyOTQxMDc5LDEwMTgzMjEyNjhdfQ==
 -->
