@@ -32,8 +32,11 @@ format 参数告诉程序改用什么格式输出 str
 ```
 上面讲的比较抽象 ~~(至少我第一次看的时候没怎么懂,可能我比较菜吧,自闭)~~
 举个栗子
-output=''
+```py
+output=p32(0x080468cd)+'%10&n'
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzQ5MzMyMywtMTc5Njc2Njk3MSw0ND
-I5NDEwNzksMTAxODMyMTI2OF19
+eyJoaXN0b3J5IjpbMTIwNjAxODg0LC0xNzk2NzY2OTcxLDQ0Mj
+k0MTA3OSwxMDE4MzIxMjY4XX0=
 -->
