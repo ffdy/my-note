@@ -5,7 +5,9 @@ printf("format",输出);//标准格式
 printf("%s",str);//这个很规范
 printf(str);//虽然这个也可以输出,但会出现问题
 ```
-forat
+format 参数告诉程序改用什么格式输出 str
+比如 %s 就是把 str 以字符串形式输出
+%d 以 int 类型输出
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDE5MTE5OF19
+eyJoaXN0b3J5IjpbLTE1NzIxMTE4OV19
 -->
