@@ -30,6 +30,8 @@ format 参数告诉程序改用什么格式输出 str
 
 %n是通过格式化字符串漏洞改变程序流程的关键方式，而其他格式化字符串参数可用于读取信息或配合%n写数据。
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyOTQxMDc5LDEwMTgzMjEyNjhdfQ==
+eyJoaXN0b3J5IjpbLTE3OTY3NjY5NzEsNDQyOTQxMDc5LDEwMT
+gzMjEyNjhdfQ==
 -->
