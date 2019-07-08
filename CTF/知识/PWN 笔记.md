@@ -36,8 +36,10 @@ format 参数告诉程序改用什么格式输出 str
 addr=0x080468cd
 output=p32(addr)+'%10&n'
 ```
-我们假设 printf 函数的pianyi
+我们假设 printf 函数中的 output 偏移量为 10
+
+如果我们把以上 output 输入
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4NDIzNzksLTE3OTY3NjY5NzEsNDQyOT
-QxMDc5LDEwMTgzMjEyNjhdfQ==
+eyJoaXN0b3J5IjpbLTEzMTIxMDU2MDYsLTE3OTY3NjY5NzEsND
+QyOTQxMDc5LDEwMTgzMjEyNjhdfQ==
 -->
