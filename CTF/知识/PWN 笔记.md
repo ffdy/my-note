@@ -33,10 +33,11 @@ format 参数告诉程序改用什么格式输出 str
 上面讲的比较抽象 ~~(至少我第一次看的时候没怎么懂,可能我比较菜吧,自闭)~~
 举个栗子
 ```py
-output=p32(0x080468cd)+'%10&n'
+addr=0x080468cd
+output=p32(addr)+'%10&n'
 ```
-
+我们假设 printf 函数的pianyi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjAxODg0LC0xNzk2NzY2OTcxLDQ0Mj
-k0MTA3OSwxMDE4MzIxMjY4XX0=
+eyJoaXN0b3J5IjpbMjc4NDIzNzksLTE3OTY3NjY5NzEsNDQyOT
+QxMDc5LDEwMTgzMjEyNjhdfQ==
 -->
