@@ -31,16 +31,18 @@ format 参数告诉程序改用什么格式输出 str
 %n是通过格式化字符串漏洞改变程序流程的关键方式，而其他格式化字符串参数可用于读取信息或配合%n写数据。
 ```
 上面讲的比较抽象 ~~(至少我第一次看的时候没怎么懂,可能我比较菜吧,自闭)~~
+
 举个栗子
 ```py
 addr=0x080468cd
-output=p32(addr)+'%10&n'
+output=p32(addr)+'%10$n'
 ```
 我们假设 printf 函数中的 output 偏移量为 10
 
 如果我们把以上 output 输入
 printf 函数就会把 output 前四个字节当做 %n 的写入地址将已经输出的字符个数写入其中,addr 长度为四个字节,所以结果就是 addr 所对的值变成 4
+这个 $ 就相当于与一个标志,告诉程序偏移量终止
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk2MjY0MDUsLTE3OTY3NjY5NzEsND
-QyOTQxMDc5LDEwMTgzMjEyNjhdfQ==
+eyJoaXN0b3J5IjpbLTk4Mzc1NTEyMCwtMTc5Njc2Njk3MSw0ND
+I5NDEwNzksMTAxODMyMTI2OF19
 -->
