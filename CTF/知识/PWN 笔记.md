@@ -45,9 +45,11 @@ printf 函数就会把 output 前四个字节当做 %n 的写入地址将已经�
 如果要让 addr 所对的值变为 8,只需要在 output 中加入四个字节
 比如
 ```py
-output=p32(addr)+'a
+output=p32(addr)+'a'*4+'%10$n'
+```
 这个 $ 就相当于与一个标志,告诉程序偏移量终止
+这样就可以绕过一些变量的判断
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQzNDk4NjksLTE3OTY3NjY5NzEsND
-QyOTQxMDc5LDEwMTgzMjEyNjhdfQ==
+eyJoaXN0b3J5IjpbMTMzMzc4NjI2NSwtMTc5Njc2Njk3MSw0ND
+I5NDEwNzksMTAxODMyMTI2OF19
 -->
