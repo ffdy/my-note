@@ -30,8 +30,10 @@ format 参数告诉程序改用什么格式输出 str
 
 %n是通过格式化字符串漏洞改变程序流程的关键方式，而其他格式化字符串参数可用于读取信息或配合%n写数据。
 ```
-上面讲的比较抽象~~(至少我第一次看的sh)
+上面讲的比较抽象 ~~(至少我第一次看的时候没怎么懂,可能我比较菜吧,自闭)~~
+举个栗子
+output=''
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDY0NjkyOTksLTE3OTY3NjY5NzEsND
-QyOTQxMDc5LDEwMTgzMjEyNjhdfQ==
+eyJoaXN0b3J5IjpbMTk1NzQ5MzMyMywtMTc5Njc2Njk3MSw0ND
+I5NDEwNzksMTAxODMyMTI2OF19
 -->
