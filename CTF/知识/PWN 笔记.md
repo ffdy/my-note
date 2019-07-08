@@ -14,7 +14,7 @@ format 参数告诉程序改用什么格式输出 str
 也就是说,如果 output 当中有如 %s %d 之类的格式化字符串,程序就会进行解析
 
 
-常用基本的格式化字符串参数介绍：
+常用基本的格式化字符串参数介绍(摘自 [https://blog.csdn.net/zz_Caleb/article/details/88980866](http://geekfz.cn/wp-content/themes/begin5.2/inc/go.php?url=https://blog.csdn.net/zz_Caleb/article/details/88980866))：
 ```
 %c：输出字符，配上%n可用于向指定地址写数据。
 
@@ -30,8 +30,8 @@ format 参数告诉程序改用什么格式输出 str
 
 %n是通过格式化字符串漏洞改变程序流程的关键方式，而其他格式化字符串参数可用于读取信息或配合%n写数据。
 ```
-
+上面讲的比较抽象~~(至少我第一次看的sh)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTY3NjY5NzEsNDQyOTQxMDc5LDEwMT
-gzMjEyNjhdfQ==
+eyJoaXN0b3J5IjpbLTEyNDY0NjkyOTksLTE3OTY3NjY5NzEsND
+QyOTQxMDc5LDEwMTgzMjEyNjhdfQ==
 -->
