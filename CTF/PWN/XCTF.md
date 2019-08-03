@@ -120,7 +120,7 @@ for i in range(10):
 
 p.interactive()
 ```
-# 
+# sztrunbg
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1NDY3MTFdfQ==
+eyJoaXN0b3J5IjpbLTM4NzQ1Nzk5Niw2MDU0NjcxMV19
 -->
