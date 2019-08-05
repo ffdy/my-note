@@ -35,7 +35,10 @@ def solve_stego():
 
 solve_stego()
 ```
-特征: 多个 base64 加密串fangyi
+特征: 多个 base64 加密串放一堆
+
+# PDF.js 使用
+控制台 `document.documentElement.textContent`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzU3NTYzNl19
+eyJoaXN0b3J5IjpbLTEwNjA1NzE5MjRdfQ==
 -->
