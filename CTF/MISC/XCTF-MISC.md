@@ -39,6 +39,15 @@ solve_stego()
 
 # PDF.js 使用
 控制台 `document.documentElement.textContent`
+# convert分离gif、montage图片拼接
+我们可以先把gif分解开，kali的convert命令可以，也可以用其他的工具：convert glance.gif flag.png
+用到一个工具：montage，这个工具用法很多，也很强大
+
+用命令：montage flag*.png -tile x1 -geometry +0+0 flag.png
+
+-tile是拼接时每行和每列的图片数，这里用x1，就是只一行
+
+-geometry是首选每个图和边框尺寸，我们边框为0，图照原始尺寸即可
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjA1NzE5MjRdfQ==
+eyJoaXN0b3J5IjpbNjg5Njc0OTIwLC0xMDYwNTcxOTI0XX0=
 -->
