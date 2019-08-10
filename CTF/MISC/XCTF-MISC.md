@@ -48,6 +48,37 @@ solve_stego()
 -tile是拼接时每行和每列的图片数，这里用x1，就是只一行
 
 -geometry是首选每个图和边框尺寸，我们边框为0，图照原始尺寸即可
+# PNG CRC 爆破
+```python
+import binascii
+import struct
+
+# IHDR: \x49\x48\x44\x52\x00\x00\x00\x00\x00\x00\x02\xF8\x08\x06\x00\x00\x00
+# CRC: \x93\x2F\x8A\x6B
+
+crc32key = 0x932F8A6B
+
+with open("misc4.png", "rb") as pic:
+    data = pic.read()
+    for i in range(1024):
+        info = data[12:16] + struct.pack('>i', i) + data[20:29]
+        crc32result = binascii.crc32(info) & 0xffffffff
+        if crc32result == crc32key:
+            print(hex(i))
+
+# 0x2c5
+```
+- （固定）八个字节89 50 4E 47 0D 0A 1A 0A为png的文件头
+- （固定）四个字节00 00 00 0D（即为十进制的13）代表数据块的长度为13
+- （固定）四个字节49 48 44 52（即为ASCII码的IHDR）是文件头数据块的标示（IDCH）
+- （可变）13位数据块（IHDR)
+    - 前四个字节代表该图片的宽
+    - 后四个字节代表该图片的高
+    - 后五个字节依次为：
+    Bit depth、ColorType、Compression method、Filter method、Interlace method
+- （可变）剩余四字节为该png的CRC检验码，由从IDCH到IHDR的十七位字节进行crc计算得到。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5Njc0OTIwLC0xMDYwNTcxOTI0XX0=
+eyJoaXN0b3J5IjpbMTY0MDE1NDQ3Nyw2ODk2NzQ5MjAsLTEwNj
+A1NzE5MjRdfQ==
 -->
