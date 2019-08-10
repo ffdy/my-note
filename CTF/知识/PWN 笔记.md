@@ -49,7 +49,12 @@ output=p32(addr)+'a'*4+'%10$n'
 ```
 这个 $ 就相当于与一个标志,告诉程序偏移量终止
 这样就可以绕过一些变量的判断
+
+# x64
+其中需要注意的就是 64位传参使用的是寄存器
+
+> 从第一个到第六个依次保存在rdi，rsi，rdx，rcx，r8，r9。从第7个参数开始，接下来的所有参数都将通过栈传递
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzc4NjI2NSwtMTc5Njc2Njk3MSw0ND
-I5NDEwNzksMTAxODMyMTI2OF19
+eyJoaXN0b3J5IjpbLTEyOTI1NDQ1OTcsMTMzMzc4NjI2NSwtMT
+c5Njc2Njk3MSw0NDI5NDEwNzksMTAxODMyMTI2OF19
 -->
