@@ -134,7 +134,9 @@ p.interactive()
 看着题面描述猜测是一道迷宫题
 IDA 验证也确实是一道迷宫题
 先看看反汇编代码
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901083325471.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901083337368.png)
 
 有一个 check 函数
@@ -315,6 +317,6 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTExNTcxMiw2OTc3OTExODgsLTM5Nz
-kyNzQxNF19
+eyJoaXN0b3J5IjpbLTIxMzMxNjUyMTIsNjk3NzkxMTg4LC0zOT
+c5Mjc0MTRdfQ==
 -->
