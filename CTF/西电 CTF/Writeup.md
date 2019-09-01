@@ -91,10 +91,13 @@ v2=0
 
 p.recvuntil('name:\n')
 p.sendline(p64(buf))
+
 p.recvuntil('password:\n')
 p.sendline(p64(v2))
 ```
-绕过 login,然后是 v4 等于 pai
+绕过 login,然后是 v4 等于 pai 
+
+(以下为个人理解,但感觉有些地方有点问题)
 
 看到 int 类型 pai 的 float 强制转换,加上 v4 是 float 类型并且变量名是 pai
 自然联想到圆周率,恰好 pai 转换出来的数是 3.1415... 
@@ -304,6 +307,6 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTEzNTE4OCw2OTc3OTExODgsLTM5Nz
-kyNzQxNF19
+eyJoaXN0b3J5IjpbLTExMDIwNDk0NTEsNjk3NzkxMTg4LC0zOT
+c5Mjc0MTRdfQ==
 -->
