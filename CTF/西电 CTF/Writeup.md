@@ -198,6 +198,7 @@ map[v5] 等于 & 并且 v6 等于 55 时正确
 用 d2j-dex2jar 得到 jar 包
 用 Java_Decompiler 打开阅读源码
 没学过 Java,看不太懂,也不太懂术语
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901092324280.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
 
 check 函数返回 true 时正确
@@ -210,6 +211,8 @@ check 函数返回 true 时正确
 str 经过 base64 加密
 将输入和 str 传入 CryptoUtil 类中的 encode 函数
 加密后的返回值与 localObject 比较,相等返回 true,否则 false
+
+
 然后进入 CryptoUtil.encode 查看
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901094547620.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
@@ -228,7 +231,7 @@ github 上找了个 DES 脚本
 
 `flag: flag{E4Sy_De5_4nDr01d_pR0teCt!}`
 
-----
+
 ## PPC
 #### 四暗刻单骑
 模拟
@@ -326,6 +329,6 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTAzODg3NCw2OTc3OTExODgsLTM5Nz
+eyJoaXN0b3J5IjpbLTczMTE1NzY0MCw2OTc3OTExODgsLTM5Nz
 kyNzQxNF19
 -->
