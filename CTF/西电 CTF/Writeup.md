@@ -199,24 +199,33 @@ map[v5] 等于 & 并且 v6 等于 55 时正确
 用 Java_Decompiler 打开阅读源码
 没学过 Java,看不太懂,也不太懂术语
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901092324280.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
+
 check 函数返回 true 时正确
 查看 check 函数
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901092627273.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
+
 如果输入不包含 flag,返回 false
 将 enc1,2,3 拼接在 localObject 中
 str 经过 base64 加密
 将输入和 str 传入 CryptoUtil 类中的 encode 函数
 加密后的返回值与 localObject 比较,相等返回 true,否则 false
 然后进入 CryptoUtil.encode 查看
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901094547620.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
+
 代码确实看不懂,但有明确的 DES 字符提示
 猜测为 DES 加密
 str 应该就是密匙,localObject 为密文
 github 上找了个 DES 脚本
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901094948716.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
+
 一开始不知道密匙是 8 位,解出来的 flag,有点问题
 真正的密匙应该是 str base64 加密后的前 8 位
+
 得到 flag
+
 `flag: flag{E4Sy_De5_4nDr01d_pR0teCt!}`
 
 ----
@@ -317,6 +326,6 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzMxNjUyMTIsNjk3NzkxMTg4LC0zOT
-c5Mjc0MTRdfQ==
+eyJoaXN0b3J5IjpbLTY1NTAzODg3NCw2OTc3OTExODgsLTM5Nz
+kyNzQxNF19
 -->
