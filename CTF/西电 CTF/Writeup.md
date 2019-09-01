@@ -96,7 +96,6 @@ p.sendline(p64(v2))
 ```
 绕过 login,然后是 v4 等于 pai
 
-(以下为个人理解,但感觉有些地方有点问题)
 看到 int 类型 pai 的 float 强制转换,加上 v4 是 float 类型并且变量名是 pai
 自然联想到圆周率,恰好 pai 转换出来的数是 3.1415... 
 然后就信以为真,提交 3.1415...
@@ -107,6 +106,7 @@ scanf 函数的格式化字符指定的是 %ud (无符号整形)
 v4 和 pai 都进行了强制转换
 也就是说输入的数等于 pai 的整形就可以了
 即直接提交 1078530000(0x40490FD0)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190831235544453.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
 
 ```python
@@ -126,8 +126,6 @@ p.interactive()
 得到 flag
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190831235653284.png)
 `flag: flag{C_sTr1ng__3nD_f10aT}`
-
-----
 ## Re
 #### maze
 看着题面描述猜测是一道迷宫题
@@ -306,6 +304,6 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDA2OTExMSw2OTc3OTExODgsLTM5Nz
+eyJoaXN0b3J5IjpbMjEyOTEzNTE4OCw2OTc3OTExODgsLTM5Nz
 kyNzQxNF19
 -->
