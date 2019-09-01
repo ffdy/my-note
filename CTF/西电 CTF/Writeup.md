@@ -167,6 +167,7 @@ map[v5] 等于 & 并且 v6 等于 55 时正确
 只能上 edb 动态调试
 还好流程比较简单,发现第 16,17 步的拐角出了问题
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901090632857.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
+
 得到正确的 flag
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901091141831.png)
 `flag: flag{sdssdddwdddsssssdddddsddssdddsdddwwwwwwwwwddddssdddddds}`
@@ -296,5 +297,5 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzkyNzQxNF19
+eyJoaXN0b3J5IjpbMTI0MDI3MDMwMCwtMzk3OTI3NDE0XX0=
 -->
