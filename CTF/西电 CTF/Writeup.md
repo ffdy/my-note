@@ -143,10 +143,11 @@ IDA 验证也确实是一道迷宫题
 
 以 map 数组为地图,v5 为 map 索引,v6 为输入的字符串索引
 把 w s a d 定义为上下左右 ~~(突然想念 4399 )~~
+
 如果 map[v5] 等于 * 或者 # 就退出
 map[v5] 等于 & 并且 v6 等于 55 时正确
 
-进一步推知 map 每行长为 50
+进一步由上下 +-50 推知 map 每行长为 50
 输入长为 55
 
 然后寻找地图
@@ -314,6 +315,6 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc4MjY0MDEsNjk3NzkxMTg4LC0zOT
-c5Mjc0MTRdfQ==
+eyJoaXN0b3J5IjpbMjExNTExNTcxMiw2OTc3OTExODgsLTM5Nz
+kyNzQxNF19
 -->
