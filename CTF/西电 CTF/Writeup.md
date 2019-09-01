@@ -136,16 +136,23 @@ IDA 验证也确实是一道迷宫题
 先看看反汇编代码
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901083325471.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901083337368.png)
+
 有一个 check 函数
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019090108392729.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
+
 以 map 数组为地图,v5 为 map 索引,v6 为输入的字符串索引
 把 w s a d 定义为上下左右 ~~(突然想念 4399 )~~
 如果 map[v5] 等于 * 或者 # 就退出
 map[v5] 等于 & 并且 v6 等于 55 时正确
+
 进一步推知 map 每行长为 50
 输入长为 55
+
 然后寻找地图
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901085400550.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
+
 导出后每行 50 整理得
 ```
 ****#*********************************************
@@ -307,6 +314,6 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDIwNDk0NTEsNjk3NzkxMTg4LC0zOT
+eyJoaXN0b3J5IjpbLTIxMjc4MjY0MDEsNjk3NzkxMTg4LC0zOT
 c5Mjc0MTRdfQ==
 -->
