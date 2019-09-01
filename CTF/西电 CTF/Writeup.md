@@ -1,4 +1,4 @@
-# Writeup
+# Writeup by ffdy
 ## Misc
 #### HiddenImage
 010 打开发现图片后面粘连了 zip 文件
@@ -332,6 +332,6 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzEwNzkxNCw2OTc3OTExODgsLTM5Nz
-kyNzQxNF19
+eyJoaXN0b3J5IjpbLTE5MDQyNzExODgsNjk3NzkxMTg4LC0zOT
+c5Mjc0MTRdfQ==
 -->
