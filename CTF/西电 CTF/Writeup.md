@@ -23,13 +23,20 @@ checksec 检查发现:
 发现漏洞存在于 main 函数后的 vulnerable_function 函数中的 read 函数上
 可以用来覆盖 ebp 控制执行的函数
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901082109863.png)
-看到 _system() 函数,有个 back_door 函数调用
+
+看到 _system() 函数
+有个 back_door 函数调用
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190831225844777.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
+
 back_door 函数直接包含 sh
 得到 bin 地址
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190831230108963.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
+
 回看 buf 的地址,以 ebp 为索引
 无需调试,直接使用偏移量
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190831230057302.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MjYyNzM5,size_16,color_FFFFFF,t_70)
 ```python
 from pwn import *
@@ -295,6 +302,6 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY1MjQzOTU1LDY5Nzc5MTE4OCwtMzk3OT
-I3NDE0XX0=
+eyJoaXN0b3J5IjpbLTgwMzQ4NDc3Myw2OTc3OTExODgsLTM5Nz
+kyNzQxNF19
 -->
