@@ -54,7 +54,11 @@ output=p32(addr)+'a'*4+'%10$n'
 其中需要注意的就是 64位传参使用的是寄存器
 
 > 从第一个到第六个依次保存在rdi，rsi，rdx，rcx，r8，r9。从第7个参数开始，接下来的所有参数都将通过栈传递
+
+# scanf
+如果`scanf`没加`&`的话，程序会默认从栈中读取`4`个字节的数据当做`scanf`取的地址
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTI1NDQ1OTcsMTMzMzc4NjI2NSwtMT
-c5Njc2Njk3MSw0NDI5NDEwNzksMTAxODMyMTI2OF19
+eyJoaXN0b3J5IjpbMjA3NDcxNDcxLC0xMjkyNTQ0NTk3LDEzMz
+M3ODYyNjUsLTE3OTY3NjY5NzEsNDQyOTQxMDc5LDEwMTgzMjEy
+NjhdfQ==
 -->
