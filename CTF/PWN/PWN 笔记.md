@@ -74,6 +74,8 @@ shellcode = "\x31\xc9\xf7\xe1\x51\x68\x2f\x2f\x73"
 shellcode += "\x68\x68\x2f\x62\x69\x6e\x89\xe3\xb0"
 shellcode += "\x0b\xcd\x80"
 ```
+# GDB
+```
 常用命令： 
 1. checksec 查看elf编译的保护选项。 
 2. file [file] 加载objfile 
@@ -85,10 +87,7 @@ shellcode += "\x0b\xcd\x80"
 8. ni 单步执行不进入 
 9. si 单步执行并进入
 10.vmmap 得到虚拟映射地址
-————————————————
-版权声明：本文为CSDN博主「Aka丶」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/gyhgx/article/details/53439417
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTMyNzE1MzIsLTIwOTAxMzg3NzJdfQ
-==
+eyJoaXN0b3J5IjpbMTE5NTM2Nzk4LC0yMDkwMTM4NzcyXX0=
 -->
