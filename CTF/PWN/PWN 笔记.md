@@ -87,7 +87,19 @@ shellcode += "\x0b\xcd\x80"
 8. ni 单步执行不进入 
 9. si 单步执行并进入
 10.vmmap 得到虚拟映射地址
+11. `pattern create size` 生成特定长度字符串
+12. `pattern offset value` 定位字符串
+```
+不可见字符
+```
+# 千万别用 python -c "print '\x00\x61'" > input，\x00 不会被打印，不会写入文件
+# 编写 Py 脚本
+s = "\xa9\x06\x40\x00\x00\x00\x00\x00"
+with open("input", "wb") as f:
+    f.write(s)
+# GDB 开始调试
+r < input
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTM2Nzk4LC0yMDkwMTM4NzcyXX0=
+eyJoaXN0b3J5IjpbMTY0NTMyMzIwLC0yMDkwMTM4NzcyXX0=
 -->
