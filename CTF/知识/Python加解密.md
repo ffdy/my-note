@@ -31,7 +31,18 @@ def decode(s):
 >>>decode('1101000 1100101 1101100 1101100 1101111')
 'hello'
 ```
+import hashlib
+
+flag = "@DBApp"
+
+for i in range(100000,999999):
+	s = str(i)+flag
+	x = hashlib.sha1(s.encode())
+	cnt = x.hexdigest()
+	if "6e32d0943418c2c" in cnt:
+		print(cnt)
+		print(str(i)+flag)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzM4MDAxMzMsLTE0NDgxODEyNTRdfQ
-==
+eyJoaXN0b3J5IjpbLTE5NzM0NTI3ODYsLTE3NzM4MDAxMzMsLT
+E0NDgxODEyNTRdfQ==
 -->
