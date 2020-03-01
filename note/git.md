@@ -1,13 +1,7 @@
----
-title:
-tags:
-categories:
-mathjax: true
----
 
-
-
-<!--more-->
+git fetch upstream
+git checkout master
+git merge upstream/master
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzODc3NDIyXX0=
+eyJoaXN0b3J5IjpbLTEzMTMyMDQ4MzldfQ==
 -->
