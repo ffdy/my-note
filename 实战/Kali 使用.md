@@ -14,10 +14,9 @@ exploit
 ## root 用户
 闪退：权限过高
 `/opt/google/chrome/google-chrome`
-
 最后一行添加 `--no-sandbox`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjI4ODY2MCwxMjQyNDIyNTE2LDE4OD
-gxMDE4ODEsNzM1MTY0NzUyXX0=
+eyJoaXN0b3J5IjpbLTEwNTkxNDg3OCwyMDkyMjg4NjYwLDEyND
+I0MjI1MTYsMTg4ODEwMTg4MSw3MzUxNjQ3NTJdfQ==
 -->
