@@ -235,7 +235,7 @@ print base64.b64decode(trueflag)
 ```
 [upl-image-preview url=https://wp.ctf.show/assets/files/2020-03-07/1583576754-151066-image.png]
  ~~ps：无法理解为啥 python3 不向下兼容，有时候难受死了~~
-
+[https://www.cnblogs.com/tcctw/p/11333743.html](https://www.cnblogs.com/tcctw/p/11333743.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUxMDM0MzU3XX0=
+eyJoaXN0b3J5IjpbMTkzMzE0NDM0OF19
 -->
